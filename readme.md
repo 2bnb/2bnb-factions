@@ -2,7 +2,7 @@
 <img src="https://github.com/2bnb/2bnb-factions/2BNB_Factions_Github.png"
      alt="2BNB Banner" /><br />
   <a href="https://github.com/2bnb/2bnb-factions/wiki">
-    <img src="https://img.shields.io/badge/2BNB%20Factions-Wiki-orange.svg?style=for-the-badge&logo=github"
+    <img src="https://img.shields.io/badge/2BNB%20Factions-Faction_Lists-orange.svg?style=for-the-badge&logo=github"
          alt="Wiki" />
   </a>
   <a href="https://discord.gg/DRaWNyf">
