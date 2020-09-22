@@ -42,7 +42,6 @@
 - [RHS GREF](https://steamcommunity.com/sharedfiles/filedetails/?id=843593391)
 - [Project OPFOR](https://steamcommunity.com/sharedfiles/filedetails/?id=735566597)
 - [TMT - Turkish Forces](https://steamcommunity.com/sharedfiles/filedetails/?id=740727824)
-- [CUP Terrains - Maps](https://steamcommunity.com/sharedfiles/filedetails/?id=583544987)
 - [MLO - All-in-one Collection](https://steamcommunity.com/sharedfiles/filedetails/?id=823636749)
 
 # Credits
