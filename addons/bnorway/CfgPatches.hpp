@@ -147,7 +147,6 @@ class CfgPatches {
 		weapons[] = {};
 		requiredVersion = 1.62;
 		requiredAddons[] = {
-			"bnb_e_gear",
 			"A3_Armor_F_EPB_APC_Tracked_03",
 			"A3_Armor_F_EPB_MBT_03",
 			"rhs_c_mig29",
