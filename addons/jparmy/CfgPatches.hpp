@@ -22,7 +22,6 @@ class CfgPatches {
         requiredAddons[] = {
             "B_NorwayArmy",
             "rhsusf_c_m113",
-            "ace_compat_rhs_usf3",
             "A3_Armor_F_EPB_MBT_03",
             "ace_realisticnames",
             "A3_Sounds_F_Tank",

@@ -44,6 +44,9 @@ class CfgPatches {
 			"rhs_c_cars"
 		};
 		author = "2nd Battalion, Nord Brigade";
-		authors[] = { "Sawtes" };
+		authors[] = {
+			"Sawtes",
+			"Arend"
+		};
 	};
 };

@@ -136,13 +136,32 @@ class CfgVehicles {
         };
     };
 
-    class rhsgref_ins_g_t72bc;
-    class rhsgref_ins_g_t72bc_OCimport_01 : rhsgref_ins_g_t72bc { scope = 0; class EventHandlers; class Turrets; };
-    class rhsgref_ins_g_t72bc_OCimport_02 : rhsgref_ins_g_t72bc_OCimport_01 {
+    class Tank_F;
+	class rhs_a3t72tank_base : Tank_F {
+		class Turrets;
+	};
+    class rhs_t72bc_tv : rhs_a3t72tank_base {
+    	class Turrets : Turrets {
+    		class MainTurret;
+    	};
+    };
+    class rhsgref_ins_t72bc : rhs_t72bc_tv {
+    	class Turrets : Turrets {
+    		class MainTurret : MainTurret {
+    			class Turrets;
+    		};
+    	};
+    };
+    class rhsgref_ins_g_t72bc : rhsgref_ins_t72bc {
         class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
+    	class Turrets : Turrets {
+    		class MainTurret : MainTurret {
+    			class Turrets : Turrets {
+    				class CommanderOptics;
+    				class CommanderMG;
+    			};
+    		};
+    	};
     };
 
     class rhsgref_ins_uaz;
@@ -910,7 +929,7 @@ class CfgVehicles {
 
     };
 
-    class I_Chernarus_T72_Winter : rhsgref_ins_g_t72bc_OCimport_02 {
+    class I_Chernarus_T72_Winter : rhsgref_ins_g_t72bc {
         editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_T72_Winter.jpg";
         author = "Jebby";
         scope = 2;
@@ -918,10 +937,18 @@ class CfgVehicles {
         displayName = "T-72";
         side = 2;
         faction = "I_Chernarus_Winter";
-        crew = "I_Chernarus_Pilot_Winter";
+        crew = "I_Chernarus_Crew_Winter";
+        typicalCargo[] = { "I_Chernarus_Crew_Winter" };
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "I_Chernarus_Pilot_Winter"; };
+            class MainTurret : MainTurret {
+            	gunnerType = "I_Chernarus_Crew_Winter";
+
+            	class Turrets : Turrets {
+		            class CommanderOptics : CommanderOptics { gunnerType = "I_Chernarus_Crew_Winter"; };
+		            class CommanderMG : CommanderMG { gunnerType = "I_Chernarus_Crew_Winter"; };
+            	};
+        	};
         };
 
 

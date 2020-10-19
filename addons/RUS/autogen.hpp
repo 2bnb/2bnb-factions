@@ -577,15 +577,6 @@ class CfgVehicles {
     class I_Sniper_F_OCimport_01 : I_Sniper_F { scope = 0; class EventHandlers; };
     class I_Sniper_F_OCimport_02 : I_Sniper_F_OCimport_01 { class EventHandlers; };
 
-    class rhs_t80bv;
-    class rhs_t80bv_OCimport_01 : rhs_t80bv { scope = 0; class EventHandlers; class Turrets; };
-    class rhs_t80bv_OCimport_02 : rhs_t80bv_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
     class RHS_Mi24P_CAS_vdv;
     class RHS_Mi24P_CAS_vdv_OCimport_01 : RHS_Mi24P_CAS_vdv { scope = 0; class EventHandlers; class Turrets; };
     class RHS_Mi24P_CAS_vdv_OCimport_02 : RHS_Mi24P_CAS_vdv_OCimport_01 {
@@ -628,36 +619,80 @@ class CfgVehicles {
         };
     };
 
-    class rhs_bmp3mera_msv;
-    class rhs_bmp3mera_msv_OCimport_01 : rhs_bmp3mera_msv { scope = 0; class EventHandlers; class Turrets; };
-    class rhs_bmp3mera_msv_OCimport_02 : rhs_bmp3mera_msv_OCimport_01 {
+	class LandVehicle;
+	class Tank: LandVehicle
+	{
+		class NewTurret;
+	};
+	class Tank_F: Tank
+	{
+		class Turrets
+		{
+			class MainTurret: NewTurret
+			{
+				class Turrets
+				{
+					class CommanderOptics;
+				};
+			};
+		};
+	};
+    class rhs_bmp3tank_base : Tank_F {
+    	class Turrets : Turrets {
+    		class MainTurret;
+    		class GPMGTurret1;
+    		class GPMGTurret2;
+    	};
+    };
+    class rhs_bmp3m_msv : rhs_bmp3tank_base {
+    	class Turrets : Turrets {
+    		class MainTurret : MainTurret {
+    			class Turrets;
+    		};
+    	};
+    };
+    class rhs_bmp3mera_msv : rhs_bmp3m_msv {
         class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-            class GPMGTurret1;
-            class GPMGTurret2;
-        };
+    	class Turrets : Turrets {
+    		class MainTurret : MainTurret {
+    			class Turrets : Turrets {
+    				class CommanderOptics;
+    			};
+    		};
+    	};
     };
 
-    class I_RUS_Medic_01{
-		side = 0;
-		scope = 0;
-        scopeCurator = 0;
-		faction = "RUS";
-		vehicleClass = "MenRUS";
-	};
-    class I_RUS_Medic_01_OCimport_01 : I_RUS_Medic_01 { scope = 0; class EventHandlers; };
-    class I_RUS_Medic_01_OCimport_02 : I_RUS_Medic_01_OCimport_01 { class EventHandlers; };
+    class rhs_tank_base : Tank_F {
+    	class Turrets : Turrets {
+    		class MainTurret;
+    	};
+    };
+    class rhs_t80b : rhs_tank_base {
+    	class Turrets : Turrets {
+    		class MainTurret : MainTurret {
+    			class Turrets;
+    		};
+    	};
+    };
+    class rhs_t80bv : rhs_t80b {
+        class EventHandlers;
+    	class Turrets : Turrets {
+    		class MainTurret : MainTurret {
+    			class Turrets : Turrets {
+    				class CommanderOptics;
+    				class CommanderMG;
+    			};
+    		};
+    	};
+    };
 
-    class I_RUS_Squad_Leader_01{
-		side = 0;
-		scope = 0;
-        scopeCurator = 0;
-		faction = "RUS";
-		vehicleClass = "MenRUS";
-	};
-    class I_RUS_Squad_Leader_01_OCimport_01 : I_RUS_Squad_Leader_01 { scope = 0; class EventHandlers; };
-    class I_RUS_Squad_Leader_01_OCimport_02 : I_RUS_Squad_Leader_01_OCimport_01 { class EventHandlers; };
+    class rhs_msv_emr_medic;
+    class rhs_msv_emr_medic_OCimport_01 : rhs_msv_emr_medic { scope = 0; class EventHandlers; };
+    class rhs_msv_emr_medic_OCimport_02 : rhs_msv_emr_medic_OCimport_01 { class EventHandlers; };
+
+    class rhs_msv_emr_sergeant;
+    class rhs_msv_emr_sergeant_OCimport_01 : rhs_msv_emr_sergeant { scope = 0; class EventHandlers; };
+    class rhs_msv_emr_sergeant_OCimport_02 : rhs_msv_emr_sergeant_OCimport_01 { class EventHandlers; };
 
     class O_crew_F;
     class O_crew_F_OCimport_01 : O_crew_F { scope = 0; class EventHandlers; };
@@ -672,16 +707,6 @@ class CfgVehicles {
             class AGS_Turret;
         };
     };
-
-    class I_medic_F{
-		side = 0;
-		scope = 0;
-        scopeCurator = 0;
-		faction = "RUS";
-		vehicleClass = "MenRUS";
-	};
-    class I_medic_F_OCimport_01 : I_medic_F { scope = 0; class EventHandlers; };
-    class I_medic_F_OCimport_02 : I_medic_F_OCimport_01 { class EventHandlers; };
 
 
     class O_RUS_Fireteam_Leader_01 : I_Soldier_TL_F_OCimport_02 {
@@ -894,6 +919,8 @@ class CfgVehicles {
         displayName = "Rifleman (AT)";
         side = 0;
         faction = "RUS";
+        vehicleClass = "Men";
+        editorSubcategory = "EdSubcat_Personnel";
 
         identityTypes[] = { "Head_Euro" , "LanguageRus" , "Head_Russian" };
 
@@ -962,7 +989,7 @@ class CfgVehicles {
 
     };
 
-    class O_RUS_T80_BV_01 : rhs_t80bv_OCimport_02 {
+    class O_RUS_T80_BV_01 : rhs_t80bv {
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -970,12 +997,18 @@ class CfgVehicles {
         side = 0;
         faction = "RUS";
         crew = "O_RUS_Crewman_01";
+        typicalCargo[] = { "O_RUS_Crewman_01" };
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_RUS_Crewman_01"; };
+            class MainTurret : MainTurret {
+            	gunnerType = "O_RUS_Crewman_01";
+
+            	class Turrets : Turrets {
+		            class CommanderOptics : CommanderOptics { gunnerType = "O_RUS_Crewman_01"; };
+		            class CommanderMG : CommanderMG { gunnerType = "O_RUS_Crewman_01"; };
+            	};
+            };
         };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1030,7 +1063,7 @@ class CfgVehicles {
         displayName = "AGS-30";
         side = 0;
         faction = "RUS";
-        crew = "I_RUS_Rifleman_01";
+        crew = "O_RUS_Rifleman_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -1058,7 +1091,7 @@ class CfgVehicles {
         displayName = "KORD";
         side = 0;
         faction = "RUS";
-        crew = "I_RUS_Rifleman_01";
+        crew = "O_RUS_Rifleman_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -1109,19 +1142,26 @@ class CfgVehicles {
 
     };
 
-    class O_RUS_BMP_3Up_Armored_01 : rhs_bmp3mera_msv_OCimport_02 {
+    class O_RUS_BMP_3Up_Armoured_01 : rhs_bmp3mera_msv {
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
-        displayName = "BMP-3 (Up-Armored)";
+        displayName = "BMP-3 (Up-Armoured)";
         side = 0;
         faction = "RUS";
         crew = "O_RUS_Crewman_01";
+        typicalCargo[] = { "O_RUS_Crewman_01" };
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_RUS_Crewman_01"; };
-            class GPMGTurret1 : GPMGTurret1 { gunnerType = "rhs_msv_rifleman"; };
-            class GPMGTurret2 : GPMGTurret2 { gunnerType = "rhs_msv_rifleman"; };
+            class MainTurret : MainTurret {
+            	gunnerType = "O_RUS_Crewman_01";
+
+            	class Turrets : Turrets {
+		            class CommanderOptics : CommanderOptics { gunnerType = "O_RUS_Crewman_01"; };
+            	};
+        	};
+            class GPMGTurret1 : GPMGTurret1 { gunnerType = "O_RUS_Crewman_01"; };
+            class GPMGTurret2 : GPMGTurret2 { gunnerType = "O_RUS_Crewman_01"; };
         };
 
 
@@ -1239,13 +1279,15 @@ class CfgVehicles {
 
     };
 
-    class O_RUS_SSO_Medic_01 : I_RUS_Medic_01_OCimport_02 {
+    class O_RUS_SSO_Medic_01 : rhs_msv_emr_medic_OCimport_02 {
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
         displayName = "SSO Medic";
         side = 0;
         faction = "RUS";
+        vehicleClass = "Men";
+        editorSubcategory = "EdSubcat_Personnel";
 
         identityTypes[] = { "Head_Euro" , "LanguageRus" , "G_HAF_default" };
 
@@ -1296,6 +1338,8 @@ class CfgVehicles {
         displayName = "SSO Rifleman (AT)";
         side = 0;
         faction = "RUS";
+        vehicleClass = "Men";
+        editorSubcategory = "EdSubcat_Personnel";
 
         identityTypes[] = { "Head_Euro" , "LanguageRus" , "Head_Russian" };
 
@@ -1314,13 +1358,15 @@ class CfgVehicles {
 
     };
 
-    class O_RUS_SSO_Squad_Leader_01 : I_RUS_Squad_Leader_01_OCimport_02 {
+    class O_RUS_SSO_Squad_Leader_01 : rhs_msv_emr_sergeant_OCimport_02 {
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
         displayName = "SSO Squad Leader";
         side = 0;
         faction = "RUS";
+        vehicleClass = "Men";
+        editorSubcategory = "EdSubcat_Personnel";
 
         identityTypes[] = { "Head_Euro" , "LanguageRus" , "G_HAF_default" };
 
@@ -1443,7 +1489,7 @@ class CfgVehicles {
 
     };
 
-    class O_RUS_Medic_01 : I_medic_F_OCimport_02 {
+    class O_RUS_Medic_01 : O_RUS_SSO_Medic_01 {
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;

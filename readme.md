@@ -35,11 +35,13 @@
 <p align="center"><sup><strong>Making Arma 3 a better place for all members of the 2nd Battalion, Nord Brigade.</strong></sup></p>
 
 ## Dependencies
+- [2BNB Extras](https://steamcommunity.com/sharedfiles/filedetails/?id=1747089493)
 - [CBA A3](https://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
 - [TFAR 1.0 (BETA)](https://steamcommunity.com/sharedfiles/filedetails/?id=894678801)
 - [RHS AFRF](https://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
 - [RHS USAF](https://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
 - [RHS GREF](https://steamcommunity.com/sharedfiles/filedetails/?id=843593391)
+- [NORSOF_LITE_mas](https://steamcommunity.com/sharedfiles/filedetails/?id=1654680843)
 - [Project OPFOR](https://steamcommunity.com/sharedfiles/filedetails/?id=735566597)
 - [MLO - All-in-one Collection](https://steamcommunity.com/sharedfiles/filedetails/?id=823636749)
 
