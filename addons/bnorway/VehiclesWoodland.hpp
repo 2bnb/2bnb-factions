@@ -413,7 +413,6 @@ class B_NorwayArmy_Command_Humvee_Woodland : rhsusf_m998_w_s_2dr_fulltop_OCimpor
 	typicalCargo[] = { "B_NorwayArmy_Rifleman_Woodland" };
 
 	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 		class ALiVE_orbatCreator {
 			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
 		};
@@ -457,7 +456,6 @@ class B_NorwayArmy_Armed_Humvee_M2_Woodland : rhsusf_m1043_w_s_m2_OCimport_02 {
 	typicalCargo[] = { "B_NorwayArmy_Rifleman_Woodland" };
 
 	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 		class ALiVE_orbatCreator {
 			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
 		};
@@ -501,7 +499,6 @@ class B_NorwayArmy_Armed_Humvee_Mk19_Woodland : rhsusf_m1043_w_s_mk19_OCimport_0
 	typicalCargo[] = { "B_NorwayArmy_Rifleman_Woodland" };
 
 	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 		class ALiVE_orbatCreator {
 			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
 		};
@@ -545,7 +542,6 @@ class B_NorwayArmy_HEMTT_Ammo_Woodland : rhsusf_M977A4_AMMO_BKIT_usarmy_wd_OCimp
 	typicalCargo[] = { "B_NorwayArmy_Rifleman_Woodland" };
 
 	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 		class ALiVE_orbatCreator {
 			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
 		};
@@ -588,7 +584,6 @@ class B_NorwayArmy_HEMTT_Fuel_Woodland : rhsusf_M978A4_BKIT_usarmy_wd_OCimport_0
 	typicalCargo[] = { "B_NorwayArmy_Rifleman_Woodland" };
 
 	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 		class ALiVE_orbatCreator {
 			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
 		};
@@ -675,7 +670,6 @@ class B_NorwayArmy_Hunter_M2_Woodland : rhsusf_m1240a1_m2_usmc_wd_OCimport_02 {
 	typicalCargo[] = { "B_NorwayArmy_Rifleman_Woodland" };
 
 	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 		class ALiVE_orbatCreator {
 			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
 		};
@@ -719,7 +713,6 @@ class B_NorwayArmy_Stryker_Woodland : rhsusf_stryker_m1126_m2_wd_OCimport_02 {
 	typicalCargo[] = { "B_NorwayArmy_Crew_Woodland" };
 
 	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 		class ALiVE_orbatCreator {
 			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
 		};
@@ -937,28 +930,20 @@ class B_NorwayArmy_Scania_Medical_Woodland : B_NorwayArmy_Scania_Medical {
 //////////////////
 // Air Vehicles //
 //////////////////
-class rhs_uh1h_hidf_gunship;
-class rhs_uh1h_hidf_gunship_OCimport_01 : rhs_uh1h_hidf_gunship { scope = 0; class EventHandlers; };
-class rhs_uh1h_hidf_gunship_OCimport_02 : rhs_uh1h_hidf_gunship_OCimport_01 {
-	class EventHandlers;
+class rhs_uh1h_hidf;
+class rhs_uh1h_hidf_OCimport_01 : rhs_uh1h_hidf {
+	scope = 0;
 	VEHICLE_INVENTORY_RESET
 };
-class B_NorwayArmy_Huey_Gunship_Woodland : rhs_uh1h_hidf_gunship_OCimport_02 {
+class B_NorwayArmy_Huey_Transport_Woodland : rhs_uh1h_hidf_OCimport_01 {
 	author = "Jebby";
 	scope = 2;
 	scopeCurator = 2;
-	displayName = "Huey Gunship";
+	displayName = "Huey Transport";
 	side = 1;
 	faction = "B_NorwayArmy_Woodland";
 	crew = "B_NorwayArmy_Pilot_Woodland";
 	typicalCargo[] = { "B_NorwayArmy_Pilot_Woodland" };
-
-	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-		class ALiVE_orbatCreator {
-			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-		};
-	};
 
 	class TransportMagazines {
 		AIR_VEHICLE_MAGAZINES
@@ -980,28 +965,20 @@ class B_NorwayArmy_Huey_Gunship_Woodland : rhs_uh1h_hidf_gunship_OCimport_02 {
 	ALiVE_orbatCreator_owned = 1;
 };
 
-class rhs_uh1h_hidf;
-class rhs_uh1h_hidf_OCimport_01 : rhs_uh1h_hidf { scope = 0; class EventHandlers; };
-class rhs_uh1h_hidf_OCimport_02 : rhs_uh1h_hidf_OCimport_01 {
-	class EventHandlers;
+class rhs_uh1h_hidf_gunship : rhs_uh1h_hidf;
+class rhs_uh1h_hidf_gunship_OCimport_01 : rhs_uh1h_hidf_gunship {
+	scope = 0;
 	VEHICLE_INVENTORY_RESET
 };
-class B_NorwayArmy_Huey_Transport_Woodland : rhs_uh1h_hidf_OCimport_02 {
+class B_NorwayArmy_Huey_Gunship_Woodland : rhs_uh1h_hidf_gunship_OCimport_01 {
 	author = "Jebby";
 	scope = 2;
 	scopeCurator = 2;
-	displayName = "Huey Transport";
+	displayName = "Huey Gunship";
 	side = 1;
 	faction = "B_NorwayArmy_Woodland";
 	crew = "B_NorwayArmy_Pilot_Woodland";
 	typicalCargo[] = { "B_NorwayArmy_Pilot_Woodland" };
-
-	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-		class ALiVE_orbatCreator {
-			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-		};
-	};
 
 	class TransportMagazines {
 		AIR_VEHICLE_MAGAZINES
@@ -1059,7 +1036,6 @@ class B_NorwayArmy_Blackhawk_Woodland : RHS_UH60M_OCimport_02 {
 	};
 
 	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 		class ALiVE_orbatCreator {
 			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
 		};
@@ -1085,13 +1061,16 @@ class B_NorwayArmy_Blackhawk_Woodland : RHS_UH60M_OCimport_02 {
 	ALiVE_orbatCreator_owned = 1;
 };
 
-class RHS_MELB_AH6M;
-class RHS_MELB_AH6M_OCimport_01 : RHS_MELB_AH6M { scope = 0; class EventHandlers; };
-class RHS_MELB_AH6M_OCimport_02 : RHS_MELB_AH6M_OCimport_01 {
+class RHS_MELB_base;
+class RHS_MELB_AH6M : RHS_MELB_base {
+	class EventHandlers;
+};
+class RHS_MELB_AH6M_OCimport_01 : RHS_MELB_AH6M {
+	scope = 0;
 	class EventHandlers;
 	VEHICLE_INVENTORY_RESET
 };
-class B_NorwayArmy_Littlebird_CAS_Woodland : RHS_MELB_AH6M_OCimport_02 {
+class B_NorwayArmy_Littlebird_CAS_Woodland : RHS_MELB_AH6M_OCimport_01 {
 	author = "Jebby";
 	scope = 2;
 	scopeCurator = 2;
@@ -1102,7 +1081,6 @@ class B_NorwayArmy_Littlebird_CAS_Woodland : RHS_MELB_AH6M_OCimport_02 {
 	typicalCargo[] = { "B_NorwayArmy_Pilot_Woodland" };
 
 	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 		class ALiVE_orbatCreator {
 			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
 		};
@@ -1128,7 +1106,9 @@ class B_NorwayArmy_Littlebird_CAS_Woodland : RHS_MELB_AH6M_OCimport_02 {
 	ALiVE_orbatCreator_owned = 1;
 };
 
-class RHS_MELB_MH6M;
+class RHS_MELB_MH6M : RHS_MELB_base {
+	class Eventhandlers;
+};
 class B_NorwayArmy_Littlebird_Transport_Woodland : RHS_MELB_MH6M {
 	author = "Jebby";
 	scope = 2;
@@ -1140,7 +1120,6 @@ class B_NorwayArmy_Littlebird_Transport_Woodland : RHS_MELB_MH6M {
 	typicalCargo[] = { "B_NorwayArmy_Pilot_Woodland" };
 
 	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 		class ALiVE_orbatCreator {
 			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
 		};
@@ -1215,7 +1194,6 @@ class B_NorwayArmy_A10_Woodland : RHS_A10_OCimport_02 {
 	crew = "B_NorwayArmy_Pilot_Woodland";
 
 	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 		class ALiVE_orbatCreator {
 			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
 		};
@@ -1264,7 +1242,6 @@ class B_NorwayArmy_JAS_39_Gripen_Woodland : I_Plane_Fighter_04_F_OCimport_02 {
 	};
 
 	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 		class ALiVE_orbatCreator {
 			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
 		};
@@ -1310,8 +1287,6 @@ class B_NorwayArmy_Static_MG_High_Woodland : RHS_M2StaticMG_WD_OCimport_02 {
 	typicalCargo[] = { "B_NorwayArmy_Rifleman_Woodland" };
 
 	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
 		class ALiVE_orbatCreator {
 			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
 		};
@@ -1338,8 +1313,6 @@ class B_NorwayArmy_Static_MG_Low_Woodland : RHS_M2StaticMG_MiniTripod_WD_OCimpor
 	typicalCargo[] = { "B_NorwayArmy_Rifleman_Woodland" };
 
 	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
 		class ALiVE_orbatCreator {
 			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
 		};
@@ -1366,7 +1339,6 @@ class B_NorwayArmy_Mortar_Woodland : RHS_M252_WD_OCimport_02 {
 	typicalCargo[] = { "B_NorwayArmy_Rifleman_Woodland" };
 
 	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 		class ALiVE_orbatCreator {
 			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
 		};
@@ -1393,7 +1365,6 @@ class B_NorwayArmy_Static_GMG_Woodland : RHS_MK19_TriPod_USMC_WD_OCimport_02 {
 	typicalCargo[] = { "B_NorwayArmy_Rifleman_Woodland" };
 
 	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 		class ALiVE_orbatCreator {
 			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
 		};
@@ -1403,7 +1374,10 @@ class B_NorwayArmy_Static_GMG_Woodland : RHS_MK19_TriPod_USMC_WD_OCimport_02 {
 	ALiVE_orbatCreator_owned = 1;
 };
 
-class RHS_TOW_TriPod_WD;
+class RHS_TOW_TriPod_base;
+class RHS_TOW_TriPod_WD : RHS_TOW_TriPod_base {
+	class Eventhandlers;
+};
 class B_NorwayArmy_Static_TOW_Woodland : RHS_TOW_TriPod_WD {
 	author = "Jebby";
 	scope = 2;
@@ -1415,7 +1389,6 @@ class B_NorwayArmy_Static_TOW_Woodland : RHS_TOW_TriPod_WD {
 	typicalCargo[] = { "B_NorwayArmy_Rifleman_Woodland" };
 
 	class EventHandlers : EventHandlers {
-		class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 		class ALiVE_orbatCreator {
 			init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
 		};
