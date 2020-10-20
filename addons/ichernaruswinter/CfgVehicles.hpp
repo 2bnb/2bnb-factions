@@ -170,7 +170,7 @@ class CfgVehicles {
 
 
     class I_Chernarus_Man_Winter : LOP_UKR_Infantry_officer_OCimport_02 {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_Man_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_Man_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -211,7 +211,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_Rifleman_Winter : I_Chernarus_Man_Winter {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_Rifleman_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_Rifleman_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -252,7 +252,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_Rifleman_AT_Winter : I_Chernarus_Rifleman_Winter {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_Rifleman_AT_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_Rifleman_AT_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -293,7 +293,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_Crew_Winter : I_Chernarus_Man_Winter {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_Crew_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_Crew_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -334,7 +334,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_Pilot_Winter : I_Chernarus_Crew_Winter {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_Pilot_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_Pilot_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -375,7 +375,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_Sniper_Winter : I_Chernarus_Man_Winter {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_Sniper_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_Sniper_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -416,7 +416,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_Medic_Winter : I_Chernarus_Rifleman_Winter {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_Medic_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_Medic_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -457,7 +457,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_Machinegunner : I_Chernarus_Rifleman_Winter {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_Machinegunner.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_Machinegunner.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -498,7 +498,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_Officer_Winter : I_Chernarus_Man_Winter {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_Officer_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_Officer_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -537,7 +537,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_TLeader_Winter : I_Chernarus_Rifleman_Winter {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_TLeader_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_TLeader_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -578,7 +578,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_Grenadier_Winter : I_Chernarus_TLeader_Winter {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_Grenadier_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_Grenadier_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -619,7 +619,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_UAZ_DShKM_Winter : rhsgref_ins_uaz_dshkm_OCimport_02 {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_UAZ_DShKM_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_UAZ_DShKM_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -646,7 +646,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_BMP_1_Winter : rhsgref_ins_g_bmp1_OCimport_02 {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_BMP_1_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_BMP_1_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -683,7 +683,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_BTR_60_Winter : rhsgref_ins_g_btr60_OCimport_02 {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_BTR_60_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_BTR_60_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -719,7 +719,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_Ural_ZU23 : rhsgref_ins_g_ural_Zu23_OCimport_02 {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_Ural_ZU23.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_Ural_ZU23.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -748,7 +748,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_Ural_BM21_Winter : rhsgref_ins_g_BM21_OCimport_02 {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_Ural_BM21_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_Ural_BM21_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -774,7 +774,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_Mi_24_Winter : LOP_UKR_Mi24V_AT_OCimport_02 {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_Mi_24_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_Mi_24_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -805,7 +805,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_Mi8_Transport_Winter : RHS_Mi8mt_vv_OCimport_02 {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_Mi8_Transport_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_Mi8_Transport_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -833,7 +833,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_Mi8_Rockets_Winter : RHS_Mi8AMTSh_vvsc_OCimport_02 {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_Mi8_Rockets_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_Mi8_Rockets_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -862,7 +862,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_Su25_Cluster_Winter : RHS_Su25SM_vvs_OCimport_02 {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_Su25_Cluster_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_Su25_Cluster_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -883,7 +883,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_L39_AA_Winter : I_Plane_Fighter_03_dynamicLoadout_F_OCimport_02 {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_L39_AA_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_L39_AA_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -904,7 +904,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_T55_Winter : LOP_AFR_T55_OCimport_02 {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_T55_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_T55_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -930,7 +930,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_T72_Winter : rhsgref_ins_g_t72bc {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_T72_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_T72_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
@@ -964,7 +964,7 @@ class CfgVehicles {
     };
 
     class I_Chernarus_UAZ32_Closed_Winter : rhsgref_ins_uaz_OCimport_02 {
-        editorPreview = "\x\addons\ichernaruswinter\data\preview\I_Chernarus_UAZ32_Closed_Winter.jpg";
+        editorPreview = "\x\bnb_fa\ichernaruswinter\data\preview\I_Chernarus_UAZ32_Closed_Winter.jpg";
         author = "Jebby";
         scope = 2;
         scopeCurator = 2;
