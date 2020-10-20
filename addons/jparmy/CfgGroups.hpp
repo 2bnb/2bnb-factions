@@ -5,333 +5,333 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class CfgGroups {
-    class WEST {
+	class WEST {
 
-        class B_JapanArmy {
-            name = "Japanese Self Defence Force";
+		class B_JapanArmy {
+			name = "Japanese Self Defence Force";
 
-            class Infantry {
-                name = "Infantry";
+			class Infantry {
+				name = "Infantry";
 
-                class b_japanarmy_infantry_section {
-                    name = "Section (Base)";
-                    side = 1;
-                    faction = "B_JapanArmy";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.5;
+				class b_japanarmy_infantry_section {
+					name = "Section (Base)";
+					side = 1;
+					faction = "B_JapanArmy";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					rarityGroup = 0.5;
 
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Section_Leader_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Team_Leader_01";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Combat_Life_Saver_01";
-                    };
-                    class Unit3 {
-                        position[] = {10,-10,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Rifleman_01";
-                    };
-                    class Unit4 {
-                        position[] = {-10,-10,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Rifleman_01";
-                    };
-                    class Unit5 {
-                        position[] = {15,-15,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Rifleman_01";
-                    };
-                    class Unit6 {
-                        position[] = {-15,-15,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Rifleman_01";
-                    };
-                    class Unit7 {
-                        position[] = {20,-20,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Rifleman_01";
-                    };
-                };
+					class Unit0 {
+						position[] = {0,0,0};
+						rank = "SERGEANT";
+						side = 1;
+						vehicle = "B_JapanArmy_Section_Leader_01";
+					};
+					class Unit1 {
+						position[] = {5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Team_Leader_01";
+					};
+					class Unit2 {
+						position[] = {-5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Combat_Life_Saver_01";
+					};
+					class Unit3 {
+						position[] = {10,-10,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Rifleman_01";
+					};
+					class Unit4 {
+						position[] = {-10,-10,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Rifleman_01";
+					};
+					class Unit5 {
+						position[] = {15,-15,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Rifleman_01";
+					};
+					class Unit6 {
+						position[] = {-15,-15,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Rifleman_01";
+					};
+					class Unit7 {
+						position[] = {20,-20,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Rifleman_01";
+					};
+				};
 
-                class b_japanarmy_infantry_section_roles {
-                    name = "Section (Roles)";
-                    side = 1;
-                    faction = "B_JapanArmy";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.5;
+				class b_japanarmy_infantry_section_roles {
+					name = "Section (Roles)";
+					side = 1;
+					faction = "B_JapanArmy";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					rarityGroup = 0.5;
 
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Section_Leader_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Team_Leader_01";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Combat_Life_Saver_01";
-                    };
-                    class Unit3 {
-                        position[] = {10,-10,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_LMG_762_01";
-                    };
-                    class Unit4 {
-                        position[] = {-10,-10,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_LMG_556_01";
-                    };
-                    class Unit5 {
-                        position[] = {15,-15,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Anti_Tank_01";
-                    };
-                    class Unit6 {
-                        position[] = {-15,-15,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Marksman_01";
-                    };
-                    class Unit7 {
-                        position[] = {20,-20,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Rifleman_01";
-                    };
-                };
+					class Unit0 {
+						position[] = {0,0,0};
+						rank = "SERGEANT";
+						side = 1;
+						vehicle = "B_JapanArmy_Section_Leader_01";
+					};
+					class Unit1 {
+						position[] = {5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Team_Leader_01";
+					};
+					class Unit2 {
+						position[] = {-5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Combat_Life_Saver_01";
+					};
+					class Unit3 {
+						position[] = {10,-10,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_LMG_762_01";
+					};
+					class Unit4 {
+						position[] = {-10,-10,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_LMG_556_01";
+					};
+					class Unit5 {
+						position[] = {15,-15,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Anti_Tank_01";
+					};
+					class Unit6 {
+						position[] = {-15,-15,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Marksman_01";
+					};
+					class Unit7 {
+						position[] = {20,-20,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Rifleman_01";
+					};
+				};
 
-                class b_japanarmy_infantry_fire_team {
-                    name = "Fire-Team";
-                    side = 1;
-                    faction = "B_JapanArmy";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.5;
+				class b_japanarmy_infantry_fire_team {
+					name = "Fire-Team";
+					side = 1;
+					faction = "B_JapanArmy";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					rarityGroup = 0.5;
 
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Section_Leader_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Combat_Life_Saver_01";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Marksman_01";
-                    };
-                    class Unit3 {
-                        position[] = {10,-10,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Anti_Tank_01";
-                    };
-                };
+					class Unit0 {
+						position[] = {0,0,0};
+						rank = "SERGEANT";
+						side = 1;
+						vehicle = "B_JapanArmy_Section_Leader_01";
+					};
+					class Unit1 {
+						position[] = {5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Combat_Life_Saver_01";
+					};
+					class Unit2 {
+						position[] = {-5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Marksman_01";
+					};
+					class Unit3 {
+						position[] = {10,-10,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Anti_Tank_01";
+					};
+				};
 
-            };
+			};
 
-            class SpecOps {
-                name = "Special Forces";
+			class SpecOps {
+				name = "Special Forces";
 
-                class b_japanarmy_infantry_recon_team {
-                    name = "Recon Team";
-                    side = 1;
-                    faction = "B_JapanArmy";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.5;
+				class b_japanarmy_infantry_recon_team {
+					name = "Recon Team";
+					side = 1;
+					faction = "B_JapanArmy";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					rarityGroup = 0.5;
 
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Section_Leader_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Marksman_01";
-                    };
-                };
+					class Unit0 {
+						position[] = {0,0,0};
+						rank = "SERGEANT";
+						side = 1;
+						vehicle = "B_JapanArmy_Section_Leader_01";
+					};
+					class Unit1 {
+						position[] = {5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Marksman_01";
+					};
+				};
 
-            };
+			};
 
-            class Motorized {
-                name = "Motorized Infantry";
+			class Motorized {
+				name = "Motorized Infantry";
 
-                class b_japanarmy_specops_motorized_section {
-                    name = "Motorized Section";
-                    side = 1;
-                    faction = "B_JapanArmy";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
-                    rarityGroup = 0.5;
+				class b_japanarmy_specops_motorized_section {
+					name = "Motorized Section";
+					side = 1;
+					faction = "B_JapanArmy";
+					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+					rarityGroup = 0.5;
 
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Type_22_MRAP_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Section_Leader_01";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Combat_Life_Saver_01";
-                    };
-                    class Unit3 {
-                        position[] = {10,-10,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_LMG_556_01";
-                    };
-                    class Unit4 {
-                        position[] = {-10,-10,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Team_Leader_01";
-                    };
-                };
+					class Unit0 {
+						position[] = {0,0,0};
+						rank = "SERGEANT";
+						side = 1;
+						vehicle = "B_JapanArmy_Type_22_MRAP_01";
+					};
+					class Unit1 {
+						position[] = {5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Section_Leader_01";
+					};
+					class Unit2 {
+						position[] = {-5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Combat_Life_Saver_01";
+					};
+					class Unit3 {
+						position[] = {10,-10,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_LMG_556_01";
+					};
+					class Unit4 {
+						position[] = {-10,-10,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Team_Leader_01";
+					};
+				};
 
-            };
+			};
 
-            class Motorized_MTP {
-                name = "Motorized Infantry (MTP)";
+			class Motorized_MTP {
+				name = "Motorized Infantry (MTP)";
 
-            };
+			};
 
-            class Support {
-                name = "Support Infantry";
+			class Support {
+				name = "Support Infantry";
 
-            };
+			};
 
-            class Mechanized {
-                name = "Mechanized Infantry";
+			class Mechanized {
+				name = "Mechanized Infantry";
 
-                class b_japanarmy_motorized_mechanized_section {
-                    name = "Mechanized Section";
-                    side = 1;
-                    faction = "B_JapanArmy";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
-                    rarityGroup = 0.5;
+				class b_japanarmy_motorized_mechanized_section {
+					name = "Mechanized Section";
+					side = 1;
+					faction = "B_JapanArmy";
+					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+					rarityGroup = 0.5;
 
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "B_JapanArmy_M113A3_M2_01";
-                    };
-                    class Unit1 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Section_Leader_01";
-                    };
-                    class Unit2 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Team_Leader_01";
-                    };
-                    class Unit3 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Combat_Life_Saver_01";
-                    };
-                    class Unit4 {
-                        position[] = {10,-10,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_LMG_762_01";
-                    };
-                    class Unit5 {
-                        position[] = {-10,-10,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_LMG_556_01";
-                    };
-                    class Unit6 {
-                        position[] = {15,-15,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Anti_Tank_01";
-                    };
-                    class Unit7 {
-                        position[] = {-15,-15,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Marksman_01";
-                    };
-                    class Unit8 {
-                        position[] = {20,-20,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "B_JapanArmy_Rifleman_01";
-                    };
-                };
+					class Unit0 {
+						position[] = {0,0,0};
+						rank = "SERGEANT";
+						side = 1;
+						vehicle = "B_JapanArmy_M113A3_M2_01";
+					};
+					class Unit1 {
+						position[] = {0,0,0};
+						rank = "SERGEANT";
+						side = 1;
+						vehicle = "B_JapanArmy_Section_Leader_01";
+					};
+					class Unit2 {
+						position[] = {5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Team_Leader_01";
+					};
+					class Unit3 {
+						position[] = {-5,-5,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Combat_Life_Saver_01";
+					};
+					class Unit4 {
+						position[] = {10,-10,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_LMG_762_01";
+					};
+					class Unit5 {
+						position[] = {-10,-10,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_LMG_556_01";
+					};
+					class Unit6 {
+						position[] = {15,-15,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Anti_Tank_01";
+					};
+					class Unit7 {
+						position[] = {-15,-15,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Marksman_01";
+					};
+					class Unit8 {
+						position[] = {20,-20,0};
+						rank = "PRIVATE";
+						side = 1;
+						vehicle = "B_JapanArmy_Rifleman_01";
+					};
+				};
 
-            };
+			};
 
-            class Armored {
-                name = "Armor";
+			class Armored {
+				name = "Armor";
 
-            };
+			};
 
-            class Artillery {
-                name = "Artillery";
+			class Artillery {
+				name = "Artillery";
 
-            };
+			};
 
-            class Naval {
-                name = "Naval";
+			class Naval {
+				name = "Naval";
 
-            };
+			};
 
-            class Air {
-                name = "Air";
+			class Air {
+				name = "Air";
 
-            };
+			};
 
 
-        };
+		};
 
-    };
+	};
 };

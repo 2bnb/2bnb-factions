@@ -5,9 +5,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class CfgFactionClasses {
-    class I_Chernarus_Winter {
-        displayName = "Chernarus Winter Force";
-        side = 2;
-        priority = 0;
-    };
+	class I_Chernarus_Winter {
+		displayName = "Chernarus Winter Force";
+		side = 2;
+		priority = 0;
+	};
 };
