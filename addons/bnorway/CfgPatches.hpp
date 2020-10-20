@@ -153,7 +153,10 @@ class CfgPatches {
 			"A3_Air_F_EPC_Plane_CAS_01",
 			"ace_repair",
 			"bnb_ex_gear",
-			"mas_nor_lite_common"
+			"mas_nor_lite_common",
+			"niarms_416",
+			"hlcweapons_g3",
+			"tfw_radios_ilbe"
 		};
 		author = "2nd Battalion, Nord Brigade";
 		authors[] = {

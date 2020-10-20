@@ -42,7 +42,10 @@
 - [RHS USAF](https://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
 - [RHS GREF](https://steamcommunity.com/sharedfiles/filedetails/?id=843593391)
 - [NORSOF_LITE_mas](https://steamcommunity.com/sharedfiles/filedetails/?id=1654680843)
+- [NIArms HK416 Rifles](https://steamcommunity.com/sharedfiles/filedetails/?id=1519157834)
+- [NIArms G3 Rifles](https://steamcommunity.com/sharedfiles/filedetails/?id=667375637)
 - [Project OPFOR](https://steamcommunity.com/sharedfiles/filedetails/?id=735566597)
+- [ILBE Assault Pack - Rewrite](https://steamcommunity.com/sharedfiles/filedetails/?id=1875281645)
 - [MLO - All-in-one Collection](https://steamcommunity.com/sharedfiles/filedetails/?id=823636749)
 
 # Credits
