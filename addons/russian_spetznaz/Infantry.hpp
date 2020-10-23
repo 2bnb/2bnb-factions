@@ -445,7 +445,7 @@ class CfgVehicles {
 			class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
 			class ALiVE_orbatCreator {
-				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_aks74u','rhs_acc_pgs64_74u','','',['rhs_30Rnd_545x39_AK',30],[],''],[],['rhs_weap_pya','','','',[],[],''],['rhs_uniform_emr_patchless',[['FirstAidKit',5]]],['rhs_vest_commander',[['SmokeShell',1,1],['rhs_30Rnd_545x39_AK',3,30]]],[],'rhs_tsh4_ess_bala','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
+				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_aks74u','rhs_acc_pgs64_74u','','',['rhs_30Rnd_545x39_AK',30],[],''],[],['rhs_weap_pya','','','',[],[],''],['BNB_EX_Surpat_Gear_Camo_Unf_R',[['FirstAidKit',5]]],['rhs_vest_commander',[['SmokeShell',1,1],['rhs_30Rnd_545x39_AK',3,30]]],[],'rhs_tsh4_ess_bala','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
 			};
 		};
 
@@ -470,7 +470,7 @@ class CfgVehicles {
 			class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
 			class ALiVE_orbatCreator {
-				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_ak74mr','rhs_acc_dtk','rhs_acc_perst3_2dp_light_h','rhsusf_acc_SpecterDR',['rhs_30Rnd_545x39_AK',30],[],''],[],['rhs_weap_pya','','','',['rhs_mag_9x19_17',17],[],''],['Surpat_Camo_Unf_R',[['FirstAidKit',6]]],['VSM_FAPC_Breacher_OGA_OD',[['rhs_mag_9x19_17',4,17],['rhs_30Rnd_545x39_AK',10,30],['rhs_mag_rgo',2,1],['rhs_mag_rdg2_white',2,1],['rhs_mag_rdg2_black',1,1],['rhs_mag_fakels',2,1]]],[],'rhs_6b7_1m_bala2_olive','',['Binocular','','','',[],[],''],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
+				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_ak74mr','rhs_acc_dtk','rhs_acc_perst3_2dp_light_h','rhsusf_acc_SpecterDR',['rhs_30Rnd_545x39_AK',30],[],''],[],['rhs_weap_pya','','','',['rhs_mag_9x19_17',17],[],''],['BNB_EX_Surpat_Gear_Camo_Unf_R',[['FirstAidKit',6]]],['VSM_FAPC_Breacher_OGA_OD',[['rhs_mag_9x19_17',4,17],['rhs_30Rnd_545x39_AK',10,30],['rhs_mag_rgo',2,1],['rhs_mag_rdg2_white',2,1],['rhs_mag_rdg2_black',1,1],['rhs_mag_fakels',2,1]]],[],'rhs_6b7_1m_bala2_olive','',['Binocular','','','',[],[],''],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
 			};
 		};
 
@@ -494,7 +494,7 @@ class CfgVehicles {
 			class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
 			class ALiVE_orbatCreator {
-				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_ak74m_npz','rhs_acc_dtk','','rhsusf_acc_eotech_xps3',['rhs_30Rnd_545x39_AK',30],[],''],[],['rhs_weap_pya','','','',['rhs_mag_9x19_17',17],[],''],['Surpat_Camo_Unf',[['FirstAidKit',6]]],['VSM_FAPC_Operator_OGA_OD',[['rhs_mag_9x19_17',4,17],['rhs_30Rnd_545x39_AK',10,30],['rhs_mag_rgo',2,1],['rhs_mag_rdg2_white',2,1]]],[],'Surpat_Helmet','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
+				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_ak74m_npz','rhs_acc_dtk','','rhsusf_acc_eotech_xps3',['rhs_30Rnd_545x39_AK',30],[],''],[],['rhs_weap_pya','','','',['rhs_mag_9x19_17',17],[],''],['BNB_EX_Surpat_Gear_Camo_Unf',[['FirstAidKit',6]]],['VSM_FAPC_Operator_OGA_OD',[['rhs_mag_9x19_17',4,17],['rhs_30Rnd_545x39_AK',10,30],['rhs_mag_rgo',2,1],['rhs_mag_rdg2_white',2,1]]],[],'BNB_EX_Surpat_Gear_Helmet','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
 			};
 		};
 
@@ -518,7 +518,7 @@ class CfgVehicles {
 			class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
 			class ALiVE_orbatCreator {
-				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_pkp','','','rhs_acc_1p78',['rhs_100Rnd_762x54mmR',100],[],''],[],['rhs_weap_pya','','','',['rhs_mag_9x19_17',17],[],''],['Surpat_Camo_Unf_R',[['FirstAidKit',6]]],['VSM_FAPC_MG_OGA_OD',[['rhs_mag_9x19_17',4,17],['rhs_100Rnd_762x54mmR',3,100],['rhs_mag_rgo',2,1],['rhs_mag_rdg2_white',2,1],['rhs_mag_rdg2_black',1,1]]],[],'rhs_altyn_novisor_ess_bala','',['Binocular','','','',[],[],''],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
+				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_pkp','','','rhs_acc_1p78',['rhs_100Rnd_762x54mmR',100],[],''],[],['rhs_weap_pya','','','',['rhs_mag_9x19_17',17],[],''],['BNB_EX_Surpat_Gear_Camo_Unf_R',[['FirstAidKit',6]]],['VSM_FAPC_MG_OGA_OD',[['rhs_mag_9x19_17',4,17],['rhs_100Rnd_762x54mmR',3,100],['rhs_mag_rgo',2,1],['rhs_mag_rdg2_white',2,1],['rhs_mag_rdg2_black',1,1]]],[],'rhs_altyn_novisor_ess_bala','',['Binocular','','','',[],[],''],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
 			};
 		};
 
@@ -542,7 +542,7 @@ class CfgVehicles {
 			class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
 			class ALiVE_orbatCreator {
-				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_ak74m_gp25_npz','rhs_acc_dtk','','rhsusf_acc_eotech_xps3',['rhs_30Rnd_545x39_AK',30],['rhs_VOG25',1],''],[],['rhs_weap_pya','','','',['rhs_mag_9x19_17',17],[],''],['Surpat_Camo_Unf_TG',[['FirstAidKit',5]]],['VSM_FAPC_Operator_OGA_OD',[['rhs_mag_9x19_17',4,17],['rhs_30Rnd_545x39_AK',10,30],['rhs_VOG25',9,1],['rhs_VG40OP_white',1,1],['rhs_mag_rgo',1,1],['rhs_mag_rdg2_white',2,1]]],[],'rhsusf_opscore_rg_cover','',['Binocular','','','',[],[],''],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
+				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_ak74m_gp25_npz','rhs_acc_dtk','','rhsusf_acc_eotech_xps3',['rhs_30Rnd_545x39_AK',30],['rhs_VOG25',1],''],[],['rhs_weap_pya','','','',['rhs_mag_9x19_17',17],[],''],['BNB_EX_Surpat_Gear_Camo_Unf_TG',[['FirstAidKit',5]]],['VSM_FAPC_Operator_OGA_OD',[['rhs_mag_9x19_17',4,17],['rhs_30Rnd_545x39_AK',10,30],['rhs_VOG25',9,1],['rhs_VG40OP_white',1,1],['rhs_mag_rgo',1,1],['rhs_mag_rdg2_white',2,1]]],[],'rhsusf_opscore_rg_cover','',['Binocular','','','',[],[],''],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
 			};
 		};
 
@@ -566,7 +566,7 @@ class CfgVehicles {
 			class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
 			class ALiVE_orbatCreator {
-				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_vss_grip','','rhs_acc_perst1ik_ris','rhs_acc_pso1m21',['rhs_10rnd_9x39mm_SP5',10],[],''],[],['rhs_weap_pya','','','',['rhs_mag_9x19_17',17],[],''],['Surpat_Camo_Unf',[['FirstAidKit',6]]],['VSM_FAPC_Operator_OGA_OD',[['rhs_10rnd_9x39mm_SP5',10,10],['rhs_mag_9x19_17',4,17],['rhs_mag_rgo',2,1],['rhs_mag_rdg2_white',2,1],['rhs_mag_rdg2_black',1,1],['rhs_mag_nspn_green',1,1]]],[],'Surpat_Cap','',['Rangefinder','','','',[],[],''],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
+				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_vss_grip','','rhs_acc_perst1ik_ris','rhs_acc_pso1m21',['rhs_10rnd_9x39mm_SP5',10],[],''],[],['rhs_weap_pya','','','',['rhs_mag_9x19_17',17],[],''],['BNB_EX_Surpat_Gear_Camo_Unf',[['FirstAidKit',6]]],['VSM_FAPC_Operator_OGA_OD',[['rhs_10rnd_9x39mm_SP5',10,10],['rhs_mag_9x19_17',4,17],['rhs_mag_rgo',2,1],['rhs_mag_rdg2_white',2,1],['rhs_mag_rdg2_black',1,1],['rhs_mag_nspn_green',1,1]]],[],'BNB_EX_Surpat_Gear_Cap2','',['Rangefinder','','','',[],[],''],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
 			};
 		};
 
@@ -590,7 +590,7 @@ class CfgVehicles {
 			class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
 			class ALiVE_orbatCreator {
-				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_aks74un','rhs_acc_pbs4','','',['rhs_30Rnd_545x39_AK',30],[],''],[],['rhs_weap_tr8','','','',[],[],''],['Surpat_Camo_Unf',[['FirstAidKit',6]]],['VSM_FAPC_Operator_OGA_OD',[['rhs_30Rnd_545x39_7U1_AK',12,30],['rhs_mag_rgn',2,1],['rhs_mag_rdg2_white',2,1],['rhs_mag_rdg2_black',1,1]]],[],'rhsusf_opscore_rg_cover','VSM_Balaclava2_OD_Peltor_Goggles',['Rangefinder','','','',[],[],''],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
+				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_aks74un','rhs_acc_pbs4','','',['rhs_30Rnd_545x39_AK',30],[],''],[],['rhs_weap_tr8','','','',[],[],''],['BNB_EX_Surpat_Gear_Camo_Unf',[['FirstAidKit',6]]],['VSM_FAPC_Operator_OGA_OD',[['rhs_30Rnd_545x39_7U1_AK',12,30],['rhs_mag_rgn',2,1],['rhs_mag_rdg2_white',2,1],['rhs_mag_rdg2_black',1,1]]],[],'rhsusf_opscore_rg_cover','VSM_Balaclava2_OD_Peltor_Goggles',['Rangefinder','','','',[],[],''],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
 			};
 		};
 
@@ -614,7 +614,7 @@ class CfgVehicles {
 			class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
 			class ALiVE_orbatCreator {
-				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_ak103_zenitco01_b33','rhs_acc_dtk3','rhs_acc_perst3','rhsusf_acc_SpecterDR_A',['rhs_30Rnd_762x39mm',30],[],''],[],['rhs_weap_pya','','','',['rhs_mag_9x19_17',17],[],''],['Surpat_Camo_Unf',[['FirstAidKit',6]]],['VSM_FAPC_Breacher_OGA_OD',[['O_IR_Grenade',1,1],['rhs_30Rnd_762x39mm',10,30],['rhs_mag_9x19_17',4,17],['rhs_mag_rgn',2,1],['rhs_mag_rdg2_white',1,1]]],[],'VSM_Black_OPS_2','G_Aviator',['rhs_pdu4','','','',[],[],''],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
+				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_ak103_zenitco01_b33','rhs_acc_dtk3','rhs_acc_perst3','rhsusf_acc_SpecterDR_A',['rhs_30Rnd_762x39mm',30],[],''],[],['rhs_weap_pya','','','',['rhs_mag_9x19_17',17],[],''],['BNB_EX_Surpat_Gear_Camo_Unf',[['FirstAidKit',6]]],['VSM_FAPC_Breacher_OGA_OD',[['O_IR_Grenade',1,1],['rhs_30Rnd_762x39mm',10,30],['rhs_mag_9x19_17',4,17],['rhs_mag_rgn',2,1],['rhs_mag_rdg2_white',1,1]]],[],'VSM_Black_OPS_2','G_Aviator',['rhs_pdu4','','','',[],[],''],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
 			};
 		};
 
@@ -638,7 +638,7 @@ class CfgVehicles {
 			class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
 			class ALiVE_orbatCreator {
-				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_ak74m_zenitco01','rhs_acc_dtk','rhs_acc_perst3','',['rhs_30Rnd_545x39_AK',30],[],'rhs_acc_grip_ffg2'],['rhs_weap_rpg26','','','',['rhs_rpg26_mag',1],[],''],['rhs_weap_pya','','','',['rhs_mag_9x19_17',17],[],''],['Surpat_Camo_Unf_R',[['FirstAidKit',4],['rhs_1PN138',1]]],['VSM_FAPC_Operator_OGA_OD',[['rhs_mag_9x19_17',4,17],['rhs_30Rnd_545x39_AK',10,30],['rhs_mag_rgo',2,1],['rhs_mag_rdg2_white',2,1]]],[],'rhs_6b7_1m_bala1_olive','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
+				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_ak74m_zenitco01','rhs_acc_dtk','rhs_acc_perst3','',['rhs_30Rnd_545x39_AK',30],[],'rhs_acc_grip_ffg2'],['rhs_weap_rpg26','','','',['rhs_rpg26_mag',1],[],''],['rhs_weap_pya','','','',['rhs_mag_9x19_17',17],[],''],['BNB_EX_Surpat_Gear_Camo_Unf_R',[['FirstAidKit',4],['rhs_1PN138',1]]],['VSM_FAPC_Operator_OGA_OD',[['rhs_mag_9x19_17',4,17],['rhs_30Rnd_545x39_AK',10,30],['rhs_mag_rgo',2,1],['rhs_mag_rdg2_white',2,1]]],[],'rhs_6b7_1m_bala1_olive','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
 			};
 		};
 
@@ -662,7 +662,7 @@ class CfgVehicles {
 			class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
 			class ALiVE_orbatCreator {
-				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_t5000','','','rhs_acc_dh520x56',['rhs_5Rnd_338lapua_t5000',5],[],'rhs_acc_harris_swivel'],[],['rhs_weap_pya','','','',['rhs_mag_9x19_17',17],[],''],['Surpat_Camo_Unf_Ghillie',[['FirstAidKit',5],['SmokeShell',2,1]]],['V_TacChestrig_grn_F',[['O_IR_Grenade',1,1],['rhs_5Rnd_338lapua_t5000',12,5],['rhs_mag_9x19_17',4,17],['rhs_mag_rgn',2,1],['rhs_mag_rdg2_white',2,1],['rhs_mag_rdg2_black',1,1]]],[],'Surpat_Boonie_HS','',['rhs_pdu4','','','',[],[],''],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
+				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_t5000','','','rhs_acc_dh520x56',['rhs_5Rnd_338lapua_t5000',5],[],'rhs_acc_harris_swivel'],[],['rhs_weap_pya','','','',['rhs_mag_9x19_17',17],[],''],['BNB_EX_Surpat_Gear_Camo_Unf_Ghillie',[['FirstAidKit',5],['SmokeShell',2,1]]],['V_TacChestrig_grn_F',[['O_IR_Grenade',1,1],['rhs_5Rnd_338lapua_t5000',12,5],['rhs_mag_9x19_17',4,17],['rhs_mag_rgn',2,1],['rhs_mag_rdg2_white',2,1],['rhs_mag_rdg2_black',1,1]]],[],'BNB_EX_Surpat_Gear_Boonie_HS','',['rhs_pdu4','','','',[],[],''],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
 			};
 		};
 
@@ -686,7 +686,7 @@ class CfgVehicles {
 			class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
 			class ALiVE_orbatCreator {
-				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_ak74mr','rhs_acc_tgpa','rhs_acc_perst3','rhsusf_acc_eotech_xps3',['rhs_30Rnd_545x39_AK',30],[],'rhs_acc_grip_rk6'],[],['rhs_weap_rsp30_green','','','',[],[],''],['Surpat_Camo_Unf_Ghillie',[['FirstAidKit',5],['SmokeShell',2,1]]],['V_TacChestrig_grn_F',[['O_IR_Grenade',2,1],['rhs_30Rnd_545x39_AK',10,30],['rhs_mag_rgn',1,1],['rhs_mag_rdg2_white',2,1]]],[],'Surpat_Boonie_HS','',['Rangefinder','','','',[],[],''],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
+				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_ak74mr','rhs_acc_tgpa','rhs_acc_perst3','rhsusf_acc_eotech_xps3',['rhs_30Rnd_545x39_AK',30],[],'rhs_acc_grip_rk6'],[],['rhs_weap_rsp30_green','','','',[],[],''],['BNB_EX_Surpat_Gear_Camo_Unf_Ghillie',[['FirstAidKit',5],['SmokeShell',2,1]]],['V_TacChestrig_grn_F',[['O_IR_Grenade',2,1],['rhs_30Rnd_545x39_AK',10,30],['rhs_mag_rgn',1,1],['rhs_mag_rdg2_white',2,1]]],[],'BNB_EX_Surpat_Gear_Boonie_HS','',['Rangefinder','','','',[],[],''],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
 			};
 		};
 
@@ -710,7 +710,7 @@ class CfgVehicles {
 			class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
 			class ALiVE_orbatCreator {
-				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_ak103_zenitco01_b33','rhs_acc_dtk','rhs_acc_perst3','rhs_acc_rakursPM',['rhs_30Rnd_762x39mm',30],[],''],[],['rhs_weap_pya','','','',['rhs_mag_9x19_17',17],[],''],['Surpat_Camo_Unf',[['FirstAidKit',6]]],['VSM_FAPC_Operator_OGA_OD',[['rhs_30Rnd_762x39mm',10,30],['rhs_mag_9x19_17',4,17],['rhs_mag_rgo',2,1],['rhs_mag_nspn_green',1,1],['rhs_mag_fakel',2,1]]],['I_Fieldpack_oli_Medic',[['Medikit',1],['FirstAidKit',10]]],'VSM_Mich2000_2_CamoSprayOD','VSM_balaclava2_Black',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
+				init = "if (local (_this select 0)) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [['rhs_weap_ak103_zenitco01_b33','rhs_acc_dtk','rhs_acc_perst3','rhs_acc_rakursPM',['rhs_30Rnd_762x39mm',30],[],''],[],['rhs_weap_pya','','','',['rhs_mag_9x19_17',17],[],''],['BNB_EX_Surpat_Gear_Camo_Unf',[['FirstAidKit',6]]],['VSM_FAPC_Operator_OGA_OD',[['rhs_30Rnd_762x39mm',10,30],['rhs_mag_9x19_17',4,17],['rhs_mag_rgo',2,1],['rhs_mag_nspn_green',1,1],['rhs_mag_fakel',2,1]]],['I_Fieldpack_oli_Medic',[['Medikit',1],['FirstAidKit',10]]],'VSM_Mich2000_2_CamoSprayOD','VSM_balaclava2_Black',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','rhs_1PN138']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
 			};
 		};
 
