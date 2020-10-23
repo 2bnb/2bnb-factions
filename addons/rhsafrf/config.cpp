@@ -1,18 +1,31 @@
 class CfgPatches {
-	class bnb_fa_rhsafrf {
-		name = "2BNB Factions - Russia (VDV/UN)";
-		units[] = {
-			"rhs_vdv__un_rifleman",
-			"rhs_vdv_un_sergeant"
-		};
-		weapons[] = {};
-		requiredAddons[] = {
-			"rhs_c_troops"
-		};
+	class bnb_fa_run {
+		// Addon identity
+		name = "2BNB Factions - Russian UN Forces (VDV)";
 		author = "2nd Battalion, Nord Brigade";
 		authors[] = {
 			"SeeOne"
 		};
+		url = "https://discord.gg/DRaWNyf";
+		version = 1.0.0;
+		versionAr[] = {1,0,0,0};
+		versionStr = "v1.0.0";
+
+		// Addon requirements
+		requiredVersion = 2.00;
+		requiredAddons[] = {
+			"rhs_c_troops"
+		};
+
+		// Addon items
+		units[] = {
+			"BNB_FA_RUN_Rifleman",
+			"BNB_FA_RUN_Sergeant"
+		};
+		weapons[] = {};
+		magazines[] = {};
+		ammo[] = {};
+		worlds[] = {};
 	};
 };
 
@@ -20,12 +33,11 @@ class CfgGroups {
 	class EAST {
 
 		class rhs_faction_vdv {
-			name = "Russia (VDV)";
 
-			class bnb_fa_un_infantry {
+			class BNB_FA_RUN_Infantry {
 				name = "Infantry (EMR/UN)";
 
-				class o_rhsfactionvdv_infantry_vdv_emr_un {
+				class BNB_FA_RUN_Squad {
 					name = "Squad";
 					side = 0;
 					faction = "rhs_faction_vdv";
@@ -36,49 +48,49 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 0;
-						vehicle = "rhs_vdv_un_sergeant";
+						vehicle = "BNB_FA_RUN_Sergeant";
 					};
 					class Unit1 {
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "rhs_vdv__un_rifleman";
+						vehicle = "BNB_FA_RUN_Rifleman";
 					};
 					class Unit2 {
 						position[] = {-5,-5,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "rhs_vdv__un_rifleman";
+						vehicle = "BNB_FA_RUN_Rifleman";
 					};
 					class Unit3 {
 						position[] = {10,-10,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "rhs_vdv__un_rifleman";
+						vehicle = "BNB_FA_RUN_Rifleman";
 					};
 					class Unit4 {
 						position[] = {-10,-10,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "rhs_vdv__un_rifleman";
+						vehicle = "BNB_FA_RUN_Rifleman";
 					};
 					class Unit5 {
 						position[] = {15,-15,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "rhs_vdv__un_rifleman";
+						vehicle = "BNB_FA_RUN_Rifleman";
 					};
 					class Unit6 {
 						position[] = {-15,-15,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "rhs_vdv__un_rifleman";
+						vehicle = "BNB_FA_RUN_Rifleman";
 					};
 					class Unit7 {
 						position[] = {20,-20,0};
 						rank = "PRIVATE";
 						side = 0;
-						vehicle = "rhs_vdv__un_rifleman";
+						vehicle = "BNB_FA_RUN_Rifleman";
 					};
 				};
 
@@ -96,7 +108,7 @@ class CfgVehicles {
 	class rhs_vdv_LAT;
 	class rhs_vdv_LAT_OCimport_01 : rhs_vdv_LAT { scope = 0; class EventHandlers; };
 	class rhs_vdv_LAT_OCimport_02 : rhs_vdv_LAT_OCimport_01 { class EventHandlers; };
-	class rhs_vdv_un_sergeant : rhs_vdv_LAT_OCimport_02 {
+	class BNB_FA_RUN_Sergeant : rhs_vdv_LAT_OCimport_02 {
 		author = "Vkpl. SeeOne";
 		scope = 2;
 		scopeCurator = 2;
@@ -137,7 +149,7 @@ class CfgVehicles {
 	class rhs_infantry_vdv_base;
 	class rhs_infantry_vdv_base_OCimport_01 : rhs_infantry_vdv_base { scope = 0; class EventHandlers; };
 	class rhs_infantry_vdv_base_OCimport_02 : rhs_infantry_vdv_base_OCimport_01 { class EventHandlers; };
-	class rhs_vdv__un_rifleman : rhs_infantry_vdv_base_OCimport_02 {
+	class BNB_FA_RUN_Rifleman : rhs_infantry_vdv_base_OCimport_02 {
 		author = "Vkpl. SeeOne";
 		scope = 2;
 		scopeCurator = 2;
