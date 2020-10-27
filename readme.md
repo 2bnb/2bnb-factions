@@ -7,13 +7,13 @@
 	<a href="https://discord.gg/DRaWNyf">
 		<img src="https://img.shields.io/discord/532683310409842728.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge" alt="Discord Server">
 	</a>
-	<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1747089493">
-		<img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F1747089493%2Fsubscriptions-text&style=for-the-badge" alt="Steam Subscriptions">
+	<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2265703421">
+		<img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F2265703421%2Fsubscriptions-text&style=for-the-badge" alt="Steam Subscriptions">
 	</a>
 </p>
 <p align="center">
-	<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1747089493">
-		<img src="https://img.shields.io/steam/size/1747089493?label=Download&logo=steam" alt="Download" />
+	<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2265703421">
+		<img src="https://img.shields.io/steam/size/2265703421?label=Download&logo=steam" alt="Download" />
 	</a>
 	<a href="https://github.com/2bnb/2bnb-factions/releases">
 		<img src="https://img.shields.io/github/release/2bnb/2bnb-factions.svg?label=Version" alt="Version" />
