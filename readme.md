@@ -1,36 +1,29 @@
 <p align="center">
-<img src="https://github.com/2bnb/2bnb-factions/blob/master/2BNB_Factions_Github.png"
-     alt="2BNB Banner" /><br />
-  <a href="https://github.com/2bnb/2bnb-factions/wiki">
-    <img src="https://img.shields.io/badge/2BNB%20Factions-Faction_Lists-orange.svg?style=for-the-badge&logo=github"
-         alt="Wiki" />
-  </a>
-  <a href="https://discord.gg/DRaWNyf">
-    <img src="https://img.shields.io/discord/532683310409842728.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge"
-         alt="Discord Server">
-  </a>
-  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1747089493">
-    <img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F1747089493%2Fsubscriptions-text&style=for-the-badge"
-         alt="Steam Subscriptions">
-  </a>
+	<img src="https://github.com/2bnb/2bnb-factions/blob/master/2BNB_Factions_Github.png" alt="2BNB Banner" />
+	<br />
+	<a href="https://github.com/2bnb/2bnb-factions/wiki">
+		<img src="https://img.shields.io/badge/2BNB%20Factions-Faction_Lists-orange.svg?style=for-the-badge&logo=github" alt="Wiki" />
+	</a>
+	<a href="https://discord.gg/DRaWNyf">
+		<img src="https://img.shields.io/discord/532683310409842728.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge" alt="Discord Server">
+	</a>
+	<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1747089493">
+		<img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F1747089493%2Fsubscriptions-text&style=for-the-badge" alt="Steam Subscriptions">
+	</a>
 </p>
 <p align="center">
-  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1747089493">
-    <img src="https://img.shields.io/steam/size/1747089493?label=Download&logo=steam"
-         alt="Download" />
-  </a>
-  <a href="https://github.com/2bnb/2bnb-factions/releases">
-    <img src="https://img.shields.io/github/release/2bnb/2bnb-factions.svg?label=Version"
-         alt="Version" />
-  </a>
-  <a href="https://github.com/2bnb/2bnb-factions/issues">
-    <img src="http://img.shields.io/github/issues-raw/2bnb/2bnb-factions.svg?label=Issues&style=flat"
-         alt="Issues" />
-  </a>
-  <a href="https://github.com/2bnb/2bnb-factions/blob/master/LICENCE">
-    <img src="https://img.shields.io/github/license/2bnb/2bnb-factions.svg?style=flat&label=Licence"
-         alt="License">
-  </a>
+	<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1747089493">
+		<img src="https://img.shields.io/steam/size/1747089493?label=Download&logo=steam" alt="Download" />
+	</a>
+	<a href="https://github.com/2bnb/2bnb-factions/releases">
+		<img src="https://img.shields.io/github/release/2bnb/2bnb-factions.svg?label=Version" alt="Version" />
+	</a>
+	<a href="https://github.com/2bnb/2bnb-factions/issues">
+		<img src="http://img.shields.io/github/issues-raw/2bnb/2bnb-factions.svg?label=Issues&style=flat" alt="Issues" />
+	</a>
+	<a href="https://github.com/2bnb/2bnb-factions/blob/master/LICENCE">
+		<img src="https://img.shields.io/github/license/2bnb/2bnb-factions.svg?style=flat&label=Licence" alt="License">
+	</a>
 </p>
 <p align="center"><sup><strong>Making Arma 3 a better place for all members of the 2nd Battalion, Nord Brigade.</strong></sup></p>
 
