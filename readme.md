@@ -30,7 +30,6 @@
 ## Dependencies
 - [2BNB Extras](https://steamcommunity.com/sharedfiles/filedetails/?id=1747089493)
 - [CBA A3](https://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
-- [TFAR 1.0 (BETA)](https://steamcommunity.com/sharedfiles/filedetails/?id=894678801)
 - [RHS AFRF](https://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
 - [RHS USAF](https://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
 - [RHS GREF](https://steamcommunity.com/sharedfiles/filedetails/?id=843593391)

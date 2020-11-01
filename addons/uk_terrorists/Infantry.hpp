@@ -140,8 +140,8 @@ class CfgVehicles {
 
 		uniformClass = "rhs_uniform_g3_blk";
 
-		linkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","TFAR_microdagr"};
-		respawnlinkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","TFAR_microdagr"};
+		linkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter"};
+		respawnlinkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter"};
 
 		weapons[] = {"rhs_weap_hk416d10","Laserdesignator_01_khk_F"};
 		respawnWeapons[] = {"rhs_weap_hk416d10","Laserdesignator_01_khk_F"};
@@ -151,7 +151,7 @@ class CfgVehicles {
 
 		backpack = "B_ViperLightHarness_blk_F";
 
-		ALiVE_orbatCreator_loadout[] = {{"rhs_weap_hk416d10","","","optic_Hamr",{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",30},{},""},{},{},{"rhs_uniform_g3_blk",{{"ACE_MapTools",1},{"ACE_EarPlugs",1},{"ACE_EntrenchingTool",1},{"ACE_CableTie",12},{"ACE_Flashlight_XL50",1},{"ACE_IR_Strobe_Item",2},{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",1,30}}},{"V_PlateCarrier2_blk",{{"ACE_bodyBag",2},{"ACE_bloodIV_500",2},{"rhsusf_mag_17Rnd_9x19_FMJ",5,17},{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",8,30}}},{"B_ViperLightHarness_blk_F",{{"ACE_quikclot",10},{"ACE_elasticBandage",10},{"ACE_fieldDressing",10},{"ACE_epinephrine",3},{"ACE_morphine",3},{"ACE_salineIV_500",2},{"ACE_Banana",3},{"ACE_packingBandage",10},{"ACE_adenosine",2},{"rhs_mag_mk84",5,1},{"ACE_Chemlight_HiGreen",6,1},{"SmokeShell",8,1},{"SmokeShellBlue",2,1},{"SmokeShellGreen",2,1},{"SmokeShellRed",2,1}}},"rhsusf_opscore_bk","VSM_Balaclava2_black_Goggles",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","TFAR_microdagr",""}};
+		ALiVE_orbatCreator_loadout[] = {{"rhs_weap_hk416d10","","","optic_Hamr",{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",30},{},""},{},{},{"rhs_uniform_g3_blk",{{"ACE_MapTools",1},{"ACE_EarPlugs",1},{"ACE_EntrenchingTool",1},{"ACE_CableTie",12},{"ACE_Flashlight_XL50",1},{"ACE_IR_Strobe_Item",2},{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",1,30}}},{"V_PlateCarrier2_blk",{{"ACE_bodyBag",2},{"ACE_bloodIV_500",2},{"rhsusf_mag_17Rnd_9x19_FMJ",5,17},{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",8,30}}},{"B_ViperLightHarness_blk_F",{{"ACE_quikclot",10},{"ACE_elasticBandage",10},{"ACE_fieldDressing",10},{"ACE_epinephrine",3},{"ACE_morphine",3},{"ACE_salineIV_500",2},{"ACE_Banana",3},{"ACE_packingBandage",10},{"ACE_adenosine",2},{"rhs_mag_mk84",5,1},{"ACE_Chemlight_HiGreen",6,1},{"SmokeShell",8,1},{"SmokeShellBlue",2,1},{"SmokeShellGreen",2,1},{"SmokeShellRed",2,1}}},"rhsusf_opscore_bk","VSM_Balaclava2_black_Goggles",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter",""}};
 
 
 		class EventHandlers : EventHandlers {
@@ -181,8 +181,8 @@ class CfgVehicles {
 
 		uniformClass = "rhs_uniform_g3_blk";
 
-		linkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","TFAR_microdagr"};
-		respawnlinkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","TFAR_microdagr"};
+		linkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter"};
+		respawnlinkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter"};
 
 		weapons[] = {"rhs_weap_mk18_KAC","Laserdesignator_01_khk_F"};
 		respawnWeapons[] = {"rhs_weap_mk18_KAC","Laserdesignator_01_khk_F"};
@@ -192,7 +192,7 @@ class CfgVehicles {
 
 		backpack = "B_ViperHarness_blk_F";
 
-		ALiVE_orbatCreator_loadout[] = {{"rhs_weap_mk18_KAC","","","optic_Hamr",{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",30},{},""},{},{},{"rhs_uniform_g3_blk",{{"ACE_MapTools",1},{"ACE_EarPlugs",1},{"ACE_EntrenchingTool",1},{"ACE_CableTie",12},{"ACE_Flashlight_XL50",1},{"ACE_IR_Strobe_Item",2},{"ACE_bloodIV_500",2}}},{"V_PlateCarrier2_blk",{{"ACE_bodyBag",2},{"ACE_adenosine",5},{"ACE_salineIV_500",2},{"ACE_morphine",2},{"ACE_elasticBandage",6},{"rhsusf_mag_17Rnd_9x19_FMJ",5,17},{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",8,30}}},{"B_ViperHarness_blk_F",{{"ACE_elasticBandage",30},{"ACE_packingBandage",10},{"ACE_quikclot",5},{"ACE_bloodIV",18},{"ACE_bloodIV_500",5},{"ACE_morphine",10},{"ACE_epinephrine",10},{"ACE_adenosine",10},{"ACE_bloodIV_250",5}}},"rhsusf_opscore_bk","VSM_Balaclava2_black_Peltor_Goggles",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","TFAR_microdagr",""}};
+		ALiVE_orbatCreator_loadout[] = {{"rhs_weap_mk18_KAC","","","optic_Hamr",{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",30},{},""},{},{},{"rhs_uniform_g3_blk",{{"ACE_MapTools",1},{"ACE_EarPlugs",1},{"ACE_EntrenchingTool",1},{"ACE_CableTie",12},{"ACE_Flashlight_XL50",1},{"ACE_IR_Strobe_Item",2},{"ACE_bloodIV_500",2}}},{"V_PlateCarrier2_blk",{{"ACE_bodyBag",2},{"ACE_adenosine",5},{"ACE_salineIV_500",2},{"ACE_morphine",2},{"ACE_elasticBandage",6},{"rhsusf_mag_17Rnd_9x19_FMJ",5,17},{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",8,30}}},{"B_ViperHarness_blk_F",{{"ACE_elasticBandage",30},{"ACE_packingBandage",10},{"ACE_quikclot",5},{"ACE_bloodIV",18},{"ACE_bloodIV_500",5},{"ACE_morphine",10},{"ACE_epinephrine",10},{"ACE_adenosine",10},{"ACE_bloodIV_250",5}}},"rhsusf_opscore_bk","VSM_Balaclava2_black_Peltor_Goggles",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter",""}};
 
 
 		class EventHandlers : EventHandlers {
@@ -222,8 +222,8 @@ class CfgVehicles {
 
 		uniformClass = "rhs_uniform_g3_blk";
 
-		linkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","TFAR_microdagr"};
-		respawnlinkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","TFAR_microdagr"};
+		linkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter"};
+		respawnlinkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter"};
 
 		weapons[] = {"rhs_weap_m4","launch_RPG32_green_F","Laserdesignator_01_khk_F"};
 		respawnWeapons[] = {"rhs_weap_m4","launch_RPG32_green_F","Laserdesignator_01_khk_F"};
@@ -233,7 +233,7 @@ class CfgVehicles {
 
 		backpack = "B_ViperHarness_blk_F";
 
-		ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m4","","","rhsusf_acc_eotech_552",{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",30},{},""},{"launch_RPG32_green_F","","","",{"RPG32_F",1},{},""},{},{"rhs_uniform_g3_blk",{{"ACE_MapTools",1},{"ACE_EarPlugs",1},{"ACE_EntrenchingTool",1},{"ACE_CableTie",12},{"ACE_Flashlight_XL50",1},{"ACE_IR_Strobe_Item",2},{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",1,30}}},{"V_PlateCarrier2_blk",{{"ACE_bodyBag",2},{"rhsusf_mag_17Rnd_9x19_FMJ",5,17},{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",7,30}}},{"B_ViperHarness_blk_F",{{"ACE_quikclot",10},{"ACE_elasticBandage",10},{"ACE_fieldDressing",10},{"ACE_epinephrine",3},{"ACE_morphine",3},{"ACE_packingBandage",10},{"ACE_Chemlight_HiGreen",6,1},{"SmokeShell",4,1},{"SmokeShellBlue",2,1},{"SmokeShellGreen",2,1},{"SmokeShellRed",2,1},{"RPG32_F",3,1}}},"rhsusf_opscore_bk","VSM_Balaclava2_black_Peltor_Goggles",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","TFAR_microdagr",""}};
+		ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m4","","","rhsusf_acc_eotech_552",{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",30},{},""},{"launch_RPG32_green_F","","","",{"RPG32_F",1},{},""},{},{"rhs_uniform_g3_blk",{{"ACE_MapTools",1},{"ACE_EarPlugs",1},{"ACE_EntrenchingTool",1},{"ACE_CableTie",12},{"ACE_Flashlight_XL50",1},{"ACE_IR_Strobe_Item",2},{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",1,30}}},{"V_PlateCarrier2_blk",{{"ACE_bodyBag",2},{"rhsusf_mag_17Rnd_9x19_FMJ",5,17},{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",7,30}}},{"B_ViperHarness_blk_F",{{"ACE_quikclot",10},{"ACE_elasticBandage",10},{"ACE_fieldDressing",10},{"ACE_epinephrine",3},{"ACE_morphine",3},{"ACE_packingBandage",10},{"ACE_Chemlight_HiGreen",6,1},{"SmokeShell",4,1},{"SmokeShellBlue",2,1},{"SmokeShellGreen",2,1},{"SmokeShellRed",2,1},{"RPG32_F",3,1}}},"rhsusf_opscore_bk","VSM_Balaclava2_black_Peltor_Goggles",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter",""}};
 
 
 		class EventHandlers : EventHandlers {
@@ -263,8 +263,8 @@ class CfgVehicles {
 
 		uniformClass = "rhs_uniform_g3_blk";
 
-		linkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","TFAR_microdagr"};
-		respawnlinkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","TFAR_microdagr"};
+		linkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter"};
+		respawnlinkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter"};
 
 		weapons[] = {"rhs_weap_mk18_m320","Laserdesignator_01_khk_F"};
 		respawnWeapons[] = {"rhs_weap_mk18_m320","Laserdesignator_01_khk_F"};
@@ -272,9 +272,9 @@ class CfgVehicles {
 		magazines[] = {"ACE_30Rnd_556x45_Stanag_M995_AP_mag","rhs_mag_m441_HE","Laserbatteries","ACE_30Rnd_556x45_Stanag_M995_AP_mag","rhs_mag_m441_HE","Laserbatteries"};
 		respawnMagazines[] = {"ACE_30Rnd_556x45_Stanag_M995_AP_mag","rhs_mag_m441_HE","Laserbatteries","ACE_30Rnd_556x45_Stanag_M995_AP_mag","rhs_mag_m441_HE","Laserbatteries"};
 
-		backpack = "TFAR_rt1523g_black";
+		backpack = "tfw_ilbe_DD_gr";
 
-		ALiVE_orbatCreator_loadout[] = {{"rhs_weap_mk18_m320","","","optic_Hamr",{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",30},{"rhs_mag_m441_HE",1},""},{},{},{"rhs_uniform_g3_blk",{{"ACE_MapTools",1},{"ACE_EarPlugs",1},{"ACE_EntrenchingTool",1},{"ACE_CableTie",12},{"ACE_Flashlight_XL50",1},{"ACE_IR_Strobe_Item",2},{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",1,30}}},{"V_PlateCarrier2_blk",{{"ACE_bodyBag",2},{"rhsusf_mag_17Rnd_9x19_FMJ",5,17},{"rhs_mag_m441_HE",3,1},{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",8,30}}},{"TFAR_rt1523g_black",{{"ACE_quikclot",10},{"ACE_elasticBandage",10},{"ACE_fieldDressing",10},{"ACE_epinephrine",3},{"ACE_morphine",3},{"ACE_salineIV_500",2},{"ACE_Banana",3},{"ACE_packingBandage",1},{"ACE_Chemlight_HiGreen",5,1},{"SmokeShellYellow",2,1},{"SmokeShellRed",2,1},{"SmokeShellPurple",2,1},{"SmokeShellOrange",2,1},{"SmokeShellGreen",1,1},{"ACE_HandFlare_White",1,1}}},"rhsusf_opscore_bk","VSM_Balaclava2_black_Peltor_Goggles",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","TFAR_microdagr",""}};
+		ALiVE_orbatCreator_loadout[] = {{"rhs_weap_mk18_m320","","","optic_Hamr",{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",30},{"rhs_mag_m441_HE",1},""},{},{},{"rhs_uniform_g3_blk",{{"ACE_MapTools",1},{"ACE_EarPlugs",1},{"ACE_EntrenchingTool",1},{"ACE_CableTie",12},{"ACE_Flashlight_XL50",1},{"ACE_IR_Strobe_Item",2},{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",1,30}}},{"V_PlateCarrier2_blk",{{"ACE_bodyBag",2},{"rhsusf_mag_17Rnd_9x19_FMJ",5,17},{"rhs_mag_m441_HE",3,1},{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",8,30}}},{"tfw_ilbe_DD_gr",{{"ACE_quikclot",10},{"ACE_elasticBandage",10},{"ACE_fieldDressing",10},{"ACE_epinephrine",3},{"ACE_morphine",3},{"ACE_salineIV_500",2},{"ACE_Banana",3},{"ACE_packingBandage",1},{"ACE_Chemlight_HiGreen",5,1},{"SmokeShellYellow",2,1},{"SmokeShellRed",2,1},{"SmokeShellPurple",2,1},{"SmokeShellOrange",2,1},{"SmokeShellGreen",1,1},{"ACE_HandFlare_White",1,1}}},"rhsusf_opscore_bk","VSM_Balaclava2_black_Peltor_Goggles",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter",""}};
 
 
 		class EventHandlers : EventHandlers {
@@ -304,8 +304,8 @@ class CfgVehicles {
 
 		uniformClass = "rhs_uniform_g3_blk";
 
-		linkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","TFAR_microdagr","NVGoggles_mas_nor_hv"};
-		respawnlinkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","TFAR_microdagr","NVGoggles_mas_nor_hv"};
+		linkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter","NVGoggles_mas_nor_hv"};
+		respawnlinkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter","NVGoggles_mas_nor_hv"};
 
 		weapons[] = {"arifle_SPAR_03_blk_F","Laserdesignator_01_khk_F"};
 		respawnWeapons[] = {"arifle_SPAR_03_blk_F","Laserdesignator_01_khk_F"};
@@ -315,7 +315,7 @@ class CfgVehicles {
 
 		backpack = "B_ViperLightHarness_blk_F";
 
-		ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_03_blk_F","","","optic_DMS",{"20Rnd_762x51_Mag",20},{},""},{},{},{"rhs_uniform_g3_blk",{{"ACE_MapTools",1},{"ACE_EarPlugs",1},{"ACE_EntrenchingTool",1},{"ACE_CableTie",12},{"ACE_Flashlight_XL50",1},{"ACE_IR_Strobe_Item",2}}},{"V_PlateCarrier2_blk",{{"ACE_bodyBag",2},{"rhsusf_mag_17Rnd_9x19_FMJ",5,17},{"20Rnd_762x51_Mag",7,20}}},{"B_ViperLightHarness_blk_F",{{"ACE_quikclot",10},{"ACE_elasticBandage",10},{"ACE_fieldDressing",10},{"ACE_epinephrine",3},{"ACE_morphine",3},{"ACE_salineIV_500",2},{"ACE_Banana",3},{"ACE_packingBandage",10},{"rhs_mag_mk84",5,1},{"ACE_Chemlight_HiGreen",6,1},{"SmokeShell",8,1},{"SmokeShellBlue",2,1},{"SmokeShellGreen",2,1},{"SmokeShellRed",2,1}}},"rhsusf_opscore_bk","VSM_Balaclava2_black_Peltor_Goggles",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","TFAR_microdagr","NVGoggles_mas_nor_hv"}};
+		ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_03_blk_F","","","optic_DMS",{"20Rnd_762x51_Mag",20},{},""},{},{},{"rhs_uniform_g3_blk",{{"ACE_MapTools",1},{"ACE_EarPlugs",1},{"ACE_EntrenchingTool",1},{"ACE_CableTie",12},{"ACE_Flashlight_XL50",1},{"ACE_IR_Strobe_Item",2}}},{"V_PlateCarrier2_blk",{{"ACE_bodyBag",2},{"rhsusf_mag_17Rnd_9x19_FMJ",5,17},{"20Rnd_762x51_Mag",7,20}}},{"B_ViperLightHarness_blk_F",{{"ACE_quikclot",10},{"ACE_elasticBandage",10},{"ACE_fieldDressing",10},{"ACE_epinephrine",3},{"ACE_morphine",3},{"ACE_salineIV_500",2},{"ACE_Banana",3},{"ACE_packingBandage",10},{"rhs_mag_mk84",5,1},{"ACE_Chemlight_HiGreen",6,1},{"SmokeShell",8,1},{"SmokeShellBlue",2,1},{"SmokeShellGreen",2,1},{"SmokeShellRed",2,1}}},"rhsusf_opscore_bk","VSM_Balaclava2_black_Peltor_Goggles",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter","NVGoggles_mas_nor_hv"}};
 
 
 		class EventHandlers : EventHandlers {
@@ -345,8 +345,8 @@ class CfgVehicles {
 
 		uniformClass = "rhs_uniform_g3_blk";
 
-		linkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","TFAR_microdagr"};
-		respawnlinkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","TFAR_microdagr"};
+		linkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter"};
+		respawnlinkedItems[] = {"V_PlateCarrier2_blk","rhsusf_opscore_bk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter"};
 
 		weapons[] = {"rhs_weap_m249","Laserdesignator_01_khk_F"};
 		respawnWeapons[] = {"rhs_weap_m249","Laserdesignator_01_khk_F"};
@@ -356,7 +356,7 @@ class CfgVehicles {
 
 		backpack = "B_ViperHarness_blk_F";
 
-		ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m249","","","optic_Hamr",{"rhsusf_200Rnd_556x45_box",100},{},""},{},{},{"rhs_uniform_g3_blk",{{"ACE_MapTools",1},{"ACE_EarPlugs",1},{"ACE_EntrenchingTool",1},{"ACE_CableTie",12},{"ACE_Flashlight_XL50",1},{"ACE_IR_Strobe_Item",2}}},{"V_PlateCarrier2_blk",{{"ACE_bodyBag",2},{"rhsusf_mag_17Rnd_9x19_FMJ",4,17},{"rhsusf_100Rnd_762x51_m61_ap",3,100}}},{"B_ViperHarness_blk_F",{{"ACE_quikclot",10},{"ACE_elasticBandage",10},{"ACE_fieldDressing",10},{"ACE_epinephrine",3},{"ACE_morphine",3},{"ACE_salineIV_500",2},{"ACE_Banana",3},{"ACE_packingBandage",10},{"rhs_mag_mk84",5,1},{"ACE_Chemlight_HiGreen",6,1},{"SmokeShell",8,1},{"SmokeShellBlue",2,1},{"SmokeShellGreen",2,1},{"SmokeShellRed",2,1},{"rhsusf_100Rnd_762x51_m61_ap",4,100}}},"rhsusf_opscore_bk","VSM_Balaclava2_black_Peltor_Goggles",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","TFAR_microdagr",""}};
+		ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m249","","","optic_Hamr",{"rhsusf_200Rnd_556x45_box",100},{},""},{},{},{"rhs_uniform_g3_blk",{{"ACE_MapTools",1},{"ACE_EarPlugs",1},{"ACE_EntrenchingTool",1},{"ACE_CableTie",12},{"ACE_Flashlight_XL50",1},{"ACE_IR_Strobe_Item",2}}},{"V_PlateCarrier2_blk",{{"ACE_bodyBag",2},{"rhsusf_mag_17Rnd_9x19_FMJ",4,17},{"rhsusf_100Rnd_762x51_m61_ap",3,100}}},{"B_ViperHarness_blk_F",{{"ACE_quikclot",10},{"ACE_elasticBandage",10},{"ACE_fieldDressing",10},{"ACE_epinephrine",3},{"ACE_morphine",3},{"ACE_salineIV_500",2},{"ACE_Banana",3},{"ACE_packingBandage",10},{"rhs_mag_mk84",5,1},{"ACE_Chemlight_HiGreen",6,1},{"SmokeShell",8,1},{"SmokeShellBlue",2,1},{"SmokeShellGreen",2,1},{"SmokeShellRed",2,1},{"rhsusf_100Rnd_762x51_m61_ap",4,100}}},"rhsusf_opscore_bk","VSM_Balaclava2_black_Peltor_Goggles",{"Laserdesignator_01_khk_F","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter",""}};
 
 
 		class EventHandlers : EventHandlers {
