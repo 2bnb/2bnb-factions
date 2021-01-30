@@ -58,8 +58,8 @@ class CfgVehicles {
 	//////////////
 	// Mk19 GMG //
 	//////////////
-	class RHS_MK19_TriPod_USMC_WD;
-	class BNB_FA_NAF_Static_GMG_Arctic : RHS_MK19_TriPod_USMC_WD {
+	class RHS_MK19_TriPod_WD;
+	class BNB_FA_NAF_Static_GMG_Arctic : RHS_MK19_TriPod_WD {
 		author = "Arend";
 		displayName = "Mk19 GMG";
 		editorSubcategory = "BNB_FA_NAF_Statics";
@@ -83,8 +83,8 @@ class CfgVehicles {
 	/////////
 	// TOW //
 	/////////
-	class RHS_TOW_TriPod_base;
-	class BNB_FA_NAF_Static_TOW_Arctic : RHS_TOW_TriPod_base {
+	class RHS_TOW_TriPod_WD;
+	class BNB_FA_NAF_Static_TOW_Arctic : RHS_TOW_TriPod_WD {
 		author = "Arend";
 		displayName = "TOW";
 		editorSubcategory = "BNB_FA_NAF_Statics";
