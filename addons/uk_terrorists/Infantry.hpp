@@ -119,13 +119,13 @@ class CfgVehicles {
 	class O_Soldier_F_OCimport_01 : O_Soldier_F { scope = 0; class EventHandlers; };
 	class O_Soldier_F_OCimport_02 : O_Soldier_F_OCimport_01 { class EventHandlers; editorSubcategory = "rhs_EdSubcat_infantry"; };
 
-	class rhsgref_ins_medic;
-	class rhsgref_ins_medic_OCimport_01 : rhsgref_ins_medic { scope = 0; class EventHandlers; };
-	class rhsgref_ins_medic_OCimport_02 : rhsgref_ins_medic_OCimport_01 { class EventHandlers; editorSubcategory = "rhs_EdSubcat_infantry"; };
+	class O_medic_F;
+	class O_medic_F_OCimport_01 : O_medic_F { scope = 0; class EventHandlers; };
+	class O_medic_F_OCimport_02 : O_medic_F_OCimport_01 { class EventHandlers; editorSubcategory = "rhs_EdSubcat_infantry"; };
 
-	class rhsgref_ins_grenadier_rpg;
-	class rhsgref_ins_grenadier_rpg_OCimport_01 : rhsgref_ins_grenadier_rpg { scope = 0; class EventHandlers; };
-	class rhsgref_ins_grenadier_rpg_OCimport_02 : rhsgref_ins_grenadier_rpg_OCimport_01 { class EventHandlers; editorSubcategory = "rhs_EdSubcat_infantry"; };
+	class O_Soldier_LAT_F;
+	class O_Soldier_LAT_F_OCimport_01 : O_Soldier_LAT_F { scope = 0; class EventHandlers; };
+	class O_Soldier_LAT_F_OCimport_02 : O_Soldier_LAT_F_OCimport_01 { class EventHandlers; editorSubcategory = "rhs_EdSubcat_infantry"; };
 
 
 	class BNB_FA_UKTerrorists_Rifleman : O_Soldier_F_OCimport_02 {
@@ -169,7 +169,7 @@ class CfgVehicles {
 
 	};
 
-	class BNB_FA_UKTerrorists_Medic : rhsgref_ins_medic_OCimport_02 {
+	class BNB_FA_UKTerrorists_Medic : O_medic_F_OCimport_02 {
 		author = "Maj. Ford";
 		scope = 2;
 		scopeCurator = 2;
@@ -209,7 +209,7 @@ class CfgVehicles {
 
 	};
 
-	class BNB_FA_UKTerrorists_AT : rhsgref_ins_grenadier_rpg_OCimport_02 {
+	class BNB_FA_UKTerrorists_AT : O_Soldier_LAT_F_OCimport_02 {
 		side = 0;
 		faction = "BNB_FA_UKTerrorists";
 		author = "Maj. Ford";

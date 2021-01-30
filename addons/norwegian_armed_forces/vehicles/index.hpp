@@ -127,7 +127,7 @@ class _xx_BNB_FA_NAF_Survival_Backpack { \
 #include "C130J.hpp"
 #include "H6.hpp"
 #include "JAS39.hpp"
-#include "UH1H.hpp"
+// #include "UH1H.hpp" // Requires RHS GREF
 #include "UH60.hpp"
 
 // Artillery

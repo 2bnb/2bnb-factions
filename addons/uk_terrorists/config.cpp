@@ -15,8 +15,7 @@ class CfgPatches {
 		// Addon requirements
 		requiredVersion = 2.00;
 		requiredAddons[] = {
-			"A3_Characters_F",
-			"rhsgref_c_troops"
+			"A3_Characters_F"
 		};
 
 		// Addon items

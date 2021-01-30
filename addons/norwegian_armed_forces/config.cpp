@@ -18,17 +18,28 @@ class CfgPatches {
 		// Addon requirements
 		requiredVersion = 2.00;
 		requiredAddons[] = {
-			"A3_Armor_F_EPB_APC_Tracked_03",
-			"A3_Armor_F_EPB_MBT_03",
-			"rhs_c_mig29",
-			"A3_Air_F_EPC_Plane_CAS_01",
 			"ace_repair",
 			"bnb_ex_gear",
 			"mas_nor_lite_common",
 			"niarms_416",
 			"hlcweapons_g3",
 			"tfw_radios_ilbe",
-			"rhsgref_c_air"
+			"UH60SFX",
+			"rhsusf_c_stryker",
+			"A3_Soft_F_Gamma",
+			"A3_Soft_F_Beta",
+			"ace_compat_rhs_usf3",
+			"rhsusf_c_m113",
+			"A3_Air_F_Jets",
+			"rhsusf_c_m11xx",
+			"rhsusf_vehicles",
+			"rhsusf_c_melb",
+			"A3_Characters_F",
+			"A3_Armor_F_EPB",
+			"RC130SFX",
+			"RHS_US_A2_AirImport",
+			"rhsusf_c_statics",
+			"A3_Static_F"
 		};
 
 		// Addon items
@@ -305,13 +316,13 @@ class CfgPatches {
 			"BNB_FA_NAF_JAS_39_Gripen_Desert",
 			"BNB_FA_NAF_JAS_39_Gripen_Woodland",
 
-			// UH-1H
-			"BNB_FA_NAF_Huey_Transport_Arctic",
-			"BNB_FA_NAF_Huey_Transport_Desert",
-			"BNB_FA_NAF_Huey_Transport_Woodland",
-			"BNB_FA_NAF_Huey_Gunship_Arctic",
-			"BNB_FA_NAF_Huey_Gunship_Desert",
-			"BNB_FA_NAF_Huey_Gunship_Woodland",
+			// UH-1H // All require RHS GREF
+			// "BNB_FA_NAF_Huey_Transport_Arctic",
+			// "BNB_FA_NAF_Huey_Transport_Desert",
+			// "BNB_FA_NAF_Huey_Transport_Woodland",
+			// "BNB_FA_NAF_Huey_Gunship_Arctic",
+			// "BNB_FA_NAF_Huey_Gunship_Desert",
+			// "BNB_FA_NAF_Huey_Gunship_Woodland",
 
 			// UH-60
 			"BNB_FA_NAF_Blackhawk_Arctic",
