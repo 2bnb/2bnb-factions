@@ -24,7 +24,6 @@ class CfgPatches {
 			"niarms_416",
 			"hlcweapons_g3",
 			"tfw_radios_ilbe",
-			"UH60SFX",
 			"rhsusf_c_stryker",
 			"A3_Soft_F_Gamma",
 			"A3_Soft_F_Beta",
@@ -36,7 +35,6 @@ class CfgPatches {
 			"rhsusf_c_melb",
 			"A3_Characters_F",
 			"A3_Armor_F_EPB",
-			"RC130SFX",
 			"RHS_US_A2_AirImport",
 			"rhsusf_c_statics",
 			"A3_Static_F"

@@ -655,26 +655,26 @@ class CfgGroups {
 					};
 				};
 
-				class BNB_FA_NAF_Air_Huey_CAS_Section {
-					name = "Huey CAS Section";
-					side = 1;
-					faction = "BNB_FA_NAF_Arctic";
-					icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
-					rarityGroup = 0.5;
+				// class BNB_FA_NAF_Air_Huey_CAS_Section {
+				// 	name = "Huey CAS Section";
+				// 	side = 1;
+				// 	faction = "BNB_FA_NAF_Arctic";
+				// 	icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
+				// 	rarityGroup = 0.5;
 
-					class Unit0 {
-						position[] = {0,0,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_NAF_Huey_Gunship_Arctic";
-					};
-					class Unit1 {
-						position[] = {17,-21,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_NAF_Huey_Gunship_Arctic";
-					};
-				};
+				// 	class Unit0 {
+				// 		position[] = {0,0,0};
+				// 		rank = "SERGEANT";
+				// 		side = 1;
+				// 		vehicle = "BNB_FA_NAF_Huey_Gunship_Arctic";
+				// 	};
+				// 	class Unit1 {
+				// 		position[] = {17,-21,0};
+				// 		rank = "PRIVATE";
+				// 		side = 1;
+				// 		vehicle = "BNB_FA_NAF_Huey_Gunship_Arctic";
+				// 	};
+				// };
 
 				class BNB_FA_NAF_Air_Fighter_Section {
 					name = "Fighter Section";
@@ -1216,26 +1216,26 @@ class CfgGroups {
 					};
 				};
 
-				class BNB_FA_NAF_Air_Huey_CAS_Section {
-					name = "Huey CAS Section";
-					side = 1;
-					faction = "BNB_FA_NAF_Desert";
-					icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
-					rarityGroup = 0.5;
+				// class BNB_FA_NAF_Air_Huey_CAS_Section {
+				// 	name = "Huey CAS Section";
+				// 	side = 1;
+				// 	faction = "BNB_FA_NAF_Desert";
+				// 	icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
+				// 	rarityGroup = 0.5;
 
-					class Unit0 {
-						position[] = {0,0,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_NAF_Huey_Gunship_Desert";
-					};
-					class Unit1 {
-						position[] = {17,-21,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_NAF_Huey_Gunship_Desert";
-					};
-				};
+				// 	class Unit0 {
+				// 		position[] = {0,0,0};
+				// 		rank = "SERGEANT";
+				// 		side = 1;
+				// 		vehicle = "BNB_FA_NAF_Huey_Gunship_Desert";
+				// 	};
+				// 	class Unit1 {
+				// 		position[] = {17,-21,0};
+				// 		rank = "PRIVATE";
+				// 		side = 1;
+				// 		vehicle = "BNB_FA_NAF_Huey_Gunship_Desert";
+				// 	};
+				// };
 
 				class BNB_FA_NAF_Air_Fighter_Section {
 					name = "Fighter Section";
@@ -1777,26 +1777,26 @@ class CfgGroups {
 					};
 				};
 
-				class BNB_FA_NAF_Air_Huey_CAS_Section {
-					name = "Huey CAS Section";
-					side = 1;
-					faction = "BNB_FA_NAF_Woodland";
-					icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
-					rarityGroup = 0.5;
+				// class BNB_FA_NAF_Air_Huey_CAS_Section {
+				// 	name = "Huey CAS Section";
+				// 	side = 1;
+				// 	faction = "BNB_FA_NAF_Woodland";
+				// 	icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
+				// 	rarityGroup = 0.5;
 
-					class Unit0 {
-						position[] = {0,0,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_NAF_Huey_Gunship_Woodland";
-					};
-					class Unit1 {
-						position[] = {17,-21,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_NAF_Huey_Gunship_Woodland";
-					};
-				};
+				// 	class Unit0 {
+				// 		position[] = {0,0,0};
+				// 		rank = "SERGEANT";
+				// 		side = 1;
+				// 		vehicle = "BNB_FA_NAF_Huey_Gunship_Woodland";
+				// 	};
+				// 	class Unit1 {
+				// 		position[] = {17,-21,0};
+				// 		rank = "PRIVATE";
+				// 		side = 1;
+				// 		vehicle = "BNB_FA_NAF_Huey_Gunship_Woodland";
+				// 	};
+				// };
 
 				class BNB_FA_NAF_Air_Fighter_Section {
 					name = "Fighter Section";
