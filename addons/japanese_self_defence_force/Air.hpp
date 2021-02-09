@@ -9,13 +9,10 @@ class CfgVehicles {
 		displayName = "CH-47F Chinook";
 		side = 1;
 		faction = "BNB_FA_Japanese_Self_Defence_Force";
-		crew = "BNB_FA_JSDF_Section_Leader";
-		typicalCargo[] = {
-			"BNB_FA_JSDF_Rifleman"
-		};
+		crew = "";
+		typicalCargo[] = {""};
 
-		hiddenSelectionsTextures[] =
-		{
+		hiddenSelectionsTextures[] = {
 			"\x\bnb_fa\jparmy\data\textures\ch47_ext_1_co.paa",
 			"\x\bnb_fa\jparmy\data\textures\ch47_ext_2_co.paa",
 			"\x\bnb_fa\jparmy\data\textures\ch47f_nalepky_ca.paa",
@@ -60,13 +57,10 @@ class CfgVehicles {
 		displayName = "AH-64D Apache";
 		side = 1;
 		faction = "BNB_FA_Japanese_Self_Defence_Force";
-		crew = "BNB_FA_JSDF_Section_Leader";
-		typicalCargo[] = {
-			"BNB_FA_JSDF_Rifleman"
-		};
+		crew = "";
+		typicalCargo[] = {""};
 
-		hiddenSelectionsTextures[] =
-		{
+		hiddenSelectionsTextures[] = {
 			"\x\bnb_fa\jparmy\data\textures\ah64d_body_co.paa",
 			"\rhsusf\addons\rhsusf_a2port_air\ah64\data\ah64d_details_co.paa",
 			"\x\bnb_fa\jparmy\data\textures\ah64d_alfa_ca.paa"
@@ -100,10 +94,8 @@ class CfgVehicles {
 		displayName = "OH-6M";
 		side = 1;
 		faction = "BNB_FA_Japanese_Self_Defence_Force";
-		crew = "BNB_FA_JSDF_Section_Leader";
-		typicalCargo[] = {
-			"BNB_FA_JSDF_Combat_Life_Saver"
-		};
+		crew = "";
+		typicalCargo[] = {""};
 
 
 		class EventHandlers : EventHandlers {

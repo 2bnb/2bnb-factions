@@ -26,14 +26,14 @@ class CfgPatches {
 
 		// Addon items
 		units[] = {
-			"BNB_FA_JSDF_Section_Leader",
-			"BNB_FA_JSDF_Team_Leader",
-			"BNB_FA_JSDF_Combat_Life_Saver",
-			"BNB_FA_JSDF_Rifleman",
-			"BNB_FA_JSDF_LMG_762",
-			"BNB_FA_JSDF_LMG_556",
-			"BNB_FA_JSDF_Anti_Tank",
-			"BNB_FA_JSDF_Marksman",
+			// "BNB_FA_JSDF_Section_Leader",
+			// "BNB_FA_JSDF_Team_Leader",
+			// "BNB_FA_JSDF_Combat_Life_Saver",
+			// "BNB_FA_JSDF_Rifleman",
+			// "BNB_FA_JSDF_LMG_762",
+			// "BNB_FA_JSDF_LMG_556",
+			// "BNB_FA_JSDF_Anti_Tank",
+			// "BNB_FA_JSDF_Marksman",
 			"BNB_FA_JSDF_M113A3_M2",
 			"BNB_FA_JSDF_Type_89_MBT",
 			"BNB_FA_JSDF_Type_10_IFV",
@@ -59,6 +59,6 @@ class CfgFactionClasses {
 	};
 };
 
-#include "Infantry.hpp"
+// #include "Infantry.hpp"
 #include "Vehicles.hpp"
 #include "Air.hpp"
