@@ -339,6 +339,18 @@ class CfgPatches {
 			"BNB_FA_NAF_Static_HMG_Low_Desert",
 			"BNB_FA_NAF_Static_HMG_Low_Woodland",
 
+			"BNB_FA_NAF_Static_HMG_High_Shield_Arctic",
+			"BNB_FA_NAF_Static_HMG_High_Shield_Desert",
+			"BNB_FA_NAF_Static_HMG_High_Shield_Woodland",
+
+			"BNB_FA_NAF_Static_HMG_Low_Shield_Arctic",
+			"BNB_FA_NAF_Static_HMG_Low_Shield_Desert",
+			"BNB_FA_NAF_Static_HMG_Low_Shield_Woodland",
+
+			"BNB_FA_NAF_Static_AA_Arctic",
+			"BNB_FA_NAF_Static_AA_Desert",
+			"BNB_FA_NAF_Static_AA_Woodland",
+
 			"BNB_FA_NAF_Static_GMG_Arctic",
 			"BNB_FA_NAF_Static_GMG_Desert",
 			"BNB_FA_NAF_Static_GMG_Woodland",
