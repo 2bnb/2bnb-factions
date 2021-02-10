@@ -125,6 +125,7 @@ class _xx_BNB_FA_NAF_Survival_Backpack { \
 #include "A10.hpp"
 #include "Bell_412.hpp"
 #include "C130J.hpp"
+#include "CH47.hpp"
 #include "H6.hpp"
 #include "JAS39.hpp"
 // #include "UH1H.hpp" // Requires RHS GREF

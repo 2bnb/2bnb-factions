@@ -131,6 +131,50 @@ class CfgVehicles {
 		textureList[] = {"Olive", 1};
 	};
 
+	////////////////
+	// TOW Humvee //
+	////////////////
+	class rhsusf_m1045_w;
+	class BNB_FA_NAF_Humvee_TOW_Arctic : rhsusf_m1045_w {
+		author = "Arend";
+		displayName = "Humvee (TOW)";
+		faction = "BNB_FA_NAF_Arctic";
+		crew = "BNB_FA_NAF_Rifleman_Arctic";
+		typicalCargo[] = { "BNB_FA_NAF_Rifleman_Arctic" };
+		textureList[] = {"Olive", 1};
+		animationList[] = {"hide_CIP", 1};
+
+		class TransportMagazines {
+			VEHICLE_MAGAZINES
+		};
+
+		class TransportWeapons {
+			VEHICLE_WEAPONS
+		};
+
+		class TransportItems {
+			VEHICLE_ITEMS
+		};
+
+		class TransportBackpacks {
+			VEHICLE_BACKPACKS
+		};
+	};
+
+	class BNB_FA_NAF_Humvee_TOW_Desert : BNB_FA_NAF_Humvee_TOW_Arctic {
+		faction = "BNB_FA_NAF_Desert";
+		crew = "BNB_FA_NAF_Rifleman_Desert";
+		typicalCargo[] = { "BNB_FA_NAF_Rifleman_Desert" };
+		textureList[] = {"Desert", 1};
+	};
+
+	class BNB_FA_NAF_Humvee_TOW_Woodland : BNB_FA_NAF_Humvee_TOW_Arctic {
+		faction = "BNB_FA_NAF_Woodland";
+		crew = "BNB_FA_NAF_Rifleman_Woodland";
+		typicalCargo[] = { "BNB_FA_NAF_Rifleman_Woodland" };
+		textureList[] = {"Olive", 1};
+	};
+
 	/////////////////////
 	// Armoured Humvee //
 	/////////////////////

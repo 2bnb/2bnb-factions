@@ -174,6 +174,10 @@ class CfgPatches {
 			"BNB_FA_NAF_Humvee_Mk19_Desert",
 			"BNB_FA_NAF_Humvee_Mk19_Woodland",
 
+			"BNB_FA_NAF_Humvee_TOW_Arctic",
+			"BNB_FA_NAF_Humvee_TOW_Desert",
+			"BNB_FA_NAF_Humvee_TOW_Woodland",
+
 			"BNB_FA_NAF_Armoured_Humvee_Arctic",
 			"BNB_FA_NAF_Armoured_Humvee_Desert",
 			"BNB_FA_NAF_Armoured_Humvee_Woodland",
@@ -326,6 +330,15 @@ class CfgPatches {
 			"BNB_FA_NAF_Blackhawk_Arctic",
 			"BNB_FA_NAF_Blackhawk_Desert",
 			"BNB_FA_NAF_Blackhawk_Woodland",
+
+			// CH-47
+			"BNB_FA_NAF_Chinook_Arctic",
+			"BNB_FA_NAF_Chinook_Desert",
+			"BNB_FA_NAF_Chinook_Woodland",
+
+			"BNB_FA_NAF_Chinook_Cargo_Arctic",
+			"BNB_FA_NAF_Chinook_Cargo_Desert",
+			"BNB_FA_NAF_Chinook_Cargo_Woodland",
 
 
 			/////////////
