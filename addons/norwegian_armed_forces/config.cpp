@@ -371,12 +371,6 @@ class CfgPatches {
 			"BNB_FA_NAF_Static_TOW_Arctic",
 			"BNB_FA_NAF_Static_TOW_Desert",
 			"BNB_FA_NAF_Static_TOW_Woodland",
-
-
-			// Misc
-			"BNB_FA_NAF_Blackhawk_Woodland",
-			"BNB_FA_NAF_Littlebird_CAS_Woodland",
-			"BNB_FA_NAF_JAS_39_Gripen_Woodland",
 		};
 		weapons[] = {};
 		magazines[] = {};
