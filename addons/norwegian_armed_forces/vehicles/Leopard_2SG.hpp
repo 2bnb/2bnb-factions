@@ -166,7 +166,6 @@ class CfgVehicles {
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Leopard 2SG (Kompis)";
-		side = 0;
 		faction = "BNB_FA_NAF_Woodland";
 		crew = "BNB_FA_NAF_Crew_Woodland";
 		typicalCargo[] = { "BNB_FA_NAF_Crew_Woodland" };
