@@ -100,6 +100,7 @@ class CfgVehicles {
 			"showSLATHull", 0.5,
 			"showSLATTurret", 0.5
 		};
+		transportSoldier = 8;
 
 		class Turrets : Turrets {
 			class MainTurret : MainTurret {
