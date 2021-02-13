@@ -10,26 +10,88 @@ class Extended_InitPost_EventHandlers {
 ///////////////
 class CfgAmmo {
 	class rhs_ammo_3uor6;
-	class BNB_FA_NAF_30mm_MP_Tracer_Yellow : rhs_ammo_3uor6 {
+	class BNB_FA_NAF_40mm_MP : rhs_ammo_3uor6 {
 		indirectHit = 8;
 		indirectHitRange = 2;
 		displayName = "HEI-T";
+		model = "";
+	};
+
+	class BNB_FA_NAF_40mm_MP_Tracer_Yellow : BNB_FA_NAF_40mm_MP {
+		model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+	};
+
+	class BNB_FA_NAF_40mm_MP_Tracer_Red : BNB_FA_NAF_40mm_MP {
+		model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+	};
+
+	class BNB_FA_NAF_40mm_MP_Tracer_Green : BNB_FA_NAF_40mm_MP {
+		model = "\A3\Weapons_f\Data\bullettracer\tracer_green";
+	};
+
+	class B_40mm_APFSDS;
+	class BNB_FA_NAF_40mm_APFSDS : B_40mm_APFSDS {
+		model = "";
 	};
 };
 
 class CfgMagazines {
+	class 40Rnd_40mm_APFSDS_shells;
+	class BNB_FA_NAF_48Rnd_40mm_APFSDS_shells : 40Rnd_40mm_APFSDS_shells {
+		displayName = "40mm APFSDS";
+		displayNameMFDFormat = "APFSDS";
+		count = 48;
+	};
+
+	class 40Rnd_40mm_APFSDS_Tracer_Green_shells;
+	class BNB_FA_NAF_48Rnd_40mm_APFSDS_Tracer_Green_shells : 40Rnd_40mm_APFSDS_Tracer_Green_shells {
+		displayName = "40mm APFSDS-T (Green)";
+		count = 48;
+	};
+
+	class 40Rnd_40mm_APFSDS_Tracer_Red_shells;
+	class BNB_FA_NAF_48Rnd_40mm_APFSDS_Tracer_Red_shells : 40Rnd_40mm_APFSDS_Tracer_Red_shells {
+		displayName = "40mm APFSDS-T (Red)";
+		count = 48;
+	};
+
+	class 40Rnd_40mm_APFSDS_Tracer_Yellow_shells;
+	class BNB_FA_NAF_48Rnd_40mm_APFSDS_Tracer_Yellow_shells : 40Rnd_40mm_APFSDS_Tracer_Yellow_shells {
+		displayName = "40mm APFSDS-T (Yellow)";
+		count = 48;
+	};
+
 	class rhs_mag_3uor6_125;
-	class BNB_FA_NAF_80Rnd_30mm_MP_shells_Tracer_Yellow : rhs_mag_3uor6_125 {
-		ammo = "BNB_FA_NAF_30mm_MP_Tracer_Yellow";
-		displayName = "MP-T";
-		displayNameShort = "MP-T";
-		count = 80;
+	class BNB_FA_NAF_48Rnd_40mm_MP_shells : rhs_mag_3uor6_125 {
+		ammo = "BNB_FA_NAF_40mm_MP";
+		displayName = "40mm MP";
+		displayNameMFDFormat = "MP";
+		displayNameShort = "40mm MP";
+		count = 48;
+		tracersEvery = 3;
+	};
+
+	class BNB_FA_NAF_48Rnd_40mm_MP_Tracer_Green_shells : BNB_FA_NAF_48Rnd_40mm_MP_shells {
+		ammo = "BNB_FA_NAF_40mm_MP_Tracer_Green";
+		displayName = "40mm MP-T (Green)";
+		displayNameMFDFormat = "MP-T";
+		displayNameShort = "40mm MP-T";
+	};
+
+	class BNB_FA_NAF_48Rnd_40mm_MP_Tracer_Red_shells : BNB_FA_NAF_48Rnd_40mm_MP_Tracer_Green_shells {
+		ammo = "BNB_FA_NAF_40mm_MP_Tracer_Red";
+		displayName = "40mm MP-T (Red)";
+	};
+
+	class BNB_FA_NAF_48Rnd_40mm_MP_Tracer_Yellow_shells : BNB_FA_NAF_48Rnd_40mm_MP_Tracer_Green_shells {
+		ammo = "BNB_FA_NAF_40mm_MP_Tracer_Yellow";
+		displayName = "40mm MP-T (Yellow)";
 	};
 
 	class 200Rnd_762x51_Belt;
 	class BNB_FA_NAF_200rnd_762_fnmag_coax : 200Rnd_762x51_Belt {
-		displayName = "200rnd 762x51";
 		ammo = "B_762x51_Ball";
+		displayName = "200rnd 762x51";
 		count = 200;
 	};
 };
@@ -40,23 +102,43 @@ class CfgMagazines {
 class CfgWeapons {
 	class player;
 	class MGun;
+	class AP;
+	class HE;
 
 	class autocannon_30mm;
-	class BNB_FA_NAF_30mm_bushmastermk2 : autocannon_30mm {
-		class player : player {
-			reloadTime = 0.3;
+	class BNB_FA_NAF_40mm_boforsl70 : autocannon_30mm {
+		muzzles[] = {"HE", "AP"};
+		displayName = "Bofors L/70";
+
+		class AP : AP {
+			displayName = "Bofors L/70";
+			magazines[] = {
+				"BNB_FA_NAF_48Rnd_40mm_APFSDS_shells",
+				"BNB_FA_NAF_48Rnd_40mm_APFSDS_Tracer_Green_shells",
+				"BNB_FA_NAF_48Rnd_40mm_APFSDS_Tracer_Red_shells",
+				"BNB_FA_NAF_48Rnd_40mm_APFSDS_Tracer_Yellow_shells"
+			};
+			magazineReloadTime = 4;
+
+			class player : player {
+				reloadTime = 0.17;
+			};
 		};
-		muzzles[] = {"this"};
-		displayName = "Bushmaster II";
-		// magazineWell[] = {"RHS_AutoCannon_30mm_2A42_AP","RHS_AutoCannon_30mm_2A42_AP","BNB_FA_NAF_AutoCannon_30mm_2A42_HE"};
-		magazines[] = {
-			"60Rnd_30mm_APFSDS_shells",
-			"60Rnd_30mm_APFSDS_shells_Tracer_Red",
-			"60Rnd_30mm_APFSDS_shells_Tracer_Green",
-			"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
-			"BNB_FA_NAF_80Rnd_30mm_MP_shells_Tracer_Yellow"
+
+		class HE : HE {
+			displayName = "Bofors L/70";
+			magazines[] = {
+				"BNB_FA_NAF_48Rnd_40mm_MP_shells",
+				"BNB_FA_NAF_48Rnd_40mm_MP_Tracer_Green_shells",
+				"BNB_FA_NAF_48Rnd_40mm_MP_Tracer_Red_shells",
+				"BNB_FA_NAF_48Rnd_40mm_MP_Tracer_Yellow_shells"
+			};
+			magazineReloadTime = 4;
+
+			class player : player {
+				reloadTime = 0.17;
+			};
 		};
-		magazineReloadTime = 4;
 	};
 
 	class LMG_coax;
@@ -66,7 +148,6 @@ class CfgWeapons {
 		};
 		displayName = "FN MAG Coaxial";
 		magazines[] = {"BNB_FA_NAF_200rnd_762_fnmag_coax"};
-		//magazineReloadTime = 8 ;
 	};
 };
 
@@ -104,16 +185,18 @@ class CfgVehicles {
 
 		class Turrets : Turrets {
 			class MainTurret : MainTurret {
-				weapons[]={"BNB_FA_NAF_30mm_bushmastermk2","BNB_FA_NAF_fnmag_coax"};
+				weapons[]={"BNB_FA_NAF_40mm_boforsl70","BNB_FA_NAF_fnmag_coax"};
 				magazines[]= {
-					"BNB_FA_NAF_80Rnd_30mm_MP_shells_Tracer_Yellow",
-					"BNB_FA_NAF_80Rnd_30mm_MP_shells_Tracer_Yellow",
-					"BNB_FA_NAF_80Rnd_30mm_MP_shells_Tracer_Yellow",
-					"BNB_FA_NAF_80Rnd_30mm_MP_shells_Tracer_Yellow",
-					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
-					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
-					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
-					"60Rnd_30mm_APFSDS_shells_Tracer_Yellow",
+					"BNB_FA_NAF_48Rnd_40mm_MP_Tracer_Yellow_shells",
+					"BNB_FA_NAF_48Rnd_40mm_MP_Tracer_Yellow_shells",
+					"BNB_FA_NAF_48Rnd_40mm_MP_Tracer_Yellow_shells",
+					"BNB_FA_NAF_48Rnd_40mm_MP_Tracer_Yellow_shells",
+					"BNB_FA_NAF_48Rnd_40mm_MP_Tracer_Yellow_shells",
+					"BNB_FA_NAF_48Rnd_40mm_APFSDS_Tracer_Yellow_shells",
+					"BNB_FA_NAF_48Rnd_40mm_APFSDS_Tracer_Yellow_shells",
+					"BNB_FA_NAF_48Rnd_40mm_APFSDS_Tracer_Yellow_shells",
+					"BNB_FA_NAF_48Rnd_40mm_APFSDS_Tracer_Yellow_shells",
+					"BNB_FA_NAF_48Rnd_40mm_APFSDS_Tracer_Yellow_shells",
 					"BNB_FA_NAF_200rnd_762_fnmag_coax",
 					"BNB_FA_NAF_200rnd_762_fnmag_coax",
 					"BNB_FA_NAF_200rnd_762_fnmag_coax",
