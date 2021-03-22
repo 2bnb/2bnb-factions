@@ -77,7 +77,7 @@ class _xx_MRAWS_HEAT_F { \
 	count = 1; \
 };
 
-#define VEHICLE_AT_AMMO_EXTE \
+#define VEHICLE_AT_AMMO_EXTENDED \
 class _xx_MRAWS_HE_F { \
 	name = "MRAWS_HEAT_F"; \
 	count = 3; \
