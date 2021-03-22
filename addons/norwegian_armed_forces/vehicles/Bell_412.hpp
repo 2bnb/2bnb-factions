@@ -43,6 +43,7 @@ class CfgVehicles {
 
 		class TransportItems {
 			AIR_VEHICLE_ITEMS
+			VEHICLE_AT_AMMO
 		};
 
 		class TransportBackpacks {
@@ -89,6 +90,7 @@ class CfgVehicles {
 
 		class TransportItems {
 			AIR_VEHICLE_ITEMS
+			VEHICLE_AT_AMMO
 		};
 
 		class TransportBackpacks {

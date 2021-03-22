@@ -24,6 +24,7 @@ class CfgVehicles {
 
 		class TransportItems {
 			ARMOURED_VEHICLE_ITEMS
+			VEHICLE_AT_AMMO_EXTE
 		};
 
 		class TransportBackpacks {
@@ -70,6 +71,7 @@ class CfgVehicles {
 
 		class TransportItems {
 			ARMOURED_VEHICLE_ITEMS
+			VEHICLE_AT_AMMO_EXTE
 		};
 
 		class TransportBackpacks {
@@ -116,6 +118,7 @@ class CfgVehicles {
 
 		class TransportItems {
 			ARMOURED_VEHICLE_ITEMS
+			VEHICLE_AT_AMMO_EXTE
 		};
 
 		class TransportBackpacks {
@@ -162,6 +165,7 @@ class CfgVehicles {
 
 		class TransportItems {
 			ARMOURED_VEHICLE_ITEMS
+			VEHICLE_AT_AMMO_EXTE
 		};
 
 		class TransportBackpacks {
@@ -208,6 +212,7 @@ class CfgVehicles {
 
 		class TransportItems {
 			ARMOURED_VEHICLE_ITEMS
+			VEHICLE_AT_AMMO_EXTE
 		};
 
 		class TransportBackpacks {

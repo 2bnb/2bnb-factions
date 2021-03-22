@@ -32,13 +32,10 @@
 - [CBA A3](https://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
 - [RHS AFRF](https://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
 - [RHS USAF](https://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
-- [RHS GREF](https://steamcommunity.com/sharedfiles/filedetails/?id=843593391)
 - [NORSOF_LITE_mas](https://steamcommunity.com/sharedfiles/filedetails/?id=1654680843)
 - [NIArms HK416 Rifles](https://steamcommunity.com/sharedfiles/filedetails/?id=1519157834)
 - [NIArms G3 Rifles](https://steamcommunity.com/sharedfiles/filedetails/?id=667375637)
-- [Project OPFOR](https://steamcommunity.com/sharedfiles/filedetails/?id=735566597)
 - [ILBE Assault Pack - Rewrite](https://steamcommunity.com/sharedfiles/filedetails/?id=1875281645)
-- [MLO - All-in-one Collection](https://steamcommunity.com/sharedfiles/filedetails/?id=823636749)
 
 # Credits
 - Tittoffer and Martin M. from Norwegian Task Force for access to their assets made available to us with permission from the [NorwegianTaskForce Github](https://github.com/Tittoffer/NorwegianTaskForce/), which we then modified and built upon to make them our own

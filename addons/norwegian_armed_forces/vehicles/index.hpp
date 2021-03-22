@@ -65,7 +65,29 @@ class _xx_ACE_tourniquet { \
 class _xx_ACE_EarPlugs { \
 	name = "ACE_EarPlugs"; \
 	count = 5; \
+}; 
+
+#define VEHICLE_AT_AMMO \
+class _xx_MRAWS_HE_F { \
+	name = "MRAWS_HE_F"; \
+	count = 1; \
+}; \
+class _xx_MRAWS_HEAT_F { \
+	name = "MRAWS_HEAT_F"; \
+	count = 1; \
 };
+
+#define VEHICLE_AT_AMMO_EXTE \
+class _xx_MRAWS_HE_F { \
+	name = "MRAWS_HEAT_F"; \
+	count = 3; \
+}; \
+class _xx_MRAWS_HE_F { \
+	name = "MRAWS_HE_F"; \
+	count = 1; \
+};
+
+
 
 #define VEHICLE_BACKPACKS
 
@@ -86,7 +108,9 @@ class _xx_rhs_weap_fim92 { \
 	count = 1; \
 };
 
-#define ARMOURED_VEHICLE_ITEMS VEHICLE_ITEMS
+#define ARMOURED_VEHICLE_ITEMS \
+VEHICLE_ITEMS \
+
 
 #define ARMOURED_VEHICLE_BACKPACKS \
 class _xx_BNB_FA_NAF_Toolkit_Backpack { \
