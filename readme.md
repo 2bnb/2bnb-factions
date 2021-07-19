@@ -1,8 +1,8 @@
 <p align="center">
 	<img src="https://github.com/2bnb/2bnb-factions/blob/master/2BNB_Factions_Github.png" alt="2BNB Banner" />
 	<br />
-	<a href="https://github.com/2bnb/2bnb-factions/wiki">
-		<img src="https://img.shields.io/badge/2BNB%20Factions-Faction_Lists-orange.svg?style=for-the-badge&logo=github" alt="Wiki" />
+	<a href="https://github.com/2bnb/2bnb-extras/wiki">
+		<img src="https://img.shields.io/badge/2BNB%20Mods-Wiki-orange.svg?style=for-the-badge&logo=github" alt="Wiki" />
 	</a>
 	<a href="https://discord.gg/DRaWNyf">
 		<img src="https://img.shields.io/discord/532683310409842728.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge" alt="Discord Server">
