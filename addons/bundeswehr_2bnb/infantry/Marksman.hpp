@@ -21,6 +21,10 @@ class BNB_FA_BW2_Marksman_Tropen : BNB_FA_BW2_Rifleman_Tropen {
 	respawnLinkedItems[] = {"BWA3_Vest_Marksman_Tropen","BWA3_M92_Tropen","ItemMap","ItemCompass","ACE_Altimeter","TFAR_anprc152","ItemGPS"};
 };
 
+class BNB_FA_BW2_Marksman_Winter : BNB_FA_BW2_Marksman_Tropen {
+	faction = "BNB_FA_BW2_Winter";
+};
+
 class BNB_FA_BW2_Marksman_Multi : BNB_FA_BW2_Rifleman_Multi {
 	displayName = "Marksman";
 	// editorPreview = "\x\bnb_fa\norwegian_armed_forces\data\preview\BNB_FA_BW2_Marksman_Multi.jpg";

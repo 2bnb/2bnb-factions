@@ -24,6 +24,10 @@ class BNB_FA_BW2_Man_Tropen : BNB_FA_BW2_Man {
 	respawnLinkedItems[] = {"BWA3_Beret_Jaeger","ItemMap","ItemCompass","ItemWatch","ItemRadio","BWA3_ItemNaviPad"};
 };
 
+class BNB_FA_BW2_Man_Winter : BNB_FA_BW2_Man_Tropen {
+	faction = "BNB_FA_BW2_Winter";
+};
+
 class BNB_FA_BW2_Man_Multi : BNB_FA_BW2_Man_Tropen {
 	// editorPreview = "\x\bnb_fa\norwegian_armed_forces\data\preview\BNB_FA_BW2_Man_Multi.jpg";
 	faction = "BNB_FA_BW2_Multi";

@@ -27,6 +27,14 @@ class BNB_FA_BW2_2IC_Tropen : BNB_FA_BW2_1IC_Tropen {
 	icon = "iconManLeader";
 };
 
+class BNB_FA_BW2_1IC_Winter : BNB_FA_BW2_1IC_Tropen {
+	faction = "BNB_FA_BW2_Winter";
+};
+
+class BNB_FA_BW2_2IC_Winter : BNB_FA_BW2_2IC_Tropen {
+	faction = "BNB_FA_BW2_Winter";
+};
+
 class BNB_FA_BW2_1IC_Multi : BNB_FA_BW2_Rifleman_Multi {
 	displayName = "1IC";
 	// editorPreview = "\x\bnb_fa\norwegian_armed_forces\data\preview\BNB_FA_BW2_IC_2IC_Multi.jpg";

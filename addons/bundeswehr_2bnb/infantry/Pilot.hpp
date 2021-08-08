@@ -1,5 +1,4 @@
 class BNB_FA_BW2_Pilot_Tropen : BNB_FA_BW2_Man_Tropen {
-	author = "Jebby";
 	displayName = "Pilot";
 	// editorPreview = "\x\bnb_fa\norwegian_armed_forces\data\preview\BNB_FA_BW2_Pilot_Tropen.jpg";
 
@@ -22,8 +21,11 @@ class BNB_FA_BW2_Pilot_Tropen : BNB_FA_BW2_Man_Tropen {
 	respawnLinkedItems[] = {"BWA3_Knighthelm","ItemMap","ItemCompass","ACE_Altimeter","TFAR_anprc152","ItemGPS"};
 };
 
+class BNB_FA_BW2_Pilot_Winter : BNB_FA_BW2_Pilot_Tropen {
+	faction = "BNB_FA_BW2_Winter";
+};
+
 class BNB_FA_BW2_Pilot_Multi : BNB_FA_BW2_Man_Multi {
-	author = "Jebby";
 	displayName = "Pilot";
 	// editorPreview = "\x\bnb_fa\norwegian_armed_forces\data\preview\BNB_FA_BW2_Pilot_Multi.jpg";
 
@@ -47,7 +49,6 @@ class BNB_FA_BW2_Pilot_Multi : BNB_FA_BW2_Man_Multi {
 };
 
 class BNB_FA_BW2_Pilot_Fleck : BNB_FA_BW2_Man_Fleck {
-	author = "Jebby";
 	displayName = "Pilot";
 	// editorPreview = "\x\bnb_fa\norwegian_armed_forces\data\preview\BNB_FA_BW2_Pilot_Fleck.jpg";
 

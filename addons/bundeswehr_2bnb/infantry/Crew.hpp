@@ -21,6 +21,10 @@ class BNB_FA_BW2_Crew_Tropen : BNB_FA_BW2_Man_Tropen {
 	respawnLinkedItems[] = {"BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ACE_Altimeter","TFAR_anprc152","ItemGPS"};
 };
 
+class BNB_FA_BW2_Crew_Winter : BNB_FA_BW2_Crew_Tropen {
+	faction = "BNB_FA_BW2_Winter";
+};
+
 class BNB_FA_BW2_Crew_Multi : BNB_FA_BW2_Man_Multi {
 	displayName = "Crew";
 	// editorPreview = "\x\bnb_fa\norwegian_armed_forces\data\preview\BNB_FA_BW2_Crew_Multi.jpg";
