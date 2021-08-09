@@ -161,7 +161,9 @@ class _xx_BNB_FA_BW2_Survival_Backpack_##camo { \
 class CfgGroups {
 	class WEST {
 		class BNB_FA_BW2_Winter {
-			// Name of this class is specified in ../infantry/index.hpp
+			// Name of this class is specified in ../infantry/index.hpp, except
+			// winter which doesn't exist there
+			name = "Bundeswehr 2BNB (Winter)";
 			class Motorized {
 				name = "Motorized Infantry";
 
