@@ -222,8 +222,8 @@ class CfgGroups {
 					};
 				};
 
-				class BNB_FA_BW2_Motorized_Humvee_Section {
-					name = "Humvee Section";
+				class BNB_FA_BW2_Motorized_Eagle_Section {
+					name = "Eagle Section";
 					side = 1;
 					faction = "BNB_FA_BW2_Winter";
 					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
@@ -233,13 +233,13 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Humvee_M2_Winter";
+						vehicle = "BNB_FA_BW2_Eagle_Armed_Winter";
 					};
 					class Unit1 {
 						position[] = {5,-9,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Humvee_Command_Winter";
+						vehicle = "BNB_FA_BW2_Eagle_Winter";
 					};
 					class Unit2 {
 						position[] = {-5,-9,0};
@@ -278,7 +278,7 @@ class CfgGroups {
 				name = "Mechanized Infantry";
 
 				class BNB_FA_BW2_Mechanized_Infantry_Scout {
-					name = "Humvee Scout";
+					name = "Eagle Scout";
 					side = 1;
 					faction = "BNB_FA_BW2_Winter";
 					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
@@ -294,7 +294,7 @@ class CfgGroups {
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Humvee_M2_Winter";
+						vehicle = "BNB_FA_BW2_Eagle_Winter";
 					};
 					class Unit2 {
 						position[] = {-5,-5,0};
@@ -304,8 +304,8 @@ class CfgGroups {
 					};
 				};
 
-				class BNB_FA_BW2_Mechanized_Stryker_Section {
-					name = "Stryker Section";
+				class BNB_FA_BW2_Mechanized_Fuchs_Section {
+					name = "Fuchs Section";
 					side = 1;
 					faction = "BNB_FA_BW2_Winter";
 					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
@@ -315,18 +315,18 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Stryker_M2_Winter";
+						vehicle = "BNB_FA_BW2_Fuchs_Winter";
 					};
 					class Unit1 {
 						position[] = {6,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Stryker_M2_Winter";
+						vehicle = "BNB_FA_BW2_Fuchs_Milan_Winter";
 					};
 				};
 
-				class BNB_FA_BW2_Mechanized_M113_Section {
-					name = "M113 Section";
+				class BNB_FA_BW2_Mechanized_Dingo_Section {
+					name = "Dingo Section";
 					side = 1;
 					faction = "BNB_FA_BW2_Winter";
 					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
@@ -336,13 +336,13 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "BNB_FA_BW2_M113_M2_Winter";
+						vehicle = "BNB_FA_BW2_Dingo_M2_ECM_Winter";
 					};
 					class Unit1 {
 						position[] = {6,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_M113_M2_Winter";
+						vehicle = "BNB_FA_BW2_Dingo_MG3_Winter";
 					};
 				};
 
@@ -362,13 +362,13 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Winter";
+						vehicle = "BNB_FA_BW2_Leopard_Winter";
 					};
 					class Unit1 {
 						position[] = {10,-17,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Winter";
+						vehicle = "BNB_FA_BW2_Leopard_Winter";
 					};
 				};
 
@@ -383,25 +383,25 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Winter";
+						vehicle = "BNB_FA_BW2_Leopard_Winter";
 					};
 					class Unit1 {
 						position[] = {10,-17,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Winter";
+						vehicle = "BNB_FA_BW2_Leopard_Winter";
 					};
 					class Unit2 {
 						position[] = {-10,-17,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Winter";
+						vehicle = "BNB_FA_BW2_Leopard_Winter";
 					};
 					class Unit3 {
 						position[] = {20,-34,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Winter";
+						vehicle = "BNB_FA_BW2_Leopard_Winter";
 					};
 				};
 
@@ -416,7 +416,7 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Winter";
+						vehicle = "BNB_FA_BW2_Leopard_Winter";
 					};
 					class Unit1 {
 						position[] = {10,-17,0};
@@ -428,7 +428,7 @@ class CfgGroups {
 						position[] = {-10,-17,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Winter";
+						vehicle = "BNB_FA_BW2_Leopard_Winter";
 					};
 					class Unit3 {
 						position[] = {20,-34,0};
@@ -453,19 +453,19 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Mortar_Winter";
+						vehicle = "BNB_FA_BW2_Mortar_120mm_Winter";
 					};
 					class Unit1 {
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Mortar_Winter";
+						vehicle = "BNB_FA_BW2_Mortar_120mm_Winter";
 					};
 					class Unit2 {
 						position[] = {-5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Mortar_Winter";
+						vehicle = "BNB_FA_BW2_Mortar_120mm_Winter";
 					};
 					class Unit3 {
 						position[] = {10,-10,0};
@@ -516,7 +516,7 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Mortar_Winter";
+						vehicle = "BNB_FA_BW2_Mortar_120mm_Winter";
 					};
 					class Unit1 {
 						position[] = {5,-5,0};
@@ -526,126 +526,6 @@ class CfgGroups {
 					};
 					class Unit2 {
 						position[] = {-5,-5,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Winter";
-					};
-				};
-
-				class BNB_FA_BW2_Artillery_Howitzer_Gun {
-					name = "Howitzer Gun";
-					side = 1;
-					faction = "BNB_FA_BW2_Winter";
-					icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
-					rarityGroup = 0.5;
-
-					class Unit0 {
-						position[] = {0,0,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Howitzer_Winter";
-					};
-					class Unit1 {
-						position[] = {5,-5,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_BW2_1IC_Winter";
-					};
-					class Unit2 {
-						position[] = {-5,-5,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Winter";
-					};
-					class Unit3 {
-						position[] = {10,-10,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Winter";
-					};
-					class Unit4 {
-						position[] = {-10,-10,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Winter";
-					};
-				};
-
-				class BNB_FA_BW2_Artillery_Howitzer_Battery {
-					name = "Howitzer Battery";
-					side = 1;
-					faction = "BNB_FA_BW2_Winter";
-					icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
-					rarityGroup = 0.5;
-
-					class Unit0 {
-						position[] = {0,0,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Howitzer_Winter";
-					};
-					class Unit1 {
-						position[] = {5,-5,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_BW2_1IC_Winter";
-					};
-					class Unit2 {
-						position[] = {-5,-5,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Winter";
-					};
-					class Unit3 {
-						position[] = {10,-10,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Winter";
-					};
-					class Unit4 {
-						position[] = {-10,-10,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Howitzer_Winter";
-					};
-					class Unit5 {
-						position[] = {15,-15,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_BW2_1IC_Winter";
-					};
-					class Unit6 {
-						position[] = {-15,-15,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Winter";
-					};
-					class Unit7 {
-						position[] = {20,-20,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Winter";
-					};
-					class Unit8 {
-						position[] = {-20,-20,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Howitzer_Winter";
-					};
-					class Unit9 {
-						position[] = {25,-25,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_BW2_1IC_Winter";
-					};
-					class Unit10 {
-						position[] = {-25,-25,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Winter";
-					};
-					class Unit11 {
-						position[] = {30,-30,0};
 						rank = "PRIVATE";
 						side = 1;
 						vehicle = "BNB_FA_BW2_Rifleman_Winter";
@@ -656,8 +536,8 @@ class CfgGroups {
 			class Air {
 				name = "Air";
 
-				class BNB_FA_BW2_Air_Littlebird_CAS_Section {
-					name = "Littlebird CAS Section";
+				class BNB_FA_BW2_Air_Tiger_Section {
+					name = "Tiger Section";
 					side = 1;
 					faction = "BNB_FA_BW2_Winter";
 					icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
@@ -667,55 +547,13 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Littlebird_CAS_Winter";
+						vehicle = "BNB_FA_BW2_Tiger_Gunpod_FZ_Winter";
 					};
 					class Unit1 {
 						position[] = {20,-26,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Littlebird_CAS_Winter";
-					};
-				};
-
-				class BNB_FA_BW2_Air_Huey_CAS_Section {
-					name = "Huey CAS Section";
-					side = 1;
-					faction = "BNB_FA_BW2_Winter";
-					icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
-					rarityGroup = 0.5;
-
-					class Unit0 {
-						position[] = {0,0,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Huey_Gunship_Winter";
-					};
-					class Unit1 {
-						position[] = {17,-21,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Huey_Gunship_Winter";
-					};
-				};
-
-				class BNB_FA_BW2_Air_Fighter_Section {
-					name = "Fighter Section";
-					side = 1;
-					faction = "BNB_FA_BW2_Winter";
-					icon = "\A3\ui_f\data\map\markers\nato\b_plane.paa";
-					rarityGroup = 0.5;
-
-					class Unit0 {
-						position[] = {0,0,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_BW2_JAS_39_Gripen_Winter";
-					};
-					class Unit1 {
-						position[] = {17,-29,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_JAS_39_Gripen_Winter";
+						vehicle = "BNB_FA_BW2_Tiger_Gunpod_FZ_Winter";
 					};
 				};
 			};
@@ -783,8 +621,8 @@ class CfgGroups {
 					};
 				};
 
-				class BNB_FA_BW2_Motorized_Humvee_Section {
-					name = "Humvee Section";
+				class BNB_FA_BW2_Motorized_Eagle_Section {
+					name = "Eagle Section";
 					side = 1;
 					faction = "BNB_FA_BW2_Tropen";
 					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
@@ -794,13 +632,13 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Humvee_M2_Tropen";
+						vehicle = "BNB_FA_BW2_Eagle_Armed_Tropen";
 					};
 					class Unit1 {
 						position[] = {5,-9,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Humvee_Command_Tropen";
+						vehicle = "BNB_FA_BW2_Eagle_Tropen";
 					};
 					class Unit2 {
 						position[] = {-5,-9,0};
@@ -839,7 +677,7 @@ class CfgGroups {
 				name = "Mechanized Infantry";
 
 				class BNB_FA_BW2_Mechanized_Infantry_Scout {
-					name = "Humvee Scout";
+					name = "Eagle Scout";
 					side = 1;
 					faction = "BNB_FA_BW2_Tropen";
 					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
@@ -855,7 +693,7 @@ class CfgGroups {
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Humvee_M2_Tropen";
+						vehicle = "BNB_FA_BW2_Eagle_Tropen";
 					};
 					class Unit2 {
 						position[] = {-5,-5,0};
@@ -865,8 +703,8 @@ class CfgGroups {
 					};
 				};
 
-				class BNB_FA_BW2_Mechanized_Stryker_Section {
-					name = "Stryker Section";
+				class BNB_FA_BW2_Mechanized_Fuchs_Section {
+					name = "Fuchs Section";
 					side = 1;
 					faction = "BNB_FA_BW2_Tropen";
 					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
@@ -876,18 +714,18 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Stryker_M2_Tropen";
+						vehicle = "BNB_FA_BW2_Fuchs_Tropen";
 					};
 					class Unit1 {
 						position[] = {6,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Stryker_M2_Tropen";
+						vehicle = "BNB_FA_BW2_Fuchs_Milan_Tropen";
 					};
 				};
 
-				class BNB_FA_BW2_Mechanized_M113_Section {
-					name = "M113 Section";
+				class BNB_FA_BW2_Mechanized_Dingo_Section {
+					name = "Dingo Section";
 					side = 1;
 					faction = "BNB_FA_BW2_Tropen";
 					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
@@ -897,13 +735,13 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "BNB_FA_BW2_M113_M2_Tropen";
+						vehicle = "BNB_FA_BW2_Dingo_M2_ECM_Tropen";
 					};
 					class Unit1 {
 						position[] = {6,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_M113_M2_Tropen";
+						vehicle = "BNB_FA_BW2_Dingo_MG3_Tropen";
 					};
 				};
 
@@ -923,13 +761,13 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Tropen";
+						vehicle = "BNB_FA_BW2_Leopard_Tropen";
 					};
 					class Unit1 {
 						position[] = {10,-17,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Tropen";
+						vehicle = "BNB_FA_BW2_Leopard_Tropen";
 					};
 				};
 
@@ -944,25 +782,25 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Tropen";
+						vehicle = "BNB_FA_BW2_Leopard_Tropen";
 					};
 					class Unit1 {
 						position[] = {10,-17,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Tropen";
+						vehicle = "BNB_FA_BW2_Leopard_Tropen";
 					};
 					class Unit2 {
 						position[] = {-10,-17,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Tropen";
+						vehicle = "BNB_FA_BW2_Leopard_Tropen";
 					};
 					class Unit3 {
 						position[] = {20,-34,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Tropen";
+						vehicle = "BNB_FA_BW2_Leopard_Tropen";
 					};
 				};
 
@@ -977,7 +815,7 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Tropen";
+						vehicle = "BNB_FA_BW2_Leopard_Tropen";
 					};
 					class Unit1 {
 						position[] = {10,-17,0};
@@ -989,7 +827,7 @@ class CfgGroups {
 						position[] = {-10,-17,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Tropen";
+						vehicle = "BNB_FA_BW2_Leopard_Tropen";
 					};
 					class Unit3 {
 						position[] = {20,-34,0};
@@ -1014,19 +852,19 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Mortar_Tropen";
+						vehicle = "BNB_FA_BW2_Mortar_120mm_Tropen";
 					};
 					class Unit1 {
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Mortar_Tropen";
+						vehicle = "BNB_FA_BW2_Mortar_120mm_Tropen";
 					};
 					class Unit2 {
 						position[] = {-5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Mortar_Tropen";
+						vehicle = "BNB_FA_BW2_Mortar_120mm_Tropen";
 					};
 					class Unit3 {
 						position[] = {10,-10,0};
@@ -1077,7 +915,7 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Mortar_Tropen";
+						vehicle = "BNB_FA_BW2_Mortar_120mm_Tropen";
 					};
 					class Unit1 {
 						position[] = {5,-5,0};
@@ -1087,126 +925,6 @@ class CfgGroups {
 					};
 					class Unit2 {
 						position[] = {-5,-5,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Tropen";
-					};
-				};
-
-				class BNB_FA_BW2_Artillery_Howitzer_Gun {
-					name = "Howitzer Gun";
-					side = 1;
-					faction = "BNB_FA_BW2_Tropen";
-					icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
-					rarityGroup = 0.5;
-
-					class Unit0 {
-						position[] = {0,0,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Howitzer_Tropen";
-					};
-					class Unit1 {
-						position[] = {5,-5,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_BW2_1IC_Tropen";
-					};
-					class Unit2 {
-						position[] = {-5,-5,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Tropen";
-					};
-					class Unit3 {
-						position[] = {10,-10,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Tropen";
-					};
-					class Unit4 {
-						position[] = {-10,-10,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Tropen";
-					};
-				};
-
-				class BNB_FA_BW2_Artillery_Howitzer_Battery {
-					name = "Howitzer Battery";
-					side = 1;
-					faction = "BNB_FA_BW2_Tropen";
-					icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
-					rarityGroup = 0.5;
-
-					class Unit0 {
-						position[] = {0,0,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Howitzer_Tropen";
-					};
-					class Unit1 {
-						position[] = {5,-5,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_BW2_1IC_Tropen";
-					};
-					class Unit2 {
-						position[] = {-5,-5,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Tropen";
-					};
-					class Unit3 {
-						position[] = {10,-10,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Tropen";
-					};
-					class Unit4 {
-						position[] = {-10,-10,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Howitzer_Tropen";
-					};
-					class Unit5 {
-						position[] = {15,-15,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_BW2_1IC_Tropen";
-					};
-					class Unit6 {
-						position[] = {-15,-15,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Tropen";
-					};
-					class Unit7 {
-						position[] = {20,-20,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Tropen";
-					};
-					class Unit8 {
-						position[] = {-20,-20,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Howitzer_Tropen";
-					};
-					class Unit9 {
-						position[] = {25,-25,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_BW2_1IC_Tropen";
-					};
-					class Unit10 {
-						position[] = {-25,-25,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Tropen";
-					};
-					class Unit11 {
-						position[] = {30,-30,0};
 						rank = "PRIVATE";
 						side = 1;
 						vehicle = "BNB_FA_BW2_Rifleman_Tropen";
@@ -1217,8 +935,8 @@ class CfgGroups {
 			class Air {
 				name = "Air";
 
-				class BNB_FA_BW2_Air_Littlebird_CAS_Section {
-					name = "Littlebird CAS Section";
+				class BNB_FA_BW2_Air_Tiger_Section {
+					name = "Tiger Section";
 					side = 1;
 					faction = "BNB_FA_BW2_Tropen";
 					icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
@@ -1228,55 +946,13 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Littlebird_CAS_Tropen";
+						vehicle = "BNB_FA_BW2_Tiger_Gunpod_FZ_Tropen";
 					};
 					class Unit1 {
 						position[] = {20,-26,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Littlebird_CAS_Tropen";
-					};
-				};
-
-				// class BNB_FA_BW2_Air_Huey_CAS_Section {
-				// 	name = "Huey CAS Section";
-				// 	side = 1;
-				// 	faction = "BNB_FA_BW2_Tropen";
-				// 	icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
-				// 	rarityGroup = 0.5;
-
-				// 	class Unit0 {
-				// 		position[] = {0,0,0};
-				// 		rank = "SERGEANT";
-				// 		side = 1;
-				// 		vehicle = "BNB_FA_BW2_Huey_Gunship_Tropen";
-				// 	};
-				// 	class Unit1 {
-				// 		position[] = {17,-21,0};
-				// 		rank = "PRIVATE";
-				// 		side = 1;
-				// 		vehicle = "BNB_FA_BW2_Huey_Gunship_Tropen";
-				// 	};
-				// };
-
-				class BNB_FA_BW2_Air_Fighter_Section {
-					name = "Fighter Section";
-					side = 1;
-					faction = "BNB_FA_BW2_Tropen";
-					icon = "\A3\ui_f\data\map\markers\nato\b_plane.paa";
-					rarityGroup = 0.5;
-
-					class Unit0 {
-						position[] = {0,0,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_BW2_JAS_39_Gripen_Tropen";
-					};
-					class Unit1 {
-						position[] = {17,-29,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_JAS_39_Gripen_Tropen";
+						vehicle = "BNB_FA_BW2_Tiger_Gunpod_FZ_Tropen";
 					};
 				};
 			};
@@ -1344,8 +1020,8 @@ class CfgGroups {
 					};
 				};
 
-				class BNB_FA_BW2_Motorized_Humvee_Section {
-					name = "Humvee Section";
+				class BNB_FA_BW2_Motorized_Eagle_Section {
+					name = "Eagle Section";
 					side = 1;
 					faction = "BNB_FA_BW2_Fleck";
 					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
@@ -1355,13 +1031,13 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Humvee_M2_Fleck";
+						vehicle = "BNB_FA_BW2_Eagle_Armed_Fleck";
 					};
 					class Unit1 {
 						position[] = {5,-9,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Humvee_Command_Fleck";
+						vehicle = "BNB_FA_BW2_Eagle_Fleck";
 					};
 					class Unit2 {
 						position[] = {-5,-9,0};
@@ -1400,7 +1076,7 @@ class CfgGroups {
 				name = "Mechanized Infantry";
 
 				class BNB_FA_BW2_Mechanized_Infantry_Scout {
-					name = "Humvee Scout";
+					name = "Eagle Scout";
 					side = 1;
 					faction = "BNB_FA_BW2_Fleck";
 					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
@@ -1416,7 +1092,7 @@ class CfgGroups {
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Humvee_M2_Fleck";
+						vehicle = "BNB_FA_BW2_Eagle_Fleck";
 					};
 					class Unit2 {
 						position[] = {-5,-5,0};
@@ -1426,8 +1102,8 @@ class CfgGroups {
 					};
 				};
 
-				class BNB_FA_BW2_Mechanized_Stryker_Section {
-					name = "Stryker Section";
+				class BNB_FA_BW2_Mechanized_Fuchs_Section {
+					name = "Fuchs Section";
 					side = 1;
 					faction = "BNB_FA_BW2_Fleck";
 					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
@@ -1437,18 +1113,18 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Stryker_M2_Fleck";
+						vehicle = "BNB_FA_BW2_Fuchs_Fleck";
 					};
 					class Unit1 {
 						position[] = {6,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Stryker_M2_Fleck";
+						vehicle = "BNB_FA_BW2_Fuchs_Milan_Fleck";
 					};
 				};
 
-				class BNB_FA_BW2_Mechanized_M113_Section {
-					name = "M113 Section";
+				class BNB_FA_BW2_Mechanized_Dingo_Section {
+					name = "Dingo Section";
 					side = 1;
 					faction = "BNB_FA_BW2_Fleck";
 					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
@@ -1458,13 +1134,13 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "BNB_FA_BW2_M113_M2_Fleck";
+						vehicle = "BNB_FA_BW2_Dingo_M2_ECM_Fleck";
 					};
 					class Unit1 {
 						position[] = {6,-10,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_M113_M2_Fleck";
+						vehicle = "BNB_FA_BW2_Dingo_MG3_Fleck";
 					};
 				};
 
@@ -1484,13 +1160,13 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Fleck";
+						vehicle = "BNB_FA_BW2_Leopard_Fleck";
 					};
 					class Unit1 {
 						position[] = {10,-17,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Fleck";
+						vehicle = "BNB_FA_BW2_Leopard_Fleck";
 					};
 				};
 
@@ -1505,25 +1181,25 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Fleck";
+						vehicle = "BNB_FA_BW2_Leopard_Fleck";
 					};
 					class Unit1 {
 						position[] = {10,-17,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Fleck";
+						vehicle = "BNB_FA_BW2_Leopard_Fleck";
 					};
 					class Unit2 {
 						position[] = {-10,-17,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Fleck";
+						vehicle = "BNB_FA_BW2_Leopard_Fleck";
 					};
 					class Unit3 {
 						position[] = {20,-34,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Fleck";
+						vehicle = "BNB_FA_BW2_Leopard_Fleck";
 					};
 				};
 
@@ -1538,7 +1214,7 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Fleck";
+						vehicle = "BNB_FA_BW2_Leopard_Fleck";
 					};
 					class Unit1 {
 						position[] = {10,-17,0};
@@ -1550,7 +1226,7 @@ class CfgGroups {
 						position[] = {-10,-17,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Leopard_2SG_Fleck";
+						vehicle = "BNB_FA_BW2_Leopard_Fleck";
 					};
 					class Unit3 {
 						position[] = {20,-34,0};
@@ -1575,19 +1251,19 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Mortar_Fleck";
+						vehicle = "BNB_FA_BW2_Mortar_120mm_Fleck";
 					};
 					class Unit1 {
 						position[] = {5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Mortar_Fleck";
+						vehicle = "BNB_FA_BW2_Mortar_120mm_Fleck";
 					};
 					class Unit2 {
 						position[] = {-5,-5,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Mortar_Fleck";
+						vehicle = "BNB_FA_BW2_Mortar_120mm_Fleck";
 					};
 					class Unit3 {
 						position[] = {10,-10,0};
@@ -1638,7 +1314,7 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Mortar_Fleck";
+						vehicle = "BNB_FA_BW2_Mortar_120mm_Fleck";
 					};
 					class Unit1 {
 						position[] = {5,-5,0};
@@ -1648,126 +1324,6 @@ class CfgGroups {
 					};
 					class Unit2 {
 						position[] = {-5,-5,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Fleck";
-					};
-				};
-
-				class BNB_FA_BW2_Artillery_Howitzer_Gun {
-					name = "Howitzer Gun";
-					side = 1;
-					faction = "BNB_FA_BW2_Fleck";
-					icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
-					rarityGroup = 0.5;
-
-					class Unit0 {
-						position[] = {0,0,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Howitzer_Fleck";
-					};
-					class Unit1 {
-						position[] = {5,-5,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_BW2_1IC_Fleck";
-					};
-					class Unit2 {
-						position[] = {-5,-5,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Fleck";
-					};
-					class Unit3 {
-						position[] = {10,-10,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Fleck";
-					};
-					class Unit4 {
-						position[] = {-10,-10,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Fleck";
-					};
-				};
-
-				class BNB_FA_BW2_Artillery_Howitzer_Battery {
-					name = "Howitzer Battery";
-					side = 1;
-					faction = "BNB_FA_BW2_Fleck";
-					icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
-					rarityGroup = 0.5;
-
-					class Unit0 {
-						position[] = {0,0,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Howitzer_Fleck";
-					};
-					class Unit1 {
-						position[] = {5,-5,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_BW2_1IC_Fleck";
-					};
-					class Unit2 {
-						position[] = {-5,-5,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Fleck";
-					};
-					class Unit3 {
-						position[] = {10,-10,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Fleck";
-					};
-					class Unit4 {
-						position[] = {-10,-10,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Howitzer_Fleck";
-					};
-					class Unit5 {
-						position[] = {15,-15,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_BW2_1IC_Fleck";
-					};
-					class Unit6 {
-						position[] = {-15,-15,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Fleck";
-					};
-					class Unit7 {
-						position[] = {20,-20,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Fleck";
-					};
-					class Unit8 {
-						position[] = {-20,-20,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Howitzer_Fleck";
-					};
-					class Unit9 {
-						position[] = {25,-25,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_BW2_1IC_Fleck";
-					};
-					class Unit10 {
-						position[] = {-25,-25,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_Rifleman_Fleck";
-					};
-					class Unit11 {
-						position[] = {30,-30,0};
 						rank = "PRIVATE";
 						side = 1;
 						vehicle = "BNB_FA_BW2_Rifleman_Fleck";
@@ -1778,8 +1334,8 @@ class CfgGroups {
 			class Air {
 				name = "Air";
 
-				class BNB_FA_BW2_Air_Littlebird_CAS_Section {
-					name = "Littlebird CAS Section";
+				class BNB_FA_BW2_Air_Tiger_Section {
+					name = "Tiger Section";
 					side = 1;
 					faction = "BNB_FA_BW2_Fleck";
 					icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
@@ -1789,55 +1345,13 @@ class CfgGroups {
 						position[] = {0,0,0};
 						rank = "SERGEANT";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Littlebird_CAS_Fleck";
+						vehicle = "BNB_FA_BW2_Tiger_Gunpod_FZ_Fleck";
 					};
 					class Unit1 {
 						position[] = {20,-26,0};
 						rank = "PRIVATE";
 						side = 1;
-						vehicle = "BNB_FA_BW2_Littlebird_CAS_Fleck";
-					};
-				};
-
-				// class BNB_FA_BW2_Air_Huey_CAS_Section {
-				// 	name = "Huey CAS Section";
-				// 	side = 1;
-				// 	faction = "BNB_FA_BW2_Fleck";
-				// 	icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
-				// 	rarityGroup = 0.5;
-
-				// 	class Unit0 {
-				// 		position[] = {0,0,0};
-				// 		rank = "SERGEANT";
-				// 		side = 1;
-				// 		vehicle = "BNB_FA_BW2_Huey_Gunship_Fleck";
-				// 	};
-				// 	class Unit1 {
-				// 		position[] = {17,-21,0};
-				// 		rank = "PRIVATE";
-				// 		side = 1;
-				// 		vehicle = "BNB_FA_BW2_Huey_Gunship_Fleck";
-				// 	};
-				// };
-
-				class BNB_FA_BW2_Air_Fighter_Section {
-					name = "Fighter Section";
-					side = 1;
-					faction = "BNB_FA_BW2_Fleck";
-					icon = "\A3\ui_f\data\map\markers\nato\b_plane.paa";
-					rarityGroup = 0.5;
-
-					class Unit0 {
-						position[] = {0,0,0};
-						rank = "SERGEANT";
-						side = 1;
-						vehicle = "BNB_FA_BW2_JAS_39_Gripen_Fleck";
-					};
-					class Unit1 {
-						position[] = {17,-29,0};
-						rank = "PRIVATE";
-						side = 1;
-						vehicle = "BNB_FA_BW2_JAS_39_Gripen_Fleck";
+						vehicle = "BNB_FA_BW2_Tiger_Gunpod_FZ_Fleck";
 					};
 				};
 			};

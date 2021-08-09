@@ -127,30 +127,6 @@ class CfgVehicles {
 		typicalCargo[] = { "BNB_FA_BW2_Rifleman_Fleck" };
 	};
 
-	///////////////////////
-	// Static Stinger AA //
-	///////////////////////
-	class RHS_Stinger_AA_pod_WD;
-	class BNB_FA_BW2_Static_AA_Winter : RHS_Stinger_AA_pod_WD {
-		displayName = "FIM-92F (DMS)";
-		editorSubcategory = "BNB_FA_BW2_Statics";
-		FACTION(Winter)
-		crew = "BNB_FA_BW2_Rifleman_Winter";
-		typicalCargo[] = { "BNB_FA_BW2_Rifleman_Winter" };
-	};
-
-	class BNB_FA_BW2_Static_AA_Tropen : BNB_FA_BW2_Static_AA_Winter {
-		FACTION(Tropen)
-		crew = "BNB_FA_BW2_Rifleman_Tropen";
-		typicalCargo[] = { "BNB_FA_BW2_Rifleman_Tropen" };
-	};
-
-	class BNB_FA_BW2_Static_AA_Fleck : BNB_FA_BW2_Static_AA_Winter {
-		FACTION(Fleck)
-		crew = "BNB_FA_BW2_Rifleman_Fleck";
-		typicalCargo[] = { "BNB_FA_BW2_Rifleman_Fleck" };
-	};
-
 	//////////////
 	// Mk19 GMG //
 	//////////////

@@ -67,15 +67,6 @@ class CfgVehicles {
 		TOOLKIT_CONTENTS
 	};
 
-	class BWA3_Kitbag_Multi;
-	class BNB_FA_BW2_Toolkit_Backpack_Multi : BWA3_Kitbag_Multi {
-		scope = 1;
-		scopeCurator = 1;
-		scopeArsenal = 0;
-
-		TOOLKIT_CONTENTS
-	};
-
 	class BWA3_Kitbag_Fleck;
 	class BNB_FA_BW2_Toolkit_Backpack_Fleck : BWA3_Kitbag_Fleck {
 		scope = 1;
@@ -90,16 +81,6 @@ class CfgVehicles {
 	////////////////////////////////////
 	class BWA3_Kitbag_Tropen;
 	class BNB_FA_BW2_Survival_Backpack_Tropen : BWA3_Kitbag_Tropen {
-		scope = 1;
-		scopeCurator = 1;
-		scopeArsenal = 0;
-		displayName = "Survival Kit";
-
-		SURVIVAL_CONTENTS
-	};
-
-	class BWA3_Kitbag_Multi;
-	class BNB_FA_BW2_Survival_Backpack_Multi : BWA3_Kitbag_Multi {
 		scope = 1;
 		scopeCurator = 1;
 		scopeArsenal = 0;

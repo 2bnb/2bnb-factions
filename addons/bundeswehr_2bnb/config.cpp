@@ -36,11 +36,9 @@ class CfgPatches {
 			// Toolkit
 			"BNB_FA_BW2_Toolkit_Backpack_Tropen",
 			"BNB_FA_BW2_Toolkit_Backpack_Fleck",
-			"BNB_FA_BW2_Toolkit_Backpack_Multi",
 
 			// Survival
 			"BNB_FA_BW2_Survival_Backpack_Tropen",
-			"BNB_FA_BW2_Survival_Backpack_Multi",
 			"BNB_FA_BW2_Survival_Backpack_Fleck",
 
 
