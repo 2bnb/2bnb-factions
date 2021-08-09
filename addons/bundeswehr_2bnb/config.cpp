@@ -15,6 +15,9 @@ class CfgPatches {
 		requiredVersion = 2.00;
 		requiredAddons[] = {
 			"ace_repair",
+			"ace_explosives",
+			"ace_huntir",
+			"ace_medical_treatment",
 			"bnb_ex_gear",
 			"tfw_radios_ilbe",
 			"A3_Soft_F_Gamma",
@@ -23,9 +26,18 @@ class CfgPatches {
 			"A3_Characters_F",
 			"A3_Armor_F_EPB",
 			"A3_Static_F",
+			"A3_Weapons_F",
 			"bwa3_units",
+			"bwa3_mg5",
+			"bwa3_vests",
+			"bwa3_uniforms",
+			"bwa3_headgear",
+			"bwa3_p8",
+			"bwa3_optics",
+			"bwa3_g36",
 			"cfp_cup_b_ger",
-			"CUP_Creatures_Military_Germany"
+			"CUP_Creatures_Military_Germany",
+			"CUP_Creatures_StaticWeapons"
 		};
 
 		// Addon items

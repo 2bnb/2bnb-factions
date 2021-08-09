@@ -30,11 +30,10 @@
 ## Dependencies
 - [2BNB Extras](https://steamcommunity.com/sharedfiles/filedetails/?id=1747089493)
 - [CBA A3](https://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
-- [RHS AFRF](https://steamcommunity.com/sharedfiles/filedetails/?id=843425103)
-- [RHS USAF](https://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
-- [NORSOF_LITE_mas](https://steamcommunity.com/sharedfiles/filedetails/?id=1654680843)
-- [NIArms HK416 Rifles](https://steamcommunity.com/sharedfiles/filedetails/?id=1519157834)
-- [NIArms G3 Rifles](https://steamcommunity.com/sharedfiles/filedetails/?id=667375637)
+- [BWMod](https://steamcommunity.com/workshop/filedetails/?id=1200127537)
+- [Redd'n'Tank Vehicles](https://steamcommunity.com/workshop/filedetails/?id=1128145626)
+- [CUP Weapons](https://steamcommunity.com/workshop/filedetails/?id=497660133)
+- [CUP Units](https://steamcommunity.com/workshop/filedetails/?id=497661914)
 - [ILBE Assault Pack - Rewrite](https://steamcommunity.com/sharedfiles/filedetails/?id=1875281645)
 
 # Credits
