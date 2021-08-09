@@ -62,8 +62,6 @@ class CfgGroups {
 	class WEST {
 
 		class BNB_FA_BW2_Tropen {
-			name = "Bundeswehr 2BNB (Tropen)";
-
 			class Infantry {
 				name = "Infantry";
 
@@ -505,8 +503,6 @@ class CfgGroups {
 		};
 
 		class BNB_FA_BW2_Multi {
-			name = "Bundeswehr 2BNB (Multitarn)";
-
 			class Infantry {
 				name = "Infantry";
 
@@ -948,8 +944,6 @@ class CfgGroups {
 		};
 
 		class BNB_FA_BW2_Fleck {
-			name = "Bundeswehr 2BNB (Flecktarn)";
-
 			class Infantry {
 				name = "Infantry";
 

@@ -406,6 +406,23 @@ class CfgFactionClasses {
 	};
 };
 
+class CfgGroups {
+	class WEST {
+		class BNB_FA_BW2_Winter {
+			name = "Bundeswehr 2BNB (Winter)";
+		};
+		class BNB_FA_BW2_Tropen {
+			name = "Bundeswehr 2BNB (Tropen)";
+		};
+		class BNB_FA_BW2_Multi {
+			name = "Bundeswehr 2BNB (Multitarn)";
+		};
+		class BNB_FA_BW2_Fleck {
+			name = "Bundeswehr 2BNB (Flecktarn)";
+		};
+	};
+};
+
 #include "Backpacks.hpp"
 #include "infantry\index.hpp"
 #include "vehicles\index.hpp"
