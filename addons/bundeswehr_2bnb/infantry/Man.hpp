@@ -20,8 +20,8 @@ class BNB_FA_BW2_Man_Tropen : BNB_FA_BW2_Man {
 	items[] = {"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_tourniquet"};
 	respawnItems[] = {"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_tourniquet"};
 
-	linkedItems[] = {"BWA3_Beret_Jaeger","ItemMap","ItemCompass","ItemWatch","ItemRadio","BWA3_ItemNaviPad"};
-	respawnLinkedItems[] = {"BWA3_Beret_Jaeger","ItemMap","ItemCompass","ItemWatch","ItemRadio","BWA3_ItemNaviPad"};
+	linkedItems[] = {"BWA3_Beret_PzGren","ItemMap","ItemCompass","ItemWatch","ItemRadio","BWA3_ItemNaviPad"};
+	respawnLinkedItems[] = {"BWA3_Beret_PzGren","ItemMap","ItemCompass","ItemWatch","ItemRadio","BWA3_ItemNaviPad"};
 };
 
 class BNB_FA_BW2_Man_Winter : BNB_FA_BW2_Man_Tropen {

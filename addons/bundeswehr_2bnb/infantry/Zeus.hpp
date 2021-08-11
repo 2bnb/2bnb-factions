@@ -18,8 +18,8 @@ class BNB_FA_BW2_Zeus_Tropen : BNB_FA_BW2_Man_Tropen {
 	items[] = {"FirstAidKit"};
 	respawnItems[] = {"FirstAidKit"};
 
-	linkedItems[] = {"BWA3_Beret_Jaeger","ItemMap","ItemCompass","ItemWatch","ItemRadio","BWA3_ItemNaviPad"};
-	respawnLinkedItems[] = {"BWA3_Beret_Jaeger","ItemMap","ItemCompass","ItemWatch","ItemRadio","BWA3_ItemNaviPad"};
+	linkedItems[] = {"BWA3_Beret_PzGren","ItemMap","ItemCompass","ItemWatch","ItemRadio","BWA3_ItemNaviPad"};
+	respawnLinkedItems[] = {"BWA3_Beret_PzGren","ItemMap","ItemCompass","ItemWatch","ItemRadio","BWA3_ItemNaviPad"};
 };
 
 class BNB_FA_BW2_Zeus_Winter : BNB_FA_BW2_Zeus_Tropen {
@@ -46,8 +46,8 @@ class BNB_FA_BW2_Zeus_Multi : BNB_FA_BW2_Man_Multi {
 	items[] = {"FirstAidKit"};
 	respawnItems[] = {"FirstAidKit"};
 
-	linkedItems[] = {"BWA3_Beret_Jaeger","ItemMap","ItemCompass","ItemWatch","ItemRadio","BWA3_ItemNaviPad"};
-	respawnLinkedItems[] = {"BWA3_Beret_Jaeger","ItemMap","ItemCompass","ItemWatch","ItemRadio","BWA3_ItemNaviPad"};
+	linkedItems[] = {"BWA3_Beret_PzGren","ItemMap","ItemCompass","ItemWatch","ItemRadio","BWA3_ItemNaviPad"};
+	respawnLinkedItems[] = {"BWA3_Beret_PzGren","ItemMap","ItemCompass","ItemWatch","ItemRadio","BWA3_ItemNaviPad"};
 };
 
 class BNB_FA_BW2_Zeus_Fleck : BNB_FA_BW2_Man_Fleck {
@@ -70,6 +70,6 @@ class BNB_FA_BW2_Zeus_Fleck : BNB_FA_BW2_Man_Fleck {
 	items[] = {"FirstAidKit"};
 	respawnItems[] = {"FirstAidKit"};
 
-	linkedItems[] = {"BWA3_Beret_Jaeger","ItemMap","ItemCompass","ItemWatch","ItemRadio","BWA3_ItemNaviPad"};
-	respawnLinkedItems[] = {"BWA3_Beret_Jaeger","ItemMap","ItemCompass","ItemWatch","ItemRadio","BWA3_ItemNaviPad"};
+	linkedItems[] = {"BWA3_Beret_PzGren","ItemMap","ItemCompass","ItemWatch","ItemRadio","BWA3_ItemNaviPad"};
+	respawnLinkedItems[] = {"BWA3_Beret_PzGren","ItemMap","ItemCompass","ItemWatch","ItemRadio","BWA3_ItemNaviPad"};
 };
