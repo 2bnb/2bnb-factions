@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://github.com/2bnb/2bnb-factions/blob/master/2BNB_Factions_Github.png" alt="2BNB Banner" />
+	<img src="https://github.com/2bnb/2bnb-extras/blob/master/Banner_github_tf15.png" alt="2BNB Banner" />
 	<br />
 	<a href="https://github.com/2bnb/2bnb-extras/wiki">
 		<img src="https://img.shields.io/badge/2BNB%20Mods-Wiki-orange.svg?style=for-the-badge&logo=github" alt="Wiki" />
@@ -28,12 +28,12 @@
 <p align="center"><sup><strong>Making Arma 3 a better place for all members of the 2nd Battalion, Nord Brigade.</strong></sup></p>
 
 ## Dependencies
-- [2BNB Extras](https://steamcommunity.com/sharedfiles/filedetails/?id=1747089493)
+- [TF15 (2BNB) Extras](https://steamcommunity.com/sharedfiles/filedetails/?id=1747089493)
 - [CBA A3](https://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
-- [BWMod](https://steamcommunity.com/workshop/filedetails/?id=1200127537)
-- [Redd'n'Tank Vehicles](https://steamcommunity.com/workshop/filedetails/?id=1128145626)
+- [Japan Units](https://steamcommunity.com/sharedfiles/filedetails/?id=823476448)
+- [RHSUSAF](https://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
 - [CUP Weapons](https://steamcommunity.com/workshop/filedetails/?id=497660133)
-- [CUP Units](https://steamcommunity.com/workshop/filedetails/?id=497661914)
+- [Free World Armoury](https://steamcommunity.com/workshop/filedetails/?id=2424797017)
 - [ILBE Assault Pack - Rewrite](https://steamcommunity.com/sharedfiles/filedetails/?id=1875281645)
 
 # Credits
@@ -62,11 +62,11 @@ Be aware, that the names of the `.bisign` and `.bikey` files depend on the lates
 ## Naming conventions
 To make the names of this mod less likely to run into problems in the future regarding the inclusion of a number in the name:
 - for code: bnb_fa
-- for urls: 2bnb-factions
-- for presentation: 2BNB Factions
+- for urls: tf15-factions
+- for presentation: TF15 Factions
 
 ### Prefixes
 The prefix `bnb_fa_` should be used where appropriate to avoid any potential name clashes with other mods.
 
 ## Contact
-For any questions, contact Arend or Ford on the 2nd Battalion, Nord Brigade [Discord](https://discord.gg/rUUsCShkzJ).
+For any questions, contact FarCry or Met on the Task Force 15 [Discord](https://discord.gg/FA7EJkq2zU).
