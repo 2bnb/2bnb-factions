@@ -1,4 +1,4 @@
-class BNB_FA_JPN_Man_Jeitai_D : BNB_FA_JPN_Man_Jeitai_D {
+class BNB_FA_JPN_Man_Jeitai_D : BNB_FA_JPN_Man {
 	displayName = "Man";
 	// editorPreview = "\x\bnb_fa\norwegian_armed_forces\data\preview\BNB_FA_BW2_Man_Tropen.jpg";
 	faction = "BNB_FA_JPN_Jeitai_D";
