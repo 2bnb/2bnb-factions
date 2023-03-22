@@ -1,17 +1,17 @@
-name = "2BNB Factions";
+name = "TF15 Factions";
 actionName = "Discord";
-action = "https://discord.gg/rUUsCShkzJ";
-description = "2nd Battalion, Nord Brigade - Factions";
+action = "https://discord.gg/FA7EJkq2zU";
+description = "Task Force 15 - Factions";
 
-picture = "2bnb-logo.paa";
-contentBrowserPicture = "2bnb-logo.paa";
-logo = "2bnb-logo.paa";
-logoOver = "2bnb-logo.paa";
+picture = "tf15-logo.paa";
+contentBrowserPicture = "tf15-logo.paa";
+logo = "tf15-logo.paa";
+logoOver = "tf15-logo.paa";
 
-tooltip = "2nd Battalion, Nord Brigade - Factions";
-tooltipOwned = "2nd Battalion, Nord Brigade - Factions";
-overview = "2BNB custom factions and fixes for other factions.";
-author = "2nd Battalion, Nord Brigade Technical Team";
-overviewPicture = "2bnb-logo.paa";
-overviewText = "2nd Battalion, Nord Brigade - Factions";
+tooltip = "Task Force 15 - Factions";
+tooltipOwned = "Task Force 15 - Factions";
+overview = "TF15 custom factions and fixes for other factions.";
+author = "Task Force 15 Technical Team";
+overviewPicture = "TF15-logo.paa";
+overviewText = "Task Force 15 - Factions";
 overviewFootnote = "<br /><br /><t color='#999999'>This content is under APL-SA License.<t />";
