@@ -22,7 +22,7 @@ class BNB_FA_JPN_LMG_Jeitai_D : BNB_FA_JPN_Rifleman_Jeitai_D {
 	respawnLinkedItems[] = {"V_Deltaforce_Desert_Jeitai","Japan_JP_Jeitai_D_Helmet","ItemMap","ItemCompass","ACE_Altimeter","TFAR_anprc152","ItemGPS"};
 };
 
-class BNB_FA_JPN_LMG_Winter : BNB_FA_JPN_LMG_Jeitai_D {
+class BNB_FA_JPN_LMG_Winter : BNB_FA_JPN_Rifleman_Winter {
 	displayName = "LMG";
 	// editor comment slot
 	icon = "iconManMG";
