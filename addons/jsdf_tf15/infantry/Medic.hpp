@@ -25,7 +25,7 @@ class BNB_FA_JPN_Medic_Jeitai_D : BNB_FA_JPN_Rifleman_Jeitai_D {
 	respawnLinkedItems[] = {"V_Deltaforce_Desert_Jeitai","Japan_JP_Jeitai_D_Helmet","ItemMap","ItemCompass","ACE_Altimeter","TFAR_anprc152","ItemGPS"};
 };
 
-class BNB_FA_JPN_Medic_Winter : BNB_FA_JPN_Medic_Jeitai_D {
+class BNB_FA_JPN_Medic_Winter : BNB_FA_JPN_Rifleman_Winter {
 	displayName = "Medic";
 	// editorPreview = 
 	icon = "iconManMedic";
