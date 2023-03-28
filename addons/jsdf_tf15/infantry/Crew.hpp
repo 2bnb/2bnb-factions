@@ -22,7 +22,7 @@ class BNB_FA_JPN_Crew_Jeitai_D : BNB_FA_JPN_Man_Jeitai_D {
 };
 
 class BNB_FA_JPN_Crew_Winter : BNB_FA_JPN_Man_Winter {
-	faction = "BNB_FA_JPN_Winter";
+	displayName = "Crew";
 
 	bnb_fa_weaponItems[] = {"","","rhsusf_acc_compm4",""};
 

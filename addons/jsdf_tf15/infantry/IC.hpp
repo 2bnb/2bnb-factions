@@ -53,7 +53,8 @@ class BNB_FA_JPN_1IC_Winter : BNB_FA_JPN_Rifleman_Winter {
 };
 
 class BNB_FA_JPN_2IC_Winter : BNB_FA_JPN_1IC_Winter {
-	faction = "BNB_FA_JPN_Winter";
+	displayName = "2IC";
+	icon = "iconManLeader";
 };
 
 class BNB_FA_JPN_1IC_Navy : BNB_FA_JPN_Rifleman_Navy {
