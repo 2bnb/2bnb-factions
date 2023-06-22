@@ -86,9 +86,10 @@ class CfgWeapons
 		{
 			mass = 4;
 			optics = 1;
+			modelOptics = "UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Accessories\uk3cb_susat_optic.p3d";
 			class OpticsModes
 			{
-				class BNB_FA_UK_SUSAT_TOP
+				class UK3CB_BAF_SUSAT_TOP
 				{
 					opticsID = 1;
 					useModelOptics = 0;
@@ -108,7 +109,7 @@ class CfgWeapons
 					opticsDisablePeripherialVision = 0;
 					cameraDir = "";
 				};
-				class BNB_FA_UK_SUSAT
+				class UK3CB_BAF_SUSAT
 				{
 					opticsID = 2;
 					useModelOptics = 1;
