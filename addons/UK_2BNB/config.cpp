@@ -2,7 +2,7 @@ class CfgPatches {
 	class BNB_FA_UK {
 		// Addon identity
 		name = "2BNB Factions - UK";
-		author = "Task Force 15";
+		author = "2BNB";
 		authors[] = {"Carmichael (Amateur-god)"};
 		url = "https://discord.gg/rUUsCShkzJ";
 		version = 1.0.0;
