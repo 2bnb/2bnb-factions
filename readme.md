@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://github.com/2bnb/2bnb-extras/blob/master/Banner_github_tf15.png" alt="2BNB Banner" />
+	<img src="https://media.githubusercontent.com/media/2bnb/2bnb-factions/master/2BNB_Factions_Github.png" alt="2BNB Banner" />
 	<br />
 	<a href="https://github.com/2bnb/2bnb-extras/wiki">
 		<img src="https://img.shields.io/badge/2BNB%20Mods-Wiki-orange.svg?style=for-the-badge&logo=github" alt="Wiki" />
@@ -30,14 +30,12 @@
 ## Dependencies
 - [TF15 (2BNB) Extras](https://steamcommunity.com/sharedfiles/filedetails/?id=1747089493)
 - [CBA A3](https://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
-- [Japan Units](https://steamcommunity.com/sharedfiles/filedetails/?id=823476448)
+- [3CB (Main Mods + RHS Compat)](https://steamcommunity.com/sharedfiles/filedetails/?id=909680404)
 - [RHSUSAF](https://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
-- [CUP Weapons](https://steamcommunity.com/workshop/filedetails/?id=497660133)
-- [Free World Armoury](https://steamcommunity.com/workshop/filedetails/?id=2424797017)
 - [ILBE Assault Pack - Rewrite](https://steamcommunity.com/sharedfiles/filedetails/?id=1875281645)
 
 # Credits
-- Tittoffer and Martin M. from Norwegian Task Force for access to their assets made available to us with permission from the [NorwegianTaskForce Github](https://github.com/Tittoffer/NorwegianTaskForce/), which we then modified and built upon to make them our own
+- Tittoffer and Martin M. from Norwegian Task Force for access to their assets made available to us with permission from the [NorwegianTaskForce Github](https://github.com/Tittoffer/NorwegianTaskForce/), which we then modified and built upon to make them our own.
 
 
 # For Developers of this mod
@@ -69,4 +67,4 @@ To make the names of this mod less likely to run into problems in the future reg
 The prefix `bnb_fa_` should be used where appropriate to avoid any potential name clashes with other mods.
 
 ## Contact
-For any questions, contact FarCry or Met on the Task Force 15 [Discord](https://discord.gg/FA7EJkq2zU).
+For any questions, contact FarCry, Carmichael or Met on the 2BNB [Discord](https://discord.gg/FA7EJkq2zU).
