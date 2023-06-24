@@ -71,7 +71,7 @@ class CfgWeapons
 	class RKSL_optic_PMII_525_des;
 	class RKSL_optic_EOT552;
 	class UK3CB_BAF_SUSAT;
-	UK3CB_BAF_SpecterLDS
+	class UK3CB_BAF_SpecterLDS;
 	class BNB_FA_UK_SUSAT: UK3CB_BAF_SUSAT
 	{
 		scope = 2;
