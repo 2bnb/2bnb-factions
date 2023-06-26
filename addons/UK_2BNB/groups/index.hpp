@@ -17,7 +17,7 @@ class CfgEditorSubcategories
 	};
 	class BNB_FA_UK_Desert 
 	{
-		displayName = "2BNB UK (desert)";
+		displayName = "2BNB UK (Desert)";
 	};
 	class BNB_FA_UK_Woodland 
 	{
@@ -103,7 +103,7 @@ class CfgGroups
 			};
 			class BNB_FA_UK_Desert 
 			{
-				name = "2BNB UK (desert)";
+				name = "2BNB UK (Desert)";
 				class BNB_FA_UK_Section_Desert_Open
 				{
 					name = "Section (Open/Base)";
