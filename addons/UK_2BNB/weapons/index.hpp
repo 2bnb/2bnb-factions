@@ -56,12 +56,12 @@ class CfgWeapons
 	class BNB_FA_UK_SUSAT: ItemCore
 	{
 		scope = 2;
-		author = "Carmichael (Amateur-god)";
+		author = "www.3commandobrigade.com modified by Carmichael (Amateur-god)";
 		DLC = "2BNB Factions";
 		displayName = "2BNB SUSAT L9A1";
 		picture = "\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Accessories\data\gear_acco_susat_ca.paa";
 		model = "UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Accessories\uk3cb_susat.p3d";
-		descriptionShort = "Medium Range Scope, 2x 25mm<br/>Used on: L22, L85<br/>by www.3commandobrigade.com adjusted by carmichael to be 2x for 2BNB";
+		descriptionShort = "Medium Range Scope, 2x 25mm<br/>Used on: L22, L85<br/>by www.3commandobrigade.com adjusted by carmichael to be 2x and support NVGs for 2BNB";
 		weaponInfoType = "RscWeaponZeroing";
 		class Library
 		{
@@ -118,12 +118,12 @@ class CfgWeapons
 	class BNB_FA_UK_ELCAN: ItemCore
 	{
 		scope = 2;
-		author = "Carmichael (Amateur-god)";
+		author = "www.3commandobrigade.com modified by Carmichael (Amateur-god)";
 		DLC = "2BNB Factions";
 		displayName = "2BNB Elcan LDS (without Reflex)";
 		picture = "\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Accessories\data\gear_acco_specterlds_ca.paa";
 		model = "UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Accessories\uk3cb_elcan.p3d";
-		descriptionShort = "Lightweight Day Sight, 2x 32mm<br/>Used on: L85<br/>by www.3commandobrigade.com adjusted by carmichael to be 2x for 2BNB";
+		descriptionShort = "Lightweight Day Sight, 2x 32mm<br/>Used on: L85<br/>by www.3commandobrigade.com adjusted by carmichael to be 2x and support NVGs for 2BNB";
 		weaponinfotype = "RscWeaponZeroing";
 		class Library
 		{
