@@ -51,33 +51,16 @@ class UK3CB_OpticalRailMedium: asdg_OpticRail1913
 
 class CfgWeapons
 {
-	class ItemCore;
-	class muzzle_snds_B;
-	class muzzle_snds_M;
-	class muzzle_snds_L;
-	class InventoryFlashLightItem_Base_F;
-	class InventoryMuzzleItem_Base_F;
 	class InventoryOpticsItem_Base_F;
-	class inventoryunderitem_base_f;
-	class RKSL_optic_LDS;
-	class RKSL_optic_PMII_312;
-	class RKSL_optic_PMII_312_sunshade;
-	class RKSL_optic_PMII_312_wdl;
-	class RKSL_optic_PMII_312_sunshade_wdl;
-	class RKSL_optic_PMII_312_des;
-	class RKSL_optic_PMII_312_sunshade_des;
-	class RKSL_optic_PMII_525;
-	class RKSL_optic_PMII_525_wdl;
-	class RKSL_optic_PMII_525_des;
-	class RKSL_optic_EOT552;
-	class UK3CB_BAF_SUSAT;
-	class UK3CB_BAF_SpecterLDS;
-	class BNB_FA_UK_SUSAT: UK3CB_BAF_SUSAT
+	class ItemCore;
+	class BNB_FA_UK_SUSAT: ItemCore
 	{
 		scope = 2;
 		author = "Carmichael (Amateur-god)";
 		DLC = "2BNB Factions";
 		displayName = "2BNB SUSAT L9A1";
+		picture = "\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Accessories\data\gear_acco_susat_ca.paa";
+		model = "UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Accessories\uk3cb_susat.p3d";
 		descriptionShort = "Medium Range Scope, 2x 25mm<br/>Used on: L22, L85<br/>by www.3commandobrigade.com adjusted by carmichael to be 2x for 2BNB";
 		weaponInfoType = "RscWeaponZeroing";
 		class Library
@@ -93,7 +76,7 @@ class CfgWeapons
 			{
 				class BNB_FA_UK_SUSAT_TOP
 				{
-					opticsID = 1;
+					opticsID = 2;
 					useModelOptics = 0;
 					opticsPPEffects[] = {};
 					opticszoominit = 0.75;
@@ -113,7 +96,7 @@ class CfgWeapons
 				};
 				class BNB_FA_UK_SUSAT
 				{
-					opticsID = 2;
+					opticsID = 1;
 					useModelOptics = 1;
 					opticsPPEffects[] = {"OpticsCHAbera5","OpticsBlur5"};
 					opticsZoomMin = 0.125;
@@ -126,13 +109,13 @@ class CfgWeapons
 					memoryPointCamera = "eye";
 					visionMode[] = {};
 					opticsFlare = 1;
-					opticsDisablePeripherialVision = 0;
+					opticsDisablePeripherialVision = 1;
 					cameraDir = "";
 				};
 			};
 		};
 	};
-	class BNB_FA_UK_ELCAN: UK3CB_BAF_SpecterLDS
+	class BNB_FA_UK_ELCAN: ItemCore
 	{
 		scope = 2;
 		author = "Carmichael (Amateur-god)";
@@ -168,7 +151,7 @@ class CfgWeapons
 					memoryPointCamera = "eye";
 					visionMode[] = {};
 					opticsFlare = 1;
-					opticsDisablePeripherialVision = 0;
+					opticsDisablePeripherialVision = 1;
 					cameraDir = "";
 				};
 			};
