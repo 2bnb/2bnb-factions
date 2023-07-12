@@ -51,34 +51,17 @@ class UK3CB_OpticalRailMedium: asdg_OpticRail1913
 
 class CfgWeapons
 {
-	class ItemCore;
-	class muzzle_snds_B;
-	class muzzle_snds_M;
-	class muzzle_snds_L;
-	class InventoryFlashLightItem_Base_F;
-	class InventoryMuzzleItem_Base_F;
 	class InventoryOpticsItem_Base_F;
-	class inventoryunderitem_base_f;
-	class RKSL_optic_LDS;
-	class RKSL_optic_PMII_312;
-	class RKSL_optic_PMII_312_sunshade;
-	class RKSL_optic_PMII_312_wdl;
-	class RKSL_optic_PMII_312_sunshade_wdl;
-	class RKSL_optic_PMII_312_des;
-	class RKSL_optic_PMII_312_sunshade_des;
-	class RKSL_optic_PMII_525;
-	class RKSL_optic_PMII_525_wdl;
-	class RKSL_optic_PMII_525_des;
-	class RKSL_optic_EOT552;
-	class UK3CB_BAF_SUSAT;
-	class UK3CB_BAF_SpecterLDS;
-	class BNB_FA_UK_SUSAT: UK3CB_BAF_SUSAT
+	class ItemCore;
+	class BNB_FA_UK_SUSAT: ItemCore
 	{
 		scope = 2;
-		author = "Carmichael (Amateur-god)";
+		author = "www.3commandobrigade.com modified by Carmichael (Amateur-god)";
 		DLC = "2BNB Factions";
 		displayName = "2BNB SUSAT L9A1";
-		descriptionShort = "Medium Range Scope, 2x 25mm<br/>Used on: L22, L85<br/>by www.3commandobrigade.com adjusted by carmichael to be 2x for 2BNB";
+		picture = "\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Accessories\data\gear_acco_susat_ca.paa";
+		model = "UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Accessories\uk3cb_susat.p3d";
+		descriptionShort = "Medium Range Scope, 2x 25mm<br/>Used on: L22, L85<br/>by www.3commandobrigade.com adjusted by carmichael to be 2x and support NVGs for 2BNB";
 		weaponInfoType = "RscWeaponZeroing";
 		class Library
 		{
@@ -91,9 +74,9 @@ class CfgWeapons
 			modelOptics = "UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Accessories\uk3cb_susat_optic.p3d";
 			class OpticsModes
 			{
-				class UK3CB_BAF_SUSAT_TOP
+				class BNB_FA_UK_SUSAT_TOP
 				{
-					opticsID = 1;
+					opticsID = 2;
 					useModelOptics = 0;
 					opticsPPEffects[] = {};
 					opticszoominit = 0.75;
@@ -111,9 +94,9 @@ class CfgWeapons
 					opticsDisablePeripherialVision = 0;
 					cameraDir = "";
 				};
-				class UK3CB_BAF_SUSAT
+				class BNB_FA_UK_SUSAT
 				{
-					opticsID = 2;
+					opticsID = 1;
 					useModelOptics = 1;
 					opticsPPEffects[] = {"OpticsCHAbera5","OpticsBlur5"};
 					opticsZoomMin = 0.125;
@@ -124,7 +107,7 @@ class CfgWeapons
 					distanceZoomMin = 300;
 					distanceZoomMax = 300;
 					memoryPointCamera = "eye";
-					visionMode[] = {"Normal"};
+					visionMode[] = {};
 					opticsFlare = 1;
 					opticsDisablePeripherialVision = 1;
 					cameraDir = "";
@@ -132,15 +115,15 @@ class CfgWeapons
 			};
 		};
 	};
-	class BNB_FA_UK_ELCAN: UK3CB_BAF_SpecterLDS
+	class BNB_FA_UK_ELCAN: ItemCore
 	{
 		scope = 2;
-		author = "Carmichael (Amateur-god)";
+		author = "www.3commandobrigade.com modified by Carmichael (Amateur-god)";
 		DLC = "2BNB Factions";
 		displayName = "2BNB Elcan LDS (without Reflex)";
 		picture = "\UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Accessories\data\gear_acco_specterlds_ca.paa";
 		model = "UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Accessories\uk3cb_elcan.p3d";
-		descriptionShort = "Lightweight Day Sight, 2x 32mm<br/>Used on: L85<br/>by www.3commandobrigade.com adjusted by carmichael to be 2x for 2BNB";
+		descriptionShort = "Lightweight Day Sight, 2x 32mm<br/>Used on: L85<br/>by www.3commandobrigade.com adjusted by carmichael to be 2x and support NVGs for 2BNB";
 		weaponinfotype = "RscWeaponZeroing";
 		class Library
 		{
@@ -153,7 +136,7 @@ class CfgWeapons
 			modelOptics = "UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Accessories\uk3cb_elcan_optic.p3d";
 			class OpticsModes
 			{
-				class UK3CB_BAF_LDS
+				class BNB_FA_UK_LDS
 				{
 					opticsID = 1;
 					useModelOptics = 1;
@@ -165,8 +148,8 @@ class CfgWeapons
 					discreteDistanceInitIndex = 0;
 					distanceZoomMin = 300;
 					distanceZoomMax = 300;
-					memoryPointCamera = "opticView";
-					visionMode[] = {"Normal"};
+					memoryPointCamera = "eye";
+					visionMode[] = {};
 					opticsFlare = 1;
 					opticsDisablePeripherialVision = 1;
 					cameraDir = "";
