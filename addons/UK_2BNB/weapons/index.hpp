@@ -91,7 +91,7 @@ class CfgWeapons
 			modelOptics = "UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Accessories\uk3cb_susat_optic.p3d";
 			class OpticsModes
 			{
-				class UK3CB_BAF_SUSAT_TOP
+				class BNB_FA_UK_SUSAT_TOP
 				{
 					opticsID = 1;
 					useModelOptics = 0;
@@ -111,7 +111,7 @@ class CfgWeapons
 					opticsDisablePeripherialVision = 0;
 					cameraDir = "";
 				};
-				class UK3CB_BAF_SUSAT
+				class BNB_FA_UK_SUSAT
 				{
 					opticsID = 2;
 					useModelOptics = 1;
@@ -124,9 +124,9 @@ class CfgWeapons
 					distanceZoomMin = 300;
 					distanceZoomMax = 300;
 					memoryPointCamera = "eye";
-					visionMode[] = {"Normal"};
+					visionMode[] = {};
 					opticsFlare = 1;
-					opticsDisablePeripherialVision = 1;
+					opticsDisablePeripherialVision = 0;
 					cameraDir = "";
 				};
 			};
@@ -153,7 +153,7 @@ class CfgWeapons
 			modelOptics = "UK3CB_BAF_Weapons\addons\UK3CB_BAF_Weapons_Accessories\uk3cb_elcan_optic.p3d";
 			class OpticsModes
 			{
-				class UK3CB_BAF_LDS
+				class BNB_FA_UK_LDS
 				{
 					opticsID = 1;
 					useModelOptics = 1;
@@ -165,10 +165,10 @@ class CfgWeapons
 					discreteDistanceInitIndex = 0;
 					distanceZoomMin = 300;
 					distanceZoomMax = 300;
-					memoryPointCamera = "opticView";
-					visionMode[] = {"Normal"};
+					memoryPointCamera = "eye";
+					visionMode[] = {};
 					opticsFlare = 1;
-					opticsDisablePeripherialVision = 1;
+					opticsDisablePeripherialVision = 0;
 					cameraDir = "";
 				};
 			};
