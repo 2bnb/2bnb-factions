@@ -55,7 +55,7 @@
 
   class BNB_FA_UK_Rifleman_MTP_pack: UK3CB_BAF_B_Bergen_MTP_Rifleman_L_B
   {
-    scope=1;
+    scope=2;
     class TransportMagazines{};
     class TransportItems{};
     class TransportWeapons{};
@@ -64,7 +64,7 @@
 
   class BNB_FA_UK_Medic_MTP_pack: UK3CB_BAF_B_Bergen_MTP_Medic_L_B
   {
-    scope=1;
+    scope=2;
     class TransportMagazines{};
     class TransportItems
     {
@@ -83,7 +83,7 @@
 
   class BNB_FA_UK_IC_MTP_pack: UK3CB_BAF_B_Bergen_MTP_JTAC_H_A
   {
-    scope=1;
+    scope=2;
     class TransportMagazines
     {
      class _xx_UK3CB_BAF_1Rnd_HEDP_Grenade_Shell {count=10;magazine="UK3CB_BAF_1Rnd_HEDP_Grenade_Shell";};
