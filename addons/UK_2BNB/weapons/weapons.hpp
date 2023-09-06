@@ -14,6 +14,14 @@
 		class Fullauto_medium;
 		class EGLM;
 	};
+	class WeaponSlotsInfo
+	{
+		allowedslots[] = {901};
+		mass = 84;
+		class MuzzleSlot: UK3CB_MuzzleSlot_556_L85{};
+		class CowsSlot: UK3CB_OpticalRailMedium{};
+		class PointerSlot: UK3CB_FrontSideRail{};
+	};
 	class UK3CB_BAF_L85A2: arifle_Mk20_plain_F
 	{
 		scope = 2;
@@ -63,13 +71,7 @@
 				effectName = "UK3CB_HeatHaze";
 			};
 		};
-		class WeaponSlotsInfo
-		{
-			allowedslots[] = {901};
-			mass = 84;
-			class MuzzleSlot: UK3CB_MuzzleSlot_556_L85{};
-			class CowsSlot: UK3CB_OpticalRailMedium{};
-		};
+
 		deployedPivot = "bipod";
 		class Single: Single
 		{
@@ -240,7 +242,6 @@
 		{
 			allowedslots[] = {901};
 			mass = 84;
-			class PointerSlot: UK3CB_FrontSideRail{};
 		};
 		hiddenSelections[] = {"hs_base","hs_handguard","hs_ironsight","hs_picatinnysight","hs_emag","hs_ugl"};
 		hiddenSelectionsTextures[] = {"\uk3cb_baf_weapons\addons\uk3cb_baf_weapons_smallarms\data\kio_l85a2_base_co.paa","\uk3cb_baf_weapons\addons\uk3cb_baf_weapons_smallarms\data\kio_l85a2_handguard_co.paa","\uk3cb_baf_weapons\addons\uk3cb_baf_weapons_smallarms\data\kio_l85a2_ironsights_co.paa","\uk3cb_baf_weapons\addons\uk3cb_baf_weapons_smallarms\data\kio_l85a2_picatinnysight_co.paa","\uk3cb_baf_weapons\addons\uk3cb_baf_weapons_smallarms\data\emag_co.paa","\uk3cb_baf_weapons\addons\uk3cb_baf_weapons_smallarms\data\ugl_co.paa"};
