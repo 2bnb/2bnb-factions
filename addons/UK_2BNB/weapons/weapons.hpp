@@ -18,9 +18,9 @@
 	{
 		allowedslots[] = {901};
 		mass = 84;
-		class MuzzleSlot: UK3CB_MuzzleSlot_556_L85{};
-		class CowsSlot: UK3CB_OpticalRailMedium{};
-		class PointerSlot: UK3CB_FrontSideRail{};
+		class MuzzleSlot;
+		class CowsSlot;
+		class PointerSlot;
 	};
 	class UK3CB_BAF_L85A2: arifle_Mk20_plain_F
 	{
