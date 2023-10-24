@@ -32,11 +32,6 @@
 - [CBA A3](https://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
 - [3CB (Main Mods + RHS Compat)](https://steamcommunity.com/sharedfiles/filedetails/?id=909680404)
 - [RHSUSAF](https://steamcommunity.com/sharedfiles/filedetails/?id=843577117)
-- [ILBE Assault Pack - Rewrite](https://steamcommunity.com/sharedfiles/filedetails/?id=1875281645)
-
-# Credits
-- Tittoffer and Martin M. from Norwegian Task Force for access to their assets made available to us with permission from the [NorwegianTaskForce Github](https://github.com/Tittoffer/NorwegianTaskForce/), which we then modified and built upon to make them our own.
-
 
 # For Developers of this mod
 ## Install
