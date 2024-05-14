@@ -23,6 +23,10 @@ class CfgEditorSubcategories
 	{
 		displayName = "2BNB UK (Woodland)";
 	};
+		class BNB_FA_UK_Winter 
+	{
+		displayName = "2BNB UK (Winter)";
+	};
 };
 
 class CfgGroups 
@@ -230,6 +234,74 @@ class CfgGroups
           			{
             			side=1;
             			vehicle="BNB_FA_UK_Rifleman_Woodland";
+            			rank="PRIVATE";
+            			position[]={20,-20,0};
+          			};
+				};
+			
+			};
+			class BNB_FA_UK_Winter 
+			{
+				name = "2BNB UK (Winter)";
+				class BNB_FA_UK_Section_Winter_Open
+				{
+					name = "Section (Open/Base)";
+					side = 1;
+					faction = "BNB_FA_UK_Winter";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+          			{
+            			side=1;
+            			vehicle="BNB_FA_UK_IC_Winter";
+            			rank="SERGEANT";
+            			position[]={-10,-10,0};
+          			};
+					class Unit1
+          			{
+            			side=1;
+            			vehicle="BNB_FA_UK_IC_Winter";
+            			rank="CORPORAL";
+            			position[]={5,-5,0};
+          			};
+					class Unit2
+          			{
+            			side=1;
+            			vehicle="BNB_FA_UK_Medic_Winter";
+            			rank="PRIVATE";
+            			position[]={-5,-5,0};
+          			};
+					class Unit3
+          			{
+            			side=1;
+            			vehicle="BNB_FA_UK_Rifleman_Winter";
+            			rank="PRIVATE";
+            			position[]={10,-10,0};
+          			};
+					class Unit4
+          			{
+            			side=1;
+            			vehicle="BNB_FA_UK_Rifleman_Winter";
+            			rank="PRIVATE";
+            			position[]={0,-0,0};
+          			};
+					class Unit5
+          			{
+            			side=1;
+            			vehicle="BNB_FA_UK_Rifleman_Winter";
+            			rank="PRIVATE";
+            			position[]={15,-15,0};
+          			};
+					class Unit6
+          			{
+            			side=1;
+            			vehicle="BNB_FA_UK_Rifleman_Winter";
+            			rank="PRIVATE";
+            			position[]={-15,-15,0};
+          			};
+					class Unit7
+          			{
+            			side=1;
+            			vehicle="BNB_FA_UK_Rifleman_Winter";
             			rank="PRIVATE";
             			position[]={20,-20,0};
           			};
