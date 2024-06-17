@@ -11,6 +11,9 @@ class CfgVehicles {
 	class UK3CB_BAF_B_Bergen_DDPM_JTAC_H_A;
 	class UK3CB_BAF_B_Bergen_DDPM_Rifleman_B;
 	class UK3CB_BAF_B_Bergen_DDPM_Rifleman_A;
+	class UK3CB_BAF_B_Bergen_Arctic_JTAC_A;
+	class UK3CB_BAF_B_Bergen_Arctic_Rifleman_B;
+	class UK3CB_BAF_B_Bergen_Arctic_Rifleman_A;
 	#include "Woodland.hpp" // Woodland Classes
 	#include "Desert.hpp" // Desert classes
 	#include "MTP.hpp" // MTP classes
