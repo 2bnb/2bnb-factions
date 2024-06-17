@@ -14,4 +14,5 @@ class CfgVehicles {
 	#include "Woodland.hpp" // Woodland Classes
 	#include "Desert.hpp" // Desert classes
 	#include "MTP.hpp" // MTP classes
+	#include "Winter.hpp" // Winter classes
 };
