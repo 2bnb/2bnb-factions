@@ -53,8 +53,8 @@ class CfgWeapons
 {
 	class InventoryOpticsItem_Base_F;
 	class ItemCore;
-	#include "scopes.hpp";
-	#include "weapons.hpp";
+	#include "scopes.hpp"
+	#include "weapons.hpp"
 	
 };
 
