@@ -13,7 +13,7 @@
     respawnMagazines[]={"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","SmokeShell","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc152","ItemGPS","PB_M84_H","PB_M84_Carrier_Rig"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc152","ItemGPS","PB_M84_H","PB_M84_Carrier_Rig"};
-    backpack="BNB_FA_UK_Rifleman_Woodland_pack";
+    backpack="BNB_FA_Nor_Rifleman_Woodland_pack";
   };
 
   class BNB_FA_UK_Medic_Woodland: B_medic_F
@@ -31,7 +31,7 @@
     respawnMagazines[]={"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","SmokeShell","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc152","ItemGPS","PB_M84_H","PB_M84_Carrier_Rig"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc152","ItemGPS","PB_M84_H","PB_M84_Carrier_Rig"};
-    backpack="BNB_FA_UK_Medic_Woodland_pack";
+    backpack="BNB_FA_Nor_Medic_Woodland_pack";
   };
 
   class BNB_FA_UK_IC_Woodland: B_Soldier_SL_F
@@ -49,7 +49,7 @@
     respawnMagazines[]={"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","SmokeShell","SmokeShell","SmokeShell","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","HandGrenade","HandGrenade","HandGrenade","rhs_mag_M441_HE"};
     linkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc152","ItemGPS","UK3CB_BAF_Soflam_Laserdesignator","PB_M84_H","PB_M84_Carrier_Rig"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ItemWatch","TFAR_anprc152","ItemGPS","UK3CB_BAF_Soflam_Laserdesignator","PB_M84_H","PB_M84_Carrier_Rig"};
-    backpack="BNB_FA_UK_IC_Woodland_pack";
+    backpack="BNB_FA_Nor_IC_Woodland_pack";
   };
 
 
