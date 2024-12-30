@@ -7,7 +7,7 @@ class CfgVehicles {
 	class PB_BP01_M84;
 	class PB_RT1523BIG_Multicam;
 	class PB_BP01_Multicam;
-	class PB_RT1523BIG_M04;
+	class PB_BP01_M04;
 	class PB_RT1523BIG_M04;
 	class PB_RT1523BIG_SCHNEE;
 	class PB_BP01_Schneetarn;
