@@ -16,7 +16,7 @@
     backpack="BNB_FA_Nor_Rifleman_Woodland_pack";
   };
 
-  class BNB_FA_UK_Medic_Woodland: B_medic_F
+  class BNB_FA_Nor_Medic_Woodland: B_medic_F
   {
     faction="BNB_FA_Nor_Faction";
     editorSubcategory="BNB_FA_Nor_Woodland";
@@ -34,7 +34,7 @@
     backpack="BNB_FA_Nor_Medic_Woodland_pack";
   };
 
-  class BNB_FA_UK_IC_Woodland: B_Soldier_SL_F
+  class BNB_FA_Nor_IC_Woodland: B_Soldier_SL_F
   {
     faction="BNB_FA_Nor_Faction";
     editorSubcategory="BNB_FA_Nor_Woodland";
