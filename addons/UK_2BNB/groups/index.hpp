@@ -2,7 +2,7 @@ class CfgFactionClasses
 {
 	class BNB_FA_UK_Faction 
 	{
-		displayName = "2BNB UK";
+		displayName = "JEF UK";
 		side = 1;
 		icon = "\A3\ui_f\data\map\markers\flags\UK_ca.paa";
 		priority = 1;
@@ -13,19 +13,19 @@ class CfgEditorSubcategories
 {
 	class BNB_FA_UK_MTP 
 	{
-		displayName = "2BNB UK (MTP)";
+		displayName = "JEF UK (MTP)";
 	};
 	class BNB_FA_UK_Desert 
 	{
-		displayName = "2BNB UK (Desert)";
+		displayName = "JEF UK (Desert)";
 	};
 	class BNB_FA_UK_Woodland 
 	{
-		displayName = "2BNB UK (Woodland)";
+		displayName = "JEF UK (Woodland)";
 	};
 		class BNB_FA_UK_Winter 
 	{
-		displayName = "2BNB UK (Winter)";
+		displayName = "JEF UK (Winter)";
 	};
 };
 
@@ -36,10 +36,10 @@ class CfgGroups
 		name="BLUFOR";
 		class BNB_FA_UK_Group
 		{
-		name = "2BNB UK";
+		name = "JEF UK";
 			class BNB_FA_UK_MTP 
 			{
-				name = "2BNB UK (MTP)";
+				name = "JEF UK (MTP)";
 				class BNB_FA_UK_Section_MTP_Open
 				{
 					name = "Section (Open/Base)";
@@ -107,7 +107,7 @@ class CfgGroups
 			};
 			class BNB_FA_UK_Desert 
 			{
-				name = "2BNB UK (Desert)";
+				name = "JEF UK (Desert)";
 				class BNB_FA_UK_Section_Desert_Open
 				{
 					name = "Section (Open/Base)";
@@ -174,7 +174,7 @@ class CfgGroups
 			};	
 			class BNB_FA_UK_Woodland 
 			{
-				name = "2BNB UK (Woodland)";
+				name = "JEF UK (Woodland)";
 				class BNB_FA_UK_Section_Woodland_Open
 				{
 					name = "Section (Open/Base)";
@@ -242,7 +242,7 @@ class CfgGroups
 			};
 			class BNB_FA_UK_Winter 
 			{
-				name = "2BNB UK (Winter)";
+				name = "JEF UK (Winter)";
 				class BNB_FA_UK_Section_Winter_Open
 				{
 					name = "Section (Open/Base)";
