@@ -16,7 +16,7 @@
     backpack="BNB_FA_Nor_Rifleman_Winter_pack";
   };
 
-  class BNB_Nor_UK_Medic_Winter: B_medic_F
+  class BNB_FA_Nor_Medic_Winter: B_medic_F
   {
     faction="BNB_FA_Nor_Faction";
     editorSubcategory="BNB_FA_Nor_Winter";
