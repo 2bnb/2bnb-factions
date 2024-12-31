@@ -18,8 +18,8 @@
 
   class BNB_FA_UK_Medic_Woodland: B_medic_F
   {
-    faction="BNB_FA_UK_Faction";
-    editorSubcategory="BNB_FA_UK_Woodland";
+    faction="BNB_FA_Nor_Faction";
+    editorSubcategory="BNB_FA_Nor_Woodland";
     side=1;
     displayName=" Medic Woodland";
     uniformClass="PB_M84_GoraG";
@@ -36,8 +36,8 @@
 
   class BNB_FA_UK_IC_Woodland: B_Soldier_SL_F
   {
-    faction="BNB_FA_UK_Faction";
-    editorSubcategory="BNB_FA_UK_Woodland";
+    faction="BNB_FA_Nor_Faction";
+    editorSubcategory="BNB_FA_Nor_Woodland";
     side=1;
     displayName="IC Woodland";
     uniformClass="PB_M84_GoraG";
@@ -69,11 +69,11 @@
     class TransportItems
     {
      class _xx_ACE_plasmaIV_500 {count=6;name="ACE_plasmaIV_500";};
-     class _xx_ACE_plasmaIV_500 {count=2;name="ACE_plasmaIV";};
+     class _xx_ACE_plasmaIV {count=2;name="ACE_plasmaIV";};
      class _xx_ACE_epinephrine {count=6;name="ACE_epinephrine";};
      class _xx_ACE_adenosine {count=1;name="ACE_adenosine";};
      class _xx_ACE_morphine {count=6;name="ACE_morphine";};
-     class _xx_ACE_morphine {count=6;name="ACE_painkillers";};
+     class _xx_ACE_painkillers {count=6;name="ACE_painkillers";};
      class _xx_ACE_elasticBandage {count=25;name="ACE_elasticBandage";};
      class _xx_ACE_packingBandage {count=15;name="ACE_packingBandage";};
      class _xx_ACE_tourniquet {count=8;name="ACE_tourniquet";};
@@ -90,11 +90,11 @@
      class _xx_rhs_mag_M433_HEDP {count=6;magazine="rhs_mag_M433_HEDP";};
      class _xx_rhs_mag_M441_HE {count=6;magazine="rhs_mag_M441_HE";};
      class _xx_SmokeShell {count=2;magazine="SmokeShell";};
-     class _xx_SmokeShellRed {count=4;magazine="1Rnd_Smoke_Grenade_shell";};
-     class _xx_SmokeShellRed {count=2;magazine="1Rnd_SmokeRed_Grenade_shell";};
-     class _xx_SmokeShellRed {count=4;magazine="ACE_HuntIR_M203";};
+     class _xx_1Rnd_Smoke_Grenade_shell {count=4;magazine="1Rnd_Smoke_Grenade_shell";};
+     class _xx_1Rnd_SmokeRed_Grenade_shell {count=2;magazine="1Rnd_SmokeRed_Grenade_shell";};
+     class _xx_ACE_HuntIR_M203 {count=4;magazine="ACE_HuntIR_M203";};
      class _xx_SmokeShellBlue {count=2;magazine="SmokeShellBlue";};
-     class _xx_SmokeShellBlue {count=2;magazine="SmokeShellGreen";};
+     class _xx_SmokeShellGreen {count=2;magazine="SmokeShellGreen";};
     };
     class TransportItems{};
     class TransportWeapons{};
