@@ -1,0 +1,313 @@
+class CfgFactionClasses 
+{
+	class BNB_FA_Bal_Faction 
+	{
+		displayName = "JEF Baltic";
+		side = 1;
+		icon = "\A3\ui_f\data\map\markers\flags\Bal_ca.paa";
+		priority = 1;
+	};
+};
+
+class CfgEditorSubcategories 
+{
+	class BNB_FA_Bal_MTP 
+	{
+		displayName = "JEF Baltic (MTP)";
+	};
+	class BNB_FA_Bal_Desert 
+	{
+		displayName = "JEF Bal (Desert)";
+	};
+	class BNB_FA_Bal_Woodland 
+	{
+		displayName = "JEF Baltic (Woodland)";
+	};
+		class BNB_FA_Bal_Winter 
+	{
+		displayName = "JEF Bal (Winter)";
+	};
+};
+
+class CfgGroups 
+{
+	class WEST 
+	{
+		name="BLUFOR";
+		class BNB_FA_Bal_Group
+		{
+		name = "JEF Baltic";
+			class BNB_FA_Bal_MTP 
+			{
+				name = "JEF Bal (MTP)";
+				class BNB_FA_Bal_Section_MTP_Open
+				{
+					name = "Section (Open/Base)";
+					side = 1;
+					faction = "BNB_FA_Bal_MTP";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_IC_MTP";
+            			rank="SERGEANT";
+            			position[]={-10,-10,0};
+          			};
+					class Unit1
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_IC_MTP";
+            			rank="CORPORAL";
+            			position[]={5,-5,0};
+          			};
+					class Unit2
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Medic_MTP";
+            			rank="PRIVATE";
+            			position[]={-5,-5,0};
+          			};
+					class Unit3
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_MTP";
+            			rank="PRIVATE";
+            			position[]={10,-10,0};
+          			};
+					class Unit4
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_MTP";
+            			rank="PRIVATE";
+            			position[]={0,-0,0};
+          			};
+					class Unit5
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_MTP";
+            			rank="PRIVATE";
+            			position[]={15,-15,0};
+          			};
+					class Unit6
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_MTP";
+            			rank="PRIVATE";
+            			position[]={-15,-15,0};
+          			};
+					class Unit7
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_MTP";
+            			rank="PRIVATE";
+            			position[]={20,-20,0};
+          			};
+				};
+			
+			};
+			class BNB_FA_Bal_Desert 
+			{
+				name = "JEF Bal (Desert)";
+				class BNB_FA_Bal_Section_Desert_Open
+				{
+					name = "Section (Open/Base)";
+					side = 1;
+					faction = "BNB_FA_Bal_Desert";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_IC_Desert";
+            			rank="SERGEANT";
+            			position[]={-10,-10,0};
+          			};
+					class Unit1
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_IC_Desert";
+            			rank="CORPORAL";
+            			position[]={5,-5,0};
+          			};
+					class Unit2
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Medic_Desert";
+            			rank="PRIVATE";
+            			position[]={-5,-5,0};
+          			};
+					class Unit3
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_Desert";
+            			rank="PRIVATE";
+            			position[]={10,-10,0};
+          			};
+					class Unit4
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_Desert";
+            			rank="PRIVATE";
+            			position[]={0,-0,0};
+          			};
+					class Unit5
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_Desert";
+            			rank="PRIVATE";
+            			position[]={15,-15,0};
+          			};
+					class Unit6
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_Desert";
+            			rank="PRIVATE";
+            			position[]={-15,-15,0};
+          			};
+					class Unit7
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_Desert";
+            			rank="PRIVATE";
+            			position[]={20,-20,0};
+          			};
+				};
+			};	
+			class BNB_FA_Bal_Woodland 
+			{
+				name = "JEF Bal (Woodland)";
+				class BNB_FA_Bal_Section_Woodland_Open
+				{
+					name = "Section (Open/Base)";
+					side = 1;
+					faction = "BNB_FA_Bal_Woodland";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_IC_Woodland";
+            			rank="SERGEANT";
+            			position[]={-10,-10,0};
+          			};
+					class Unit1
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_IC_Woodland";
+            			rank="CORPORAL";
+            			position[]={5,-5,0};
+          			};
+					class Unit2
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Medic_Woodland";
+            			rank="PRIVATE";
+            			position[]={-5,-5,0};
+          			};
+					class Unit3
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_Woodland";
+            			rank="PRIVATE";
+            			position[]={10,-10,0};
+          			};
+					class Unit4
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_Woodland";
+            			rank="PRIVATE";
+            			position[]={0,-0,0};
+          			};
+					class Unit5
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_Woodland";
+            			rank="PRIVATE";
+            			position[]={15,-15,0};
+          			};
+					class Unit6
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_Woodland";
+            			rank="PRIVATE";
+            			position[]={-15,-15,0};
+          			};
+					class Unit7
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_Woodland";
+            			rank="PRIVATE";
+            			position[]={20,-20,0};
+          			};
+				};
+			
+			};
+			class BNB_FA_Bal_Winter 
+			{
+				name = "JEF Bal (Winter)";
+				class BNB_FA_Bal_Section_Winter_Open
+				{
+					name = "Section (Open/Base)";
+					side = 1;
+					faction = "BNB_FA_Bal_Winter";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Unit0
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_IC_Winter";
+            			rank="SERGEANT";
+            			position[]={-10,-10,0};
+          			};
+					class Unit1
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_IC_Winter";
+            			rank="CORPORAL";
+            			position[]={5,-5,0};
+          			};
+					class Unit2
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Medic_Winter";
+            			rank="PRIVATE";
+            			position[]={-5,-5,0};
+          			};
+					class Unit3
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_Winter";
+            			rank="PRIVATE";
+            			position[]={10,-10,0};
+          			};
+					class Unit4
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_Winter";
+            			rank="PRIVATE";
+            			position[]={0,-0,0};
+          			};
+					class Unit5
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_Winter";
+            			rank="PRIVATE";
+            			position[]={15,-15,0};
+          			};
+					class Unit6
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_Winter";
+            			rank="PRIVATE";
+            			position[]={-15,-15,0};
+          			};
+					class Unit7
+          			{
+            			side=1;
+            			vehicle="BNB_FA_Bal_Rifleman_Winter";
+            			rank="PRIVATE";
+            			position[]={20,-20,0};
+          			};
+				};
+			
+			};
+		};
+	};
+};
